@@ -1,0 +1,174 @@
+{
+  "global_assets": {
+    "characters": [
+      {
+        "id": "CHAR_01",
+        "name": "박명자",
+        "description": "A 49-year-old Korean woman, Park Myung-ja. Initially a tired housewife with a gentle but weary face, realistic wrinkles around eyes, wearing faded 1990s house clothes. Later, she has a neat professional short bob haircut and a sharp, confident expression, wearing modest but elegant office wear."
+      },
+      {
+        "id": "CHAR_02",
+        "name": "이강수",
+        "description": "A 50s Korean man, Lee Kang-su, construction company manager. Slicked-back black hair, expensive 1980s-90s style suit, arrogant and cold expression, piercing gaze."
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC_01",
+        "name": "1990년대 한국 가정집",
+        "description": "A modest but clean 1990s Korean apartment interior, wooden furniture, warm yellowish lighting."
+      },
+      {
+        "id": "LOC_02",
+        "name": "은행 창구",
+        "description": "A 1990s Korean bank lobby, marble floors, glass-partitioned counters, dot-matrix printers."
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "visual_prompt": "A realistic photo of Park Myung-ja (CHAR_01) ironing a crisp white dress shirt on a wooden board at (LOC_01), steam rising in the soft morning light. Cinematic 35mm film aesthetic, raw texture, photorealistic 8k, NO TEXT, NO WRITING."
+    },
+    {
+      "visual_prompt": "Close-up of Park Myung-ja's (CHAR_01) hands carefully pressing the collar of a dark grey suit jacket with a heavy iron. Detailed fabric texture, soft early morning shadows, photorealistic 8k, NO TEXT, NO WRITING."
+    },
+    {
+      "visual_prompt": "Park Myung-ja (CHAR_01) standing in a small 1990s Korean kitchen (LOC_01), steam rising from a stone pot on the stove, preparing traditional breakfast side dishes. Warm domestic atmosphere, cinematic lighting, photorealistic 8k, NO TEXT, NO WRITING."
+    },
+    {
+      "visual_prompt": "Lee Kang-su (CHAR_02) sitting at the dining table, reading a Korean newspaper and completely ignoring Park Myung-ja (CHAR_01). He looks arrogant in expensive pajamas, cold interior lighting, Netflix K-Drama style, photorealistic 8k."
+    },
+    {
+      "visual_prompt": "Park Myung-ja (CHAR_01) handing a leather briefcase to Lee Kang-su (CHAR_02) at the front door. Lee Kang-su (CHAR_02) looks away with an impatient expression. 1990s Korean apartment hallway, cinematic shadows, photorealistic 8k."
+    },
+    {
+      "visual_prompt": "A static emotional shot of an old Korean bankbook sitting on a dark wooden dresser in (LOC_01), slightly dusty, soft afternoon light highlighting its worn edges. NO TEXT, NO WRITING, photorealistic 8k."
+    },
+    {
+      "visual_prompt": "Park Myung-ja (CHAR_01) looking at a framed family photo on the wall, a nostalgic and weary look in her eyes. Soft warm indoor light, cinematic shallow depth of field, photorealistic 8k."
+    },
+    {
+      "visual_prompt": "Park Myung-ja (CHAR_01) watching from the porch as Lee Kang-su (CHAR_02) walks away towards a black 1990s sedan. Cold morning mist, lonely atmosphere, cinematic photography, photorealistic 8k."
+    },
+    {
+      "visual_prompt": "Park Myung-ja (CHAR_01) standing at a 1990s bank counter (LOC_02), holding a crumpled tuition bill, looking anxious and stressed. Cinematic lighting, realistic 90s bank atmosphere, photorealistic 8k."
+    },
+    {
+      "visual_prompt": "Close-up of a bank teller's face behind a glass partition at (LOC_02), looking at a CRT monitor with a concerned and apologetic frown. Soft office lighting, photorealistic 8k, NO TEXT, NO WRITING."
+    },
+    {
+      "visual_prompt": "An ATM screen displaying a red error message in Korean text '잔액부족', the harsh digital glow reflecting on Park Myung-ja's (CHAR_01) shocked and pale face. Deep shadows, dramatic lighting, photorealistic 8k."
+    },
+    {
+      "visual_prompt": "A portrait of Park Myung-ja (CHAR_01) frozen in shock in the busy bank lobby of (LOC_02), background people blurred into a bokeh, her eyes wide with painful realization. Netflix K-Drama style, photorealistic 8k."
+    },
+    {
+      "visual_prompt": "A mechanical dot-matrix bank printer at (LOC_02) rapidly printing transaction history onto a continuous paper roll. Close-up on the moving print head, mechanical motion blur, photorealistic 8k."
+    },
+    {
+      "visual_prompt": "Park Myung-ja (CHAR_01) sitting alone on a hard plastic bank bench, staring blankly at a thick stack of transaction papers in her lap. Desolate atmosphere, cold fluorescent lighting, photorealistic 8k."
+    },
+    {
+      "visual_prompt": "Extreme close-up of a bank statement showing repetitive 1.5 million won transfers to an unknown account, a red pen circling the numbers on the grainy paper. NO TEXT, NO WRITING, photorealistic 8k."
+    },
+    {
+      "visual_prompt": "Park Myung-ja (CHAR_01) walking home alone through a crowded Seoul city street at night, holding her bag tightly, looking small and devastated among the neon lights. Cinematic rain aesthetic, photorealistic 8k."
+    },
+    {
+      "visual_prompt": "Park Myung-ja (CHAR_01) sitting alone at a dimly lit dining table in (LOC_01), a single bowl of white rice in front of her, deep shadows swallowing the rest of the room. Melancholic atmosphere, photorealistic 8k."
+    },
+    {
+      "visual_prompt": "Park Myung-ja's (CHAR_01) hand reaching into the inner pocket of Lee Kang-su's (CHAR_02) suit jacket hanging on a wooden chair. Moonlight from the window illuminating her trembling fingers. Noir style, photorealistic 8k."
+    },
+    {
+      "visual_prompt": "Close-up of a fancy restaurant receipt found in the suit pocket, the logo of an expensive steakhouse visible. Detailed paper texture, dramatic side lighting, NO TEXT, NO WRITING, photorealistic 8k."
+    },
+    {
+      "visual_prompt": "Park Myung-ja (CHAR_01) taking a photo of a jewelry shop receipt using a small compact 90s film camera. Her face is focused and silent in the dark. Cinematic photography, photorealistic 8k."
+    },
+    {
+      "visual_prompt": "Park Myung-ja (CHAR_01) searching the dashboard of a sedan parked in a dark garage, finding a small scented card from a luxury florist. Dim dashboard light, tensed atmosphere, photorealistic 8k."
+    },
+    {
+      "visual_prompt": "Park Myung-ja (CHAR_01) hiding a bundle of receipts inside a secret compartment of a traditional Korean lacquered jewelry box. Deep contrast, cinematic lighting, photorealistic 8k."
+    },
+    {
+      "visual_prompt": "Park Myung-ja (CHAR_01) watching Lee Kang-su (CHAR_02) from the dark kitchen as he laughs quietly while talking on a cellphone on the balcony. Lee Kang-su (CHAR_02) is a silhouette against the city lights. Cinematic framing, photorealistic 8k."
+    },
+    {
+      "visual_prompt": "Extreme close-up of Park Myung-ja's (CHAR_01) eyes in the dark, the previous weariness replaced by a cold, sharp, and freezing determination. Volumetric lighting, photorealistic 8k."
+    },
+    {
+      "visual_prompt": "Park Myung-ja (CHAR_01) sitting in front of a bulky beige CRT monitor in a dark room, the blue screen glow illuminating her intense and focused face. 90s tech aesthetic, photorealistic 8k."
+    },
+    {
+      "visual_prompt": "The CRT computer screen showing a YouTube-like tutorial interface with the title 'Excel for Beginners' in Korean. Park Myung-ja's (CHAR_01) reflection is visible on the glass. NO TEXT, NO WRITING, photorealistic 8k."
+    },
+    {
+      "visual_prompt": "Park Myung-ja's (CHAR_01) fingers firmly pressing keys on a mechanical white keyboard, a messy stack of receipts and a notepad beside her. Detailed shot, cinematic focus, photorealistic 8k."
+    },
+    {
+      "visual_prompt": "Close-up of an Excel grid on the monitor, neatly organized rows of dates, locations, and a large total sum in won. Brilliant screen glow, sharp focus, NO TEXT, NO WRITING, photorealistic 8k."
+    },
+    {
+      "visual_prompt": "Park Myung-ja (CHAR_01) looking between a crumpled receipt and the computer screen, her face concentrated, her glasses reflecting the digital grid. Office-at-home atmosphere, photorealistic 8k."
+    },
+    {
+      "visual_prompt": "A bar graph on the computer screen showing a steady monthly drain of savings, revealing the calculated betrayal of Lee Kang-su (CHAR_02). Dramatic digital aesthetic, photorealistic 8k."
+    },
+    {
+      "visual_prompt": "An inkjet printer outputting a neatly organized binder of evidence. Park Myung-ja's (CHAR_01) hand calmly catching the warm printed paper. Cinematic lighting, photorealistic 8k."
+    },
+    {
+      "visual_prompt": "Park Myung-ja (CHAR_01) looking at herself in a mirror, cutting her long hair into a sharp, neat short bob with scissors. Her expression is refreshed and strong. Cinematic drama, photorealistic 8k."
+    },
+    {
+      "visual_prompt": "Lee Kang-su (CHAR_02) sitting on the living room sofa, throwing his tie aside carelessly, telling Park Myung-ja (CHAR_01) 'Let's end this' with an arrogant look. Netflix K-Drama style, dramatic lighting, photorealistic 8k."
+    },
+    {
+      "visual_prompt": "Park Myung-ja (CHAR_01) standing tall in front of Lee Kang-su (CHAR_02), looking down at him with an expression of calm and cold indifference. Her arms are crossed. Strong power dynamic, photorealistic 8k."
+    },
+    {
+      "visual_prompt": "Lee Kang-su's (CHAR_02) high-end lawyer in a sharp grey suit, looking smug while opening a thin folder in a sleek modern mediation room. Cinematic photography, photorealistic 8k."
+    },
+    {
+      "visual_prompt": "Park Myung-ja (CHAR_01) sitting alone across from the men, placing her thick, professionally bound binder of evidence onto the table with a loud thud. Focused framing, dramatic tension, photorealistic 8k."
+    },
+    {
+      "visual_prompt": "A low angle shot of a Korean judge in black robes, looking through Park Myung-ja's (CHAR_01) meticulously organized evidence binder with a look of extreme surprise. Grand courtroom setting, photorealistic 8k."
+    },
+    {
+      "visual_prompt": "Park Myung-ja (CHAR_01) pointing firmly at a photo of a receipt in her binder while Lee Kang-su (CHAR_02) looks on from the background with growing horror and shock. Cinematic depth of field, photorealistic 8k."
+    },
+    {
+      "visual_prompt": "Close-up of Lee Kang-su's (CHAR_02) face turning deathly pale and sweaty, his eyes darting in panic as his lawyer whispers to him. Dramatic K-Drama style, high-end cinematography, photorealistic 8k."
+    },
+    {
+      "visual_prompt": "A dramatic shot of a wooden gavel slamming down on a judge's bench in slow motion, particles of wood dust in the air. Final victory, cinematic lighting, photorealistic 8k."
+    },
+    {
+      "visual_prompt": "Park Myung-ja (CHAR_01) walking out of a grand courthouse building, the bright afternoon sun illuminating her confident and peaceful smile. Heroic angle, cinematic photography, photorealistic 8k."
+    },
+    {
+      "visual_prompt": "A wide shot of a bright, empty apartment living room filled with sunbeams. Park Myung-ja (CHAR_01) stands in the center, looking around her new home with a sense of freedom. Minimalist aesthetic, photorealistic 8k."
+    },
+    {
+      "visual_prompt": "Park Myung-ja (CHAR_01) standing at a stationery store shelf, reaching for a thick, premium black leather ledger book. Soft evening lighting, cinematic focus, photorealistic 8k."
+    },
+    {
+      "visual_prompt": "Close-up of Park Myung-ja (CHAR_01) writing 'Today is my first day' in her new ledger using a traditional black fountain pen. Elegant handwriting, detailed paper texture, NO TEXT, NO WRITING, photorealistic 8k."
+    },
+    {
+      "visual_prompt": "Park Myung-ja (CHAR_01) standing in front of a glass door of a small office with a 'Hiring' sign on it. Her reflected image looks sharp, professional, and ready. Daylighting, photorealistic 8k."
+    },
+    {
+      "visual_prompt": "Park Myung-ja (CHAR_01) sitting for a job interview, smiling warmly and confidently at an older tax accountant in a cozy office. Professional and peaceful atmosphere, photorealistic 8k."
+    },
+    {
+      "visual_prompt": "Park Myung-ja (CHAR_01) sitting at her own new desk in a quiet tax office, typing on a modern computer. Her face is filled with a sense of purpose and joy. Bright office lighting, photorealistic 8k."
+    },
+    {
+      "visual_prompt": "Park Myung-ja (CHAR_01) standing on a rooftop garden at sunset, looking out at the vast Seoul city skyline. Her silhouette represents freedom and strength. Cinematic ending, dramatic warm lighting, photorealistic 8k."
+    }
+  ]
+}

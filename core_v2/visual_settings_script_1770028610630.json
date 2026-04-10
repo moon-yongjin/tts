@@ -1,0 +1,13 @@
+{
+  "approved": false,
+  "character_ko": "An elderly man in his 60s, wearing an old, carefully ironed postman's vest over a worn-out undershirt. His face is etched with worry and anticipation. He stares intently, his eyes filled with a desperate hope. His hair is likely thinning and possibly graying. He has a frail appearance, and his hands tremble slightly.",
+  "character_en": "Elderly Korean man in a worn postman's vest, anxious expression.",
+  "background_ko": "1980년대 후반의 낡은 연립주택. 어두컴컴하고 좁은 거실. 벽에는 바랜 벽지가 붙어 있고, 낡은 장판이 깔려 있다. 빛바랜 가족사진 액자가 걸려 있다. 거실 중앙에는 낡은 나무 식탁이 놓여 있고, 젓가락 두 벌과 작은 단무지 접시가 놓여 있다. 현관문은 낡고 삐걱거린다. 창문 밖으로는 어둑한 골목길이 보인다. 전체적으로 어둡고 불안한 분위기.",
+  "background_en": "An old multi-unit house from the late 1980s. Dark and cramped living room. Faded wallpaper on the walls, worn linoleum flooring. A faded framed family picture hangs on the wall. In the center of the living room, there is an old wooden dining table set with two sets of chopsticks and a small dish for pickled radish. The front door is old and creaky. Outside the window, a dimly lit alleyway is visible. Overall, a dark and uneasy atmosphere.",
+  "art_style_override_ko": "1980년대 한국 영화의 질감과 색감, 낡은 느낌을 살릴 것. 과장된 색감이나 지나친 디테일은 피하고, 사실적이고 절제된 연출을 지향한다. 김기영 감독의 '하녀'와 같은 분위기를 참고.",
+  "art_style_override_en": "Evoke the texture and color palette of 1980s Korean films, emphasizing a sense of age and decay. Avoid exaggerated colors or excessive details, aiming for realistic and restrained direction. Reference the atmosphere of films like 'The Housemaid' by Kim Ki-young.",
+  "visual_variety_ko": "[대립과 긴장] 캐릭터 간의 감정 선과 갈등을 강조하는 연출: 표정의 대비, 그림자 활용, 긴박한 구도 위주.",
+  "visual_variety_en": "Conflict and Tension: Emphasize emotional tension between characters. Use dramatic lighting, sharp contrasts, and tight framing on facial expressions.",
+  "target_interval": 6.0,
+  "clip_duration": 6.0
+}

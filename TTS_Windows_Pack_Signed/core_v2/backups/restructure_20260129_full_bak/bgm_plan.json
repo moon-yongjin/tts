@@ -1,0 +1,16 @@
+[
+    {
+        "project_name": "Jabi",
+        "voice_file": "폴리_결과_05_마감.mp3",
+        "actions": [
+            {
+                "bgm_file": "BGM_파일을_여기에_넣으세요.mp3",
+                "start_time": "00:00",
+                "volume": -25,
+                "fade_in": 3000,
+                "fade_out": 3000,
+                "loop": true
+            }
+        ]
+    }
+]

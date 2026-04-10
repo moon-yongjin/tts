@@ -1,0 +1,13 @@
+{
+  "approved": false,
+  "character_ko": "An elderly man with a wrinkled face and trembling hands. He has short, thinning grey hair. He wears simple, worn-out clothes, reflecting a life of hardship. He is often seen with a melancholic expression and teary eyes. He is seen taking out an old postman bag, indicating he was a postman in the past. He looks frail but determined, with a burning rage in his eyes.",
+  "character_en": "Elderly Korean man, former postman, holding a rusty key, filled with rage and sorrow.",
+  "background_ko": "대저택 거실: 화려하고 고급스러운 가구, 값비싼 예술품, 커다란 창문 밖으로 보이는 정원. 어두운 밤, 빗소리가 들리고, 샹들리에 조명이 차갑게 빛난다. 전체적으로 어둡고 무거운 분위기.",
+  "background_en": "Mansion living room: Opulent and luxurious furniture, expensive artwork, and a garden visible through large windows. Dark night with the sound of rain. Cold light from chandeliers. Overall, a dark and heavy atmosphere. Dramatic lighting.",
+  "art_style_override_ko": "사실적이고 어두운 누아르 스타일. 인물과 배경 모두 디테일하게 묘사하며, 빛과 그림자의 대비를 극명하게 강조한다.",
+  "art_style_override_en": "Realistic, dark, noir style. Detailed depiction of both characters and backgrounds, with stark contrasts of light and shadow. Film grain, cinematic lighting.",
+  "visual_variety_ko": "[미장센] 사물과 배경을 통한 상징적 연출: 인물보다는 주변의 사물, 환경, 분위기를 통해 상황을 암시하는 예술적 연출.",
+  "visual_variety_en": "Mise-en-scène: Use surrounding objects, environment, and atmosphere to symbolically represent the scene. Focus on artistic compositions and meaningful background details.",
+  "target_interval": 6.0,
+  "clip_duration": 6.0
+}

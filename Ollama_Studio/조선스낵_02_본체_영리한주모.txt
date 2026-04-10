@@ -1,0 +1,23 @@
+[제목]: 주모의 묘수 (Gemini 본체 제작)
+
+(기-Hook)
+[비주얼]: 깊은 산속 주막. 비가 추적추적 내린다. 허름한 차림의 나그네가 엽전 주머니를 만지작거리며 들어온다. 눈빛이 날카롭다. 주모는 구석에서 무심하게 파를 다듬고 있다.
+
+(승-Escalation)
+[비주얼]: 나그네가 밥을 다 먹고는 슬그머니 일어나 담장을 넘으려 한다. 이때 주모가 다듬던 파를 냅다 던진다. 파가 나그네의 갓을 정확히 때려 땅으로 떨어뜨린다. 나그네가 당황해 돌아본다.
+[비주얼]: 주모는 여전히 고개도 안 들고 파만 썰고 있다. 나그네가 다시 도망치려 발을 떼는 순간, 이번엔 주모가 식칼을 도마에 '팍!' 소리 나게 꽂는다. 
+
+(전-Twist)
+[비주얼]: 나그네가 겁에 질려 멈춰 선다. 주모가 천천히 고개를 들며 입을 연다.
+나그네 : (부들부들 떨며) 아... 아니, 장난 좀 쳐본 거요! 돈 여기 있소!
+주모 : (나그네의 돈주머니를 가리키며 턱짓을 한다)
+
+(결-Punchline)
+[비주얼]: 나그네가 돈을 놓고 허겁지겁 도망간다. 주모가 돈 주머니를 열어 무심하게 동전 한 닢을 꺼내더니, 아까 던진 '파'를 다시 주워와 도마 위에 올린다.
+
+주모 : (무심하게 중얼거리며) 아따... 도망가는 놈 잡는 데는 파 대가리가 제일이랑께.
+
+[비주얼 연출 프롬프트]
+1. (Masterpiece, best quality, 8k), dark rainy night in a traditional Korean tavern (Jumak), a mysterious traveler trying to sneak out, a middle-aged woman chopping onions in the background, cinematic atmosphere.
+2. (Masterpiece, best quality, 8k), a green onion flying through the air, hitting a Joseon man's hat, dynamic action freeze frame, mud splashing on the ground.
+3. (Masterpiece, best quality, 8k), the woman (Jumak owner) sticking a kitchen knife into a wooden cutting board with a cold expression, sharp gaze, highly detailed facial pores, traditional cloth clothing.

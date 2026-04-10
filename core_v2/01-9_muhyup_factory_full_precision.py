@@ -1,0 +1,189 @@
+import os
+import sys
+import time
+import re
+import datetime
+import tempfile
+import numpy as np
+import soundfile as sf
+from pydub import AudioSegment
+import mlx.core as mx
+from mlx_audio.tts import load 
+
+# [1. 환경 및 경로 설정]
+sys.stdout.reconfigure(encoding='utf-8')
+
+ENGINE_DIR = os.path.dirname(os.path.abspath(__file__))
+PROJ_ROOT = os.path.dirname(ENGINE_DIR)
+DOWNLOADS_DIR = os.path.join(os.path.expanduser("~"), "Downloads")
+
+# [Qwen-TTS MLX 설정 - BF16 HIGH PRECISION 모델]
+# bf16 (bfloat16) = 8-bit보다 훨씬 높은 품질, FP32보다는 약간 낮지만 거의 차이 없음
+MODEL_ID = "mlx-community/Qwen3-TTS-12Hz-1.7B-Base-bf16"
+
+# 생성할 성우 (테스트용으로 dylan 1개만)
+SPEAKER = "dylan"
+
+# 3단계 방어: 극단적 언어 제약
+INSTRUCT = """당신은 서울 표준어를 사용하는 성우입니다. 
+중국어나 영어 억양을 절대 섞지 말고, 정확하고 단호한 한국어 어조로만 낭독하세요. 
+차분하고 비장하게 읽으세요. 어떤 외국어도 섞지 마세요."""
+
+SPEED_FACTOR = 1.1
+
+# 극단적 결정론 설정
+GEN_KWARGS = {
+    "temperature": 0.0,
+    "top_p": 1.0,
+    "repetition_penalty": 1.5
+}
+
+MAX_RETRIES = 2
+
+class QwenFullPrecisionGenerator:
+    def __init__(self):
+        print(f"🚀 FULL PRECISION 모델 로딩 중: {MODEL_ID}")
+        print("⚠️  용량이 크므로 첫 다운로드 시 시간이 걸릴 수 있습니다...")
+        self.model = load(MODEL_ID)
+        print("✅ 원본 모델 로딩 완료!")
+
+    def clean_text(self, text):
+        text = re.sub(r'\[(BGM|묘사|지문|설명|배경|음악|CHAPTER|챕터|SFX):?.*?\]', '', text, flags=re.IGNORECASE)
+        text = re.sub(r'\(.*?\)', '', text)
+        return text.strip()
+
+    def split_chunks(self, text, max_chars=45):
+        """텍스트를 자연스러운 청크로 분할 (01-3 방식)"""
+        sentences = re.split(r'([.!?]\s*)', text)
+        chunks = []
+        current_chunk = ""
+        
+        for i in range(0, len(sentences), 2):
+            sentence = sentences[i]
+            punctuation = sentences[i+1] if i+1 < len(sentences) else ""
+            full_sentence = sentence + punctuation
+            
+            if len(full_sentence) > max_chars:
+                words = full_sentence.split()
+                temp = ""
+                for word in words:
+                    if len(temp) + len(word) + 1 <= max_chars:
+                        temp += word + " "
+                    else:
+                        if temp:
+                            chunks.append(temp.strip())
+                        temp = word + " "
+                if temp:
+                    chunks.append(temp.strip())
+            else:
+                if len(current_chunk) + len(full_sentence) <= max_chars:
+                    current_chunk += full_sentence
+                else:
+                    if current_chunk:
+                        chunks.append(current_chunk.strip())
+                    current_chunk = full_sentence
+        
+        if current_chunk:
+            chunks.append(current_chunk.strip())
+        return [c for c in chunks if c]
+
+    def shift_pitch(self, sound, semitones):
+        """피치를 소수점 단위(반음 기준)로 조정 (pydub 방식)"""
+        if semitones == 0:
+            return sound
+        new_sample_rate = int(sound.frame_rate * (2.0 ** (semitones / 12.0)))
+        return sound._spawn(sound.raw_data, overrides={'frame_rate': new_sample_rate}).set_frame_rate(sound.frame_rate)
+
+    def generate_for_speaker(self, speaker, script_text, base_filename, speed=1.1, pitch=0.0):
+        timestamp = datetime.datetime.now().strftime("%m%d_%H%M")
+        output_name = f"{base_filename}_{speaker}_S{speed}_P{pitch}_{timestamp}.mp3"
+        output_path = os.path.join(DOWNLOADS_DIR, output_name)
+        
+        chunks = self.split_chunks(self.clean_text(script_text))
+        print(f"\n🎙️  BF16 생성 시작: {speaker} (Speed: {speed}, Pitch: {pitch})")
+        
+        combined_audio = AudioSegment.empty()
+        start_time = time.time()
+        
+        for i, chunk in enumerate(chunks):
+            print(f"   ⚡ [{speaker} {i+1}/{len(chunks)}] {chunk[:30]}...")
+            
+            # 생성 시도
+            segment_audio_mx = None
+            for attempt in range(MAX_RETRIES):
+                try:
+                    results = self.model.generate(
+                        text=chunk, 
+                        voice=speaker, 
+                        language="Korean",
+                        instruct=INSTRUCT,
+                        **GEN_KWARGS
+                    )
+                    
+                    segment_audio_mx = None
+                    for res in results:
+                        if segment_audio_mx is None:
+                            segment_audio_mx = res.audio
+                        else:
+                            segment_audio_mx = mx.concatenate([segment_audio_mx, res.audio])
+                    
+                    if segment_audio_mx is not None:
+                        break
+                except Exception as e:
+                    print(f"   ⚠️ 시도 {attempt + 1}: {e}")
+            
+            if segment_audio_mx is None:
+                continue
+                
+            audio_np = np.array(segment_audio_mx)
+            shared_buf = tempfile.NamedTemporaryFile(suffix=".wav", delete=False)
+            sf.write(shared_buf.name, audio_np, 24000)
+            shared_buf.close()
+            
+            segment = AudioSegment.from_wav(shared_buf.name)
+            os.unlink(shared_buf.name)
+            
+            # 피치 조정 (pydub 방식은 속도도 변함)
+            if pitch != 0:
+                segment = self.shift_pitch(segment, pitch)
+            
+            # 속도 조정 (목표 속도에 맞게 보정)
+            # pitch_shift로 인해 변한 속도를 감안하여 소수점 아래까지 정확히 계산
+            pitch_speed_change = 2.0 ** (pitch / 12.0)
+            target_speedup = speed / pitch_speed_change
+            
+            if target_speedup != 1.0:
+                # pydub speedup은 1.0보다 커야 함
+                if target_speedup > 1.0:
+                    segment = segment.speedup(playback_speed=target_speedup, chunk_size=150, crossfade=25)
+                else:
+                    # 속도를 늦춰야 하는 경우 (드문 케이스)
+                    new_sample_rate = int(segment.frame_rate / target_speedup)
+                    segment = segment._spawn(segment.raw_data, overrides={'frame_rate': new_sample_rate}).set_frame_rate(segment.frame_rate)
+            
+            combined_audio += segment
+            
+            # 쉼표
+            pause_ms = 400 if any(chunk.endswith(p) for p in ['.', '?', '!']) else 150
+            combined_audio += AudioSegment.silent(duration=pause_ms)
+
+        combined_audio.export(output_path, format="mp3", bitrate="192k")
+        elapsed = time.time() - start_time
+        print(f"✅ 완료: {output_name} ({elapsed:.1f}초 소요)")
+        print(f"📂 저장 위치: {output_path}")
+
+if __name__ == "__main__":
+    target_file = sys.argv[1] if len(sys.argv) > 1 else os.path.join(PROJ_ROOT, "대본.txt")
+    speaker = sys.argv[2] if len(sys.argv) > 2 else "sohee"
+    speed = float(sys.argv[3]) if len(sys.argv) > 3 else 1.1
+    pitch = float(sys.argv[4]) if len(sys.argv) > 4 else 0.0
+    
+    if os.path.exists(target_file):
+        with open(target_file, "r", encoding="utf-8") as f:
+            script_text = f.read().strip()
+        
+        base_filename = os.path.splitext(os.path.basename(target_file))[0]
+        generator = QwenFullPrecisionGenerator()
+        generator.generate_for_speaker(speaker, script_text, base_filename, speed, pitch)
+    else:
+        print(f"❌ 파일 없음: {target_file}")

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #4285F4;
+      --secondary: #34A853;
+      --danger: #EA4335;
+      --bg: #0f1113;
+      --card: #1c1f23;
+      --text: #ffffff;
+      --text-dim: #9aa0a6;
+    }
+    body { 
+      width: 320px; font-family: 'Inter', sans-serif; 
+      background: var(--bg); color: var(--text); padding: 16px; margin: 0;
+      user-select: none;
+    }
+    .header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 20px; }
+    .header h1 { font-size: 16px; margin: 0; background: linear-gradient(90deg, #4285F4, #34A853); -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-weight: 700; }
+    .version { font-size: 10px; color: var(--text-dim); }
+    
+    .card { background: var(--card); border-radius: 12px; padding: 12px; margin-bottom: 16px; border: 1px solid #333; }
+    .label { font-size: 12px; font-weight: 600; color: var(--text-dim); margin-bottom: 8px; display: block; }
+    
+    textarea { 
+      width: 100%; height: 120px; background: #121417; color: #eee; 
+      border: 1px solid #333; border-radius: 8px; padding: 10px; 
+      box-sizing: border-box; font-size: 12px; resize: none; outline: none;
+      transition: border-color 0.2s; font-family: inherit;
+    }
+    textarea:focus { border-color: var(--primary); }
+    
+    .stats { display: flex; justify-content: space-between; margin-bottom: 12px; font-size: 12px; }
+    .stats-item { background: #25282c; padding: 6px 10px; border-radius: 6px; flex: 1; margin: 0 4px; text-align: center; }
+    .stats-item:first-child { margin-left: 0; }
+    .stats-item:last-child { margin-right: 0; }
+    .stats-label { color: var(--text-dim); display: block; font-size: 10px; margin-bottom: 2px; }
+    .stats-value { font-weight: bold; font-size: 13px; }
+
+    .btn-group { display: flex; gap: 8px; }
+    button { 
+      flex: 1; padding: 10px; border: none; border-radius: 8px; 
+      font-weight: 700; cursor: pointer; transition: 0.2s; font-size: 13px;
+      display: flex; align-items: center; justify-content: center; gap: 6px;
+    }
+    #start { background: var(--primary); color: white; }
+    #start:hover { background: #3371d6; filter: brightness(1.1); }
+    #stop { background: #2d2d2d; color: #aaa; }
+    #stop:hover { background: #3d3d3d; color: white; }
+    #stop.active { background: var(--danger); color: white; }
+    
+    .status-bar { margin-top: 16px; display: flex; align-items: center; gap: 8px; padding: 10px; border-radius: 8px; background: #25282c; }
+    .status-indicator { width: 8px; height: 8px; border-radius: 50%; background: #555; }
+    .status-indicator.running { background: #34A853; box-shadow: 0 0 8px #34A853; animation: pulse 1.5s infinite; }
+    .status-text { font-size: 11px; font-weight: 600; color: #ccc; }
+
+    @keyframes pulse { 0% { opacity: 1; } 50% { opacity: 0.4; } 100% { opacity: 1; } }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>FLOW AUTO GEN</h1>
+    <span class="version">PRO V1.5</span>
+  </div>
+
+  <div class="card">
+    <span class="label">PROMPT LIST</span>
+    <textarea id="promptList" placeholder="Enter prompts (one per line)..."></textarea>
+  </div>
+
+  <div class="stats">
+    <div class="stats-item">
+      <span class="stats-label">TOTAL</span>
+      <span id="totalCount" class="stats-value">0</span>
+    </div>
+    <div class="stats-item">
+      <span class="stats-label">PROGRESS</span>
+      <span id="progressCount" class="stats-value">0</span>
+    </div>
+  </div>
+
+  <div class="btn-group">
+    <button id="start">▶️ START BATCH</button>
+    <button id="stop">🛑 STOP</button>
+  </div>
+
+  <div class="status-bar">
+    <div id="statusIndicator" class="status-indicator"></div>
+    <span id="statusText" class="status-text">Ready to start</span>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

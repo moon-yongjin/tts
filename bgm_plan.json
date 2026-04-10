@@ -1,0 +1,40 @@
+[
+    {
+        "project_name": "Jabi",
+        "voice_file": "002_대본_0130_1957_Full_Merged_배경_효과음_레이어.mp3",
+        "actions": [
+            {
+                "bgm_file": "Tense.mp3",
+                "start_time": "00:00",
+                "volume": -25,
+                "fade_in": 3000,
+                "fade_out": 3000,
+                "loop": true
+            },
+            {
+                "bgm_file": "Calm.mp3",
+                "start_time": "03:00",
+                "volume": -25,
+                "fade_in": 3000,
+                "fade_out": 3000,
+                "loop": true
+            },
+            {
+                "bgm_file": "Heroic.mp3",
+                "start_time": "06:00",
+                "volume": -25,
+                "fade_in": 3000,
+                "fade_out": 3000,
+                "loop": true
+            },
+            {
+                "bgm_file": "Tense.mp3",
+                "start_time": "09:00",
+                "volume": -25,
+                "fade_in": 3000,
+                "fade_out": 3000,
+                "loop": true
+            }
+        ]
+    }
+]

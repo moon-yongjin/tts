@@ -1,0 +1,88 @@
+{
+    "8": {
+        "inputs": {
+            "samples": [
+                "18",
+                0
+            ],
+            "vae": [
+                "45",
+                0
+            ]
+        },
+        "class_type": "VAEDecode"
+    },
+    "18": {
+        "inputs": {
+            "seed": 1,
+            "steps": 9,
+            "denoise": 1,
+            "model": [
+                "43",
+                0
+            ],
+            "positive": [
+                "42",
+                0
+            ],
+            "latent_input": [
+                "32",
+                0
+            ]
+        },
+        "class_type": "ZSamplerTurbo //ZImagePowerNodes"
+    },
+    "31": {
+        "inputs": {
+            "filename_prefix": "ZImage/%date:yyyy_MM_dd%/ZI",
+            "civitai_compatible_metadata": true,
+            "images": [
+                "8",
+                0
+            ]
+        },
+        "class_type": "SaveImage //ZImagePowerNodes"
+    },
+    "32": {
+        "inputs": {
+            "landscape": false,
+            "ratio": "3:2  (photo)",
+            "size": "medium (recommended)",
+            "batch_size": 4
+        },
+        "class_type": "EmptyZImageLatentImage //ZImagePowerNodes"
+    },
+    "42": {
+        "inputs": {
+            "category": "photo",
+            "style": "\"Vintage Photo\"",
+            "text": "A close-up portrait of a beautiful Korean woman in her 20s with natural makeup, dark straight hair, soft cinematic lighting, 8k, highly detailed, photorealistic",
+            "clip": [
+                "44",
+                0
+            ]
+        },
+        "class_type": "StylePromptEncoder //ZImagePowerNodes"
+    },
+    "43": {
+        "inputs": {
+            "unet_name": "z_image_turbo_bf16.safetensors",
+            "weight_dtype": "fp8_e4m3fn"
+        },
+        "class_type": "UNETLoader"
+    },
+    "44": {
+        "inputs": {
+            "clip_name": "qwen_3_4b.safetensors",
+            "type": "lumina2",
+            "device": "default"
+        },
+        "class_type": "CLIPLoader"
+    },
+    "45": {
+        "inputs": {
+            "vae_name": "ae.safetensors"
+        },
+        "class_type": "VAELoader"
+    }
+}

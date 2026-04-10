@@ -1,0 +1,13 @@
+{
+  "approved": false,
+  "character_ko": "정 씨 마님, 70대 후반. 깊게 패인 주름과 굳게 다문 입술에서 강인함이 느껴지는 노인. 검버섯이 핀 얼굴, 헝클어진 흰머리, 퀭한 눈. 수척한 몸에는 낡은 한복 잠옷을 입고, 손에는 낡은 옥가락지를 쥐고 있다. 절망과 분노가 뒤섞인 표정.",
+  "character_en": "An elderly woman in her late 70s, named Madam Jeong, her face etched with deep wrinkles and a firmly set mouth hinting at her strong will. Age spots dot her face, her white hair is disheveled, and her eyes are sunken. She is gaunt and wearing worn hanbok pajamas. She clutches an old jade ring in her hand. Her expression is a mix of despair and anger.",
+  "background_ko": "고요한 겨울밤, 낡은 한옥 안방. 희미한 달빛이 창문을 통해 스며들어 방 안을 비춘다. 어두운 그림자가 드리워진 방 안에는 낡은 가구들이 놓여 있고, 탕약 냄새가 희미하게 감돈다. 밖에는 진눈깨비가 내리고, 고택의 서까래는 낡아 보인다.",
+  "background_en": "A quiet winter night in an old traditional Korean house's main room. Faint moonlight filters through the window, illuminating the room. Dark shadows fill the space, which contains old, worn furniture. A faint smell of herbal medicine lingers in the air. Outside, sleet is falling and the eaves of the old house appear aged and weathered.",
+  "art_style_override_ko": "전통 한국화 스타일을 유지하며, 어둡고 분위기 있는 색조를 사용한다. 인물의 감정을 극대화하기 위해 세밀한 묘사를 강조한다.",
+  "art_style_override_en": "Maintain a traditional Korean painting style with a dark and atmospheric color palette. Emphasize detailed depictions to maximize the character's emotions. Use ink wash techniques and subtle color variations to create depth and texture.",
+  "visual_variety_ko": "[대립과 긴장] 빌런과의 교차 연출: 주인공뿐만 아니라 주변 인물들의 표정, 교차 편집 느낌의 장면들.",
+  "visual_variety_en": "Conflict and Tension: Cross-cut between the protagonist and antagonists. Show villains whispering in shadows.",
+  "generate_video": false,
+  "target_interval": 6.0
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body {
+            width: 300px;
+            padding: 15px;
+            background: #0f172a;
+            color: #f8fafc;
+            font-family: sans-serif;
+        }
+
+        .card {
+            background: #1e293b;
+            border: 1px solid #334155;
+            border-radius: 8px;
+            padding: 12px;
+        }
+
+        input {
+            width: 100%;
+            padding: 8px;
+            margin: 8px 0;
+            background: #0f172a;
+            border: 1px solid #334155;
+            color: white;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            background: #6366f1;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        .status {
+            margin-top: 10px;
+            font-size: 12px;
+            color: #94a3b8;
+        }
+    </style>
+</head>
+
+<body>
+    <h3>Whisk Remote Client</h3>
+    <div class="card">
+        <label>Server URL (ngrok)</label>
+        <input type="text" id="serverUrl" placeholder="ws://abcdef.ngrok-free.app:8001">
+        <button id="connectBtn">Connect to Mac</button>
+    </div>
+    <div id="status" class="status">Disconnected</div>
+    <script src="popup.js"></script>
+</body>
+
+</html>

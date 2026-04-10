@@ -1,0 +1,67 @@
+## [0단계] Nano Banana 아트 스타일 표준: 프리미엄 한국형 웹툰 (Premium Korean Webtoon)
+
+**[핵심 화풍 키워드]**
+> Masterpiece, best quality, ultra-detailed, premium Korean webtoon style, cinematic anime illustration, clean thin line art, soft cel-shading, subtle gradients, vibrant but sophisticated colors, golden hour lighting, sunset glow, volumetric lighting, semi-realistic proportions, highly detailed expressive eyes, emotional atmosphere, 8K render, perfect composition.
+
+---
+
+## [1단계] 캐릭터 에셋 (Person-only Assets)
+
+001 | @Mother | Masterpiece, best quality, ultra-detailed, premium Korean webtoon style, beautiful Korean woman in her 40s, looking remarkably youthful and elegant, long soft dark hair, kind and loving eyes with deep emotional depth, a warm and sophisticated smile, glamorous and gracefully curved figure, wearing a simple yet stylish ivory knit sweater, soft skin texture, cinematic lighting, high-quality anime illustration.
+002 | @Child | Masterpiece, best quality, ultra-detailed, premium Korean webtoon style, handsome adolescent boy/girl, slightly messy hair, expressive eyes reflecting inner vulnerability, wearing an oversized trendy hoodie, semi-realistic proportions, emotional depth, cool but sensitive vibe, cinematic lighting, high-quality anime illustration.
+003 | @Father | Masterpiece, best quality, ultra-detailed, premium Korean webtoon style, strong and reliable Korean man in his 40s, short black hair with elegant grey at the temples (silver fox style), calm and gentle smile, intelligent but warm eyes, athletic and well-built frame, wearing a navy button-down shirt, sophisticated daddy vibe, cinematic lighting, high-quality anime illustration.
+
+---
+
+## [2단계] 44개 시네마틱 장면 프롬프트 (Prompts)
+
+001 | Scene_001 | (3D stylized game render:1.2), @[Mother] standing in @[Kitchen], vibrant cel-shaded 3D cartoon style, looking dedicated but tired.
+002 | Scene_002 | (3D stylized game render:1.2), @[Mother] busy cooking multiple 3D food props in @[Kitchen], sweat droplets on her chubby face.
+003 | Scene_003 | (3D stylized game render:1.2), @[Child] sitting in @[LivingRoom], eyes glued to a glowing 3D console, ignoring @[Mother].
+004 | Scene_004 | (3D stylized game render:1.2), Close-up of @[Mother]’s hopeful face, holding a steaming 3D bowl of soup toward @[Child].
+005 | Scene_005 | (3D stylized game render:1.2), @[Child] pushing the 3D soup away with a smirk, @[Mother] looking slightly drained in the background.
+006 | Scene_006 | (3D stylized game render:1.2), @[Father] entering @[LivingRoom], seeing @[Child]'s behavior, calm but observant expression.
+007 | Scene_007 | (3D stylized game render:1.2), @[Father] handing a 3D allowance coin to @[Child], @[Child] grabbing it without a thank you.
+008 | Scene_008 | Metaphor: @[Mother] becoming 50% transparent like a 3D ghost in @[Kitchen], representing being taken for granted.
+009 | Scene_009 | Metaphor: @[Child] seeing @[Mother] and @[Father] as 3D service robots with mechanical details.
+010 | Scene_010 | (3D stylized game render:1.2), Close-up of @[Mother] looking into a 3D mirror, weary expression mixed with self-reproach.
+011 | Scene_011 | (3D stylized game render:1.2), @[Mother] standing alone in @[Kitchen], looking at the vast amount of 3D dishes, feeling exhausted.
+012 | Scene_012 | (3D stylized game render:1.2), @[Father] approaching @[Mother], placing a supportive 3D hand on her shoulder.
+013 | Scene_013 | (3D stylized game render:1.2), @[Mother] and @[Father] having a serious 3D discussion in @[LivingRoom] about boundaries.
+014 | Scene_014 | (3D stylized game render:1.2), @[Child] demanding more 3D snacks while playing, looking arrogant.
+015 | Scene_015 | (3D stylized game render:1.2), @[Mother] calmly saying "No" to @[Child] in @[Kitchen], a moment of firm boundary.
+016 | Scene_016 | (3D stylized game render:1.2), @[Mother] at @[SunsetPark], walking slowly alone, breathing in the 3D fresh air.
+017 | Scene_017 | (3D stylized game render:1.2), @[Child] trying to find his 3D socks in a messy @[LivingRoom], looking confused and lost.
+018 | Scene_018 | (3D stylized game render:1.2), @[Father] sitting on the 3D sofa, focused on his own 3D task, not jumping to help @[Child].
+019 | Scene_019 | (3D stylized game render:1.2), @[Child] looking at the empty 3D kitchen table, realization starting to show in big eyes.
+020 | Scene_020 | (3D stylized game render:1.2), Close-up of @[Child] trying to pour his own 3D water, spilling a little, looking frustrated.
+021 | Scene_021 | (3D stylized game render:1.2), @[Mother] and @[Father] talking and laughing in @[SunsetPark], enjoying their own 3D time.
+022 | Scene_022 | (3D stylized game render:1.2), @[Child] watching them from the 3D window, feeling a bit lonely but curious.
+023 | Scene_023 | (3D stylized game render:1.2), @[Child] successfully folding a small 3D blanket by himself, proud smile forming.
+024 | Scene_024 | (3D stylized game render:1.2), @[Child] approaching @[Mother] in @[Kitchen] while she is having 3D tea, respectful posture.
+025 | Scene_025 | (3D stylized game render:1.2), @[Child] asking "Can I help?" with a shy 3D smile and wide eyes.
+026 | Scene_026 | (3D stylized game render:1.2), @[Mother] looking warm and solid, smiling back at @[Child] with 3D affection.
+027 | Scene_027 | (3D stylized game render:1.2), @[Father] showing @[Child] how to use a 3D tool, a moment of mutual 3D respect.
+028 | Scene_028 | (3D stylized game render:1.2), The whole family having a 3D dinner, @[Child] helping to set the 3D table.
+029 | Scene_029 | Metaphor: A sturdy 3D wooden bridge being built between @[Mother] and @[Child].
+030 | Scene_030 | (3D stylized game render:1.2), @[Child] looking at his 3D toys and then at his parents, realizing their 3D value.
+031 | Scene_031 | (3D stylized game render:1.2), @[Mother] taking a 3D rest on the sofa, @[Child] bringing her a 3D pillow quietly.
+032 | Scene_032 | (3D stylized game render:1.2), @[Child] helping @[Father] carry a 3D box, both with 3D determined smiles.
+033 | Scene_033 | (3D stylized game render:1.2), @[Mother] looking refreshed and happy, vibrant 3D colors.
+034 | Scene_034 | Close-up of @[Child]'s happy face as he receives a small 3D reward for his effort, eyes wide.
+035 | Scene_035 | (3D stylized game render:1.2), @[LivingRoom] scene where everyone is doing their own thing with 3D harmony.
+036 | Scene_036 | (3D stylized game render:1.2), @[Mother] and @[Child] having a 3D heart-to-heart talk in @[SunsetPark].
+037 | Scene_037 | (3D stylized game render:1.2), @[Child] giving @[Mother] a 3D hug, soft bouncy 3D stylized fat.
+038 | Scene_038 | (3D stylized game render:1.2), @[Father] smiling at the pair, 3D volumetric lighting over the scene.
+039 | Scene_039 | (3D stylized game render:1.2), Family standing together like 3D game heroes, looking toward the 3D horizon.
+040 | Scene_040 | (3D stylized game render:1.2), @[Mother]’s silhouette in a bright 3D window, peaceful and strong.
+041 | Scene_041 | (3D stylized game render:1.2), @[Child] doing chores independently while @[Mother] watches with a smile.
+042 | Scene_042 | (3D stylized game render:1.2), A warm 3D sunset scene with the family at @[SunsetPark].
+043 | Scene_043 | (3D stylized game render:1.2), Close-up of 3D happy eyes of everyone, ultra-detailed 3D textures.
+044 | Scene_044 | (3D stylized game render:1.2), Final family 3D game render, high quality, vibrant and loving atmosphere.
+
+---
+
+## [3단계] 화풍 숙달 예시 (Style Mastery Example)
+
+001 | Style_Sunset_Reference | (Premium Korean Webtoon Style:1.2), Masterpiece, best quality, ultra-detailed, a strong silver-fox Korean father and a warm glamorous Korean mother sharing a peaceful sunset moment in a beautiful garden park, sitting close together on a wooden bench, golden hour lighting, emotional atmosphere, high-quality cinematic anime illustration.

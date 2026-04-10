@@ -1,0 +1,4 @@
+# 여기에 생성하고 싶은 프롬프트를 한 줄에 하나씩 입력하세요.
+# 예시:
+# Cinematic film still, a man entering a luxury hotel lobby, natural lighting.
+# Cinematic film still, close up of a hotel manager's face, smirk expression.

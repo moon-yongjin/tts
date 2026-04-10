@@ -1,0 +1,30 @@
+{
+  "manifest_version": 3,
+  "name": "Google Flow Auto Gen",
+  "version": "1.4",
+  "description": "Bulk Prompt Automation for Google Flow (CSP Bypass)",
+  "permissions": ["storage", "activeTab", "scripting"],
+  "host_permissions": [
+    "https://labs.google/*",
+    "*://*.google.com/*"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://labs.google/*",
+        "*://*.google.com/*"
+      ],
+      "js": ["content.js"],
+      "run_at": "document_end"
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["inject.js"],
+      "matches": ["https://labs.google/*"]
+    }
+  ]
+}

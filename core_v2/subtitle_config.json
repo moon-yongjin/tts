@@ -1,0 +1,22 @@
+{
+    "vertical": {
+        "font_size": 80,
+        "margin_v": 450,
+        "margin_l": 60,
+        "margin_r": 60,
+        "alignment": 2,
+        "outline": 4,
+        "shadow": 2,
+        "max_len": 35
+    },
+    "horizontal": {
+        "font_size": 80,
+        "margin_v": 40,
+        "margin_l": 20,
+        "margin_r": 20,
+        "alignment": 2,
+        "outline": 3,
+        "shadow": 5,
+        "max_len": 20
+    }
+}

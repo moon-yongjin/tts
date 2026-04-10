@@ -1,0 +1,13 @@
+{
+  "approved": true,
+  "character_ko": "정 씨 마님, 70대 후반. 깊게 패인 주름과 굳게 다문 입술에서 강인함이 느껴지는 노인. 검버섯이 핀 얼굴, 헝클어진 흰머리, 퀭한 눈. 수척한 몸에는 낡은 한복 잠옷을 입고, 손에는 낡은 옥가락지를 쥐고 있다. 절망과 분노가 뒤섞인 표정.",
+  "character_en": "An elderly woman in her late 70s, named Madam Jeong, her face etched with deep wrinkles and a firmly set mouth hinting at her strong will. Age spots dot her face, her white hair is disheveled, and her eyes are sunken. She is gaunt and wearing worn hanbok pajamas. She clutches an old jade ring in her hand. Her expression is a mix of despair and anger.",
+  "background_ko": "고요한 겨울밤의 낡은 한옥. 주 공간은 안방이지만, 대본에 따라 지하 통로, 차가운 돌벽의 비밀 석실, 어두운 지하 계단 등으로 장소가 전환됨. 전체적으로 어둡고 습하며 으스스한 분위기 유지.",
+  "background_en": "An old traditional Korean house on a quiet winter night. The primary location starts in the main room, but dynamically transitions to a dark underground passage, a secret stone chamber with damp walls, and narrow stone stairs as the script progresses. Maintain a dark, damp, and eerie atmosphere throughout all locations.",
+  "art_style_override_ko": "전통 한국화 스타일을 유지하며, 어둡고 분위기 있는 명암과 필치를 사용한다. 인물의 감정을 극대화하기 위해 세밀한 묘사를 강조한다.",
+  "art_style_override_en": "Maintain a traditional Korean painting style with a dark and atmospheric mood. Emphasize detailed depictions to maximize the character's emotions. Use expressive brushwork and subtle tonal variations to create depth and texture.",
+  "visual_variety_ko": "[미장센] 사물과 분위기를 통한 상징적 연출: 탕약의 김, 문틈 그림자, 꽉 쥔 손 등 상징적 클로즈업.",
+  "visual_variety_en": "Mise-en-scène: Symbolic close-ups of objects like steam, shadows, clenched hands, or architectural details.",
+  "generate_video": false,
+  "target_interval": 6.0
+}

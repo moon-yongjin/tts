@@ -1,0 +1,47 @@
+📌 [모기 마이크로 과학] 순서대로 복붙 전용 프롬프트 & 대본 리스트
+(Grok, ComfyUI, LTX 등 외부 툴에 복사해서 쓰시면 됩니다)
+
+---
+
+### 🎬 Scene 1. Hook (시선 고정)
+*   **🔊 대본 (TTS로 읽힐 텍스트)**:
+    "모기가 당신의 피를 빨려고 주사기를 꽂는 그 순간,"
+*   **🖼️ 스틸 이미지 생성 프롬프트**:
+    Extreme microscopic macro close-up portrait photography, masterpiece, 8k resolution, cinematic studio lighting, sharp focus: A mosquito with glowing compound eyes and a sharp, menacing needle-like proboscis hovering in the air. Dramatic side lighting, dark atmosphere, highly detailed insect exoskeleton texture. Depth of field. Clean neutral white balance, no yellow tint.
+*   **🎥 비디오(만약 영상화 시) 모션 프롬프트**:
+    Slow microscopic zoom-in towards the transparent proboscis. Subtle twitching of mosquito legs and wings for realism, floating dust particles, cinematic movement.
+
+---
+
+### 🎬 Scene 2. Piercing (침투 & 탐색)
+*   **🔊 대본**:
+    "그냥 꽂는 게 아닙니다. 피부 속에서 빨대 끝을 이리저리 휘저으며 혈관을 직접 ‘사냥’하죠."
+*   **🖼️ 스틸 이미지 생성 프롬프트**:
+    Microscopic cellular-level cross-section view, 8k resolution, crisp detail, biological lighting: A mosquito proboscis piercing into layers of translucent human skin cells, penetrating the epidermis and into the dermis searching for a capillary vessel. Cinematic lighting revealing cellular structures, fine hairs, and skin pores. Raw photography look. No warm filter, neutral white balance.
+*   **🎥 비디오(모션) 프롬프트**:
+    Slow smooth penetration motion of the needle-like proboscis diving deeper into skin layers, looking left and right inside tissues, biological fluid dynamics.
+
+---
+
+### 🎬 Scene 3. Feeding (흡입 및 공급)
+*   **🔊 대본**:
+    "혈관을 뚫으면, 모기의 강력한 펌프가 돌아갑니다. 지금 이 붉은 구슬들이 당신의 피입니다."
+*   **🖼️ 스틸 이미지 생성 프롬프트**:
+    Extreme microscopic view INSIDE a transparent biological tube (mosquito's proboscis), 8k resolution, sharp focus: Crimson red blood cells (erythrocytes) rushing through the tube like a high-speed conveyor belt fluid stream. Backlit transparent cell walls glowing from behind, cinematic microscopy setting, fluid dynamics, liquid rush motion, highly detailed cellular texture.
+*   **🎥 비디오(모션) 프롬프트**:
+    Red blood cells flowing rapidly through the tube like a busy conveyor belt, fluid dynamics, liquid rushing motion, glowing red backlighting, cinematic biological view.
+
+---
+
+### 🎬 Scene 4. Expansion & Outro (팽창 및 피날레)
+*   **🔊 대본**:
+    "모기는 자기 몸무게의 3배가 넘는 피를 배가 터질 때까지 부풀리며 마셔댑니다. 더 기묘한 과학을 보려면 팔로우하세요."
+*   **🖼️ 스틸 이미지 생성 프롬프트**:
+    Extreme macro close-up, masterpiece, 8k resolution: A mosquito's abdomen expanding and pulsating, translucent exoskeleton glowing bright red and translucent with glowing blood volume inside. Dark dramatic background, ultra-highly detailed insect joint and shell texture, cinematic rim lighting.
+*   **🎥 비디오(모션) 프롬프트**:
+    The mosquito's abdomen slowly expanding and Pulsating with glowing red liquid as it drinks, translucent skin stretching and glowing bright red, highly detailed insect outer shell.
+
+---
+
+🔊 **오디오 합성 팁**:
+효과음(SFX)은 '피가 빨려 들어갈 때' **꾸르륵** 흡입음, '피부가 뚫릴 때' **바스락** 거리는 소리를 이 프롬프트 장면에 맞게 타임라인으로 병합하시면 완전 자동화 영상 출력됩니다.

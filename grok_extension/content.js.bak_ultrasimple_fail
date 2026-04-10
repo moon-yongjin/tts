@@ -1,0 +1,105 @@
+/**
+ * Grok Bulk - 템플릿 강제 차단 + 단순 업로드 버전
+ */
+
+let isRunning = false;
+
+const sendLog = (text) => chrome.runtime.sendMessage({ action: 'UI_LOG', text });
+
+// 페이지 강제 체크 및 이동
+function forceImaginePage() {
+    const url = window.location.href;
+    if (url.includes('/templates')) {
+        sendLog('⚠️ 템플릿 페이지 감지 → 일반 Imagine 페이지로 강제 이동합니다.');
+        window.location.href = 'https://grok.com/imagine';
+        return false;
+    }
+    return true;
+}
+
+chrome.runtime.onMessage.addListener((msg) => {
+    if (msg.action === 'START_BATCH') {
+        if (!forceImaginePage()) {
+            return; // 이동 후 종료
+        }
+
+        if (isRunning) {
+            sendLog('이미 실행 중입니다');
+            return;
+        }
+
+        isRunning = true;
+        sendLog(`🚀 ${msg.images.length}개 이미지 처리 시작`);
+
+        startProcessing(msg.images);
+    }
+
+    if (msg.action === 'STOP_BATCH') {
+        isRunning = false;
+        sendLog('중지되었습니다');
+    }
+});
+
+async function startProcessing(images) {
+    for (let i = 0; i < images.length; i++) {
+        if (!isRunning) break;
+
+        const img = images[i];
+        sendLog(`[${i+1}/${images.length}] ${img.name} 업로드 시도`);
+
+        try {
+            // Drag & Drop
+            const res = await fetch(img.dataUrl);
+            const blob = await res.blob();
+            const file = new File([blob], img.name, { type: img.type || 'image/jpeg' });
+
+            const dropZone = document.body;
+            const dt = new DataTransfer();
+            dt.items.add(file);
+
+            dropZone.dispatchEvent(new DragEvent('drop', { 
+                bubbles: true, 
+                dataTransfer: dt 
+            }));
+
+            sendLog('Drag & Drop 시도');
+            await new Promise(r => setTimeout(r, 4500));
+
+            // Video 모드
+            const videoBtn = Array.from(document.querySelectorAll('button'))
+                .find(b => b.textContent.toLowerCase().includes('video'));
+            if (videoBtn) {
+                videoBtn.click();
+                sendLog('Video 모드 ON');
+                await new Promise(r => setTimeout(r, 1000));
+            }
+
+            // 6초 모드
+            const sixBtn = Array.from(document.querySelectorAll('button'))
+                .find(b => b.textContent.includes('6s') || b.textContent.includes('6초'));
+            if (sixBtn) sixBtn.click();
+
+            // 생성 버튼
+            const submitBtn = Array.from(document.querySelectorAll('button'))
+                .find(b => b.textContent.includes('Generate') || b.textContent.includes('제출'));
+            if (submitBtn) submitBtn.click();
+
+            await new Promise(r => setTimeout(r, 25000));
+
+            sendLog(`✅ ${img.name} 처리 완료`);
+
+        } catch (e) {
+            sendLog(`❌ 오류: ${e.message}`);
+        }
+    }
+
+    isRunning = false;
+    sendLog('모든 처리 완료');
+}
+
+// 페이지 로드 시에도 체크
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', forceImaginePage);
+} else {
+    forceImaginePage();
+}

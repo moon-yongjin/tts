@@ -1,0 +1,57 @@
+[
+  {
+    "timestamp": 0.0,
+    "sfx_file": "footsteps_snow.mp3",
+    "reason": "물감 얼룩이 덕지덕지 묻은 낡은 작업"
+  },
+  {
+    "timestamp": 11.147,
+    "sfx_file": "door_opening_quickly.mp3",
+    "reason": "내가 문을 열고 들어가려 하자, 말끔"
+  },
+  {
+    "timestamp": 23.503,
+    "sfx_file": "pencil_writing.mp3",
+    "reason": "그림..."
+  },
+  {
+    "timestamp": 35.0,
+    "sfx_file": "coins_exchanging_hands.mp3",
+    "reason": "50억이야, 50억!"
+  },
+  {
+    "timestamp": 50.586,
+    "sfx_file": "heavy_thunder.mp3",
+    "reason": "작품 오염되면 책임질 거야?"
+  },
+  {
+    "timestamp": 64.543,
+    "sfx_file": "sharp_inhale.mp3",
+    "reason": "미쳤어?"
+  },
+  {
+    "timestamp": 81.336,
+    "sfx_file": "sharp_inhale.mp3",
+    "reason": "감히 이 거지가 그림에 손을 대려고."
+  },
+  {
+    "timestamp": 93.796,
+    "sfx_file": "breathing.mp3",
+    "reason": "선생님..."
+  },
+  {
+    "timestamp": 105.457,
+    "sfx_file": "sharp_inhale.mp3",
+    "reason": "이, 이 노숙자가?"
+  },
+  {
+    "timestamp": 118.708,
+    "sfx_file": "magic.mp3",
+    "reason": "이 사람은 바로 얼굴 없는 천재 화가"
+  },
+  {
+    "timestamp": 129.809,
+    "sfx_file": "magical_sparkle.mp3",
+    "reason": "사이다 결말이 궁금하다면 좋아요 누르"
+  }
+]

@@ -1,0 +1,5 @@
+Prompt/Action: 제목
+Prompt/Action: 구연정보
+Prompt/Action: 구연상황
+Prompt/Action: 줄거리
+Prompt/Action: 본문

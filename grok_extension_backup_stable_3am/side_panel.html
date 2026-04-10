@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    body { font-family: 'Inter', sans-serif; background: #000; color: #0f0; margin: 0; padding: 15px; }
+    h2 { font-size: 1.1rem; border-left: 4px solid #0f0; padding-left: 10px; margin-top: 0; }
+    .card { background: #111; border: 1px solid #222; border-radius: 12px; padding: 12px; margin-bottom: 12px; }
+    label { display: block; margin-bottom: 5px; font-size: 0.8rem; color: #888; }
+    textarea { width: 100%; height: 120px; background: #050505; border: 1px solid #222; border-radius: 8px; color: #0f0; padding: 8px; font-size: 0.8rem; resize: none; box-sizing: border-box; }
+    input[type="file"] { width: 100%; font-size: 0.8rem; margin-bottom: 10px; color: #ccc; }
+    .btn { width: 100%; padding: 12px; border: none; border-radius: 8px; font-weight: bold; cursor: pointer; margin-top: 10px; }
+    .btn-primary { background: #0f0; color: #000; }
+    .btn-secondary { background: #222; color: #fff; border: 1px solid #444; }
+    #status { margin-bottom: 10px; font-weight: bold; color: #ff0; text-align: center; font-size: 0.9rem; }
+    #log { height: 180px; background: #050505; border: 1px solid #111; border-radius: 8px; padding: 8px; font-size: 0.7rem; overflow-y: auto; white-space: pre-wrap; margin-top: 10px; color: #0b0; border-top: 1px solid #222; }
+  </style>
+</head>
+<body>
+  <h2>Grok Bulk Premium V6</h2>
+  <div class="card">
+    <div id="status">● 대기 중 (원본 3시 보직)</div>
+    
+    <label>1. 이미지 폴더 선택 (NB2_output)</label>
+    <input type="file" id="image-folder" webkitdirectory directory multiple>
+
+    <label>2. 프롬프트 입력 (한 줄에 하나씩)</label>
+    <textarea id="prompts" placeholder="여기에 프롬프트를 한 줄씩 입력하세요..."></textarea>
+
+    <button id="btnStart" class="btn btn-primary">🎬 연속 생성 가동</button>
+    <button id="btnStop" class="btn btn-secondary">⏹ 중지</button>
+  </div>
+
+  <div id="log"></div>
+
+  <script src="side_panel.js"></script>
+</body>
+</html>

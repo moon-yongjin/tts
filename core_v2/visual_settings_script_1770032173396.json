@@ -1,0 +1,13 @@
+{
+  "approved": false,
+  "character_ko": "Myeong-suk is an older Korean woman, likely in her 60s. She has a stern face etched with years of hardship and resolve. Her hair is pulled back in a tight bun, streaked with gray. She wears traditional Korean clothing hanbok suitable for someone of her age and status within the family, perhaps a muted earth tone. Her eyes are sharp and calculating, reflecting her intelligence and determination. She has a slight build but carries herself with dignity and strength.",
+  "character_en": "Stern Korean woman in her 60s, traditional hanbok, gray hair in a bun, determined face.",
+  "background_ko": "배경: 남편이 생전에 설계한 지하 석실. 어둡고 습하며, 횃불만이 희미하게 공간을 밝힌다. 석실 벽면에는 오래된 문양들이 새겨져 있고, 한쪽에는 정교한 기계 장치가 숨겨져 있다. 전체적으로 차갑고 음산한 분위기가 감돌며, 긴장감을 고조시킨다.",
+  "background_en": "Setting: An underground stone chamber designed by her late husband. Dark and damp, lit only by flickering torchlight. Ancient patterns are carved into the stone walls, and an intricate mechanical device is concealed on one side. Overall, the atmosphere is cold and gloomy, heightening the tension. Dust motes dancing in the torchlight. Water trickling down the walls creating a mirror like reflection.",
+  "art_style_override_ko": "전통적인 한국화의 느낌을 살리되, 누아르 영화의 어둡고 강렬한 분위기를 결합한다. 붓터치의 질감을 살리고, 색감은 최대한 절제하여 인물의 감정과 배경의 분위기를 극대화한다.",
+  "art_style_override_en": "Combine the aesthetics of traditional Korean painting with the dark and intense atmosphere of film noir. Emphasize the texture of brushstrokes and minimize the color palette to maximize the emotion of the characters and the atmosphere of the background. Use of chiaroscuro lighting techniques.",
+  "visual_variety_ko": "[대립과 긴장] 캐릭터 간의 감정 선과 갈등을 강조하는 연출: 표정의 대비, 그림자 활용, 긴박한 구도 위주.",
+  "visual_variety_en": "Conflict and Tension: Emphasize emotional tension between characters. Use dramatic lighting, sharp contrasts, and tight framing on facial expressions.",
+  "target_interval": 6.0,
+  "clip_duration": 6.0
+}

@@ -1,0 +1,40 @@
+{
+  "manifest_version": 3,
+  "name": "Grok Bulk Premium v14",
+  "version": "14.0.0",
+  "description": "Grok Imagine Fast Image-to-Video",
+  "permissions": [
+    "activeTab",
+    "storage",
+    "sidePanel",
+    "scripting",
+    "downloads"
+  ],
+  "host_permissions": [
+    "https://grok.com/*",
+    "https://grok.x.ai/*",
+    "https://assets.grok.com/*"
+  ],
+  "side_panel": {
+    "default_path": "side_panel.html"
+  },
+  "action": {
+    "default_title": "Grok Bulk 열기"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://grok.com/*", "https://grok.x.ai/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["inject.js"],
+      "matches": ["https://grok.com/*", "https://grok.x.ai/*"]
+    }
+  ]
+}

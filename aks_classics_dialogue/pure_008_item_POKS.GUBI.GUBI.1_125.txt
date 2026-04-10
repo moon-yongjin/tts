@@ -1,0 +1,13 @@
+Prompt/Action: 수곡면 설화 38
+Prompt/Action: 조사자 : 가실?
+Prompt/Action: 조사자 : 아, 가설리.
+Prompt/Action: 조사자 : 요술책?
+Prompt/Action: 동쪽을 가리키며
+Prompt/Action: 북쪽을 가리키며
+Prompt/Action: 조사자 : 그라머 저 쪽에?
+Prompt/Action: 동쪽을 가리키며
+Prompt/Action: 조사자 : 아, 예예.
+Prompt/Action: 청중을 보고
+Prompt/Action: 조사자 : 아, 고 지(저) 남편인데.
+Prompt/Action: 조사자 : 그래 가지고 뭐 저기 어디 뭐 지명 이름이 뭡니까?
+Prompt/Action: 조사자 : 가설리, 예.

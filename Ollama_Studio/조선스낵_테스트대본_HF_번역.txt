@@ -1,0 +1,32 @@
+[제목]: 욕심쟁이 황대감과 꾀돌이 돌쇠 (HF 외주판 번역)
+
+(Hook)
+[상황 설명]: 조선시대 어느 양반집의 다 쓰러져가는 마당. 황대감이 제 보물단지 같은 엽전 꾸러미를 하나하나 세며 혼잣말을 중얼거리고 있다.
+
+황대감 : (눈을 부릅뜨며 엽전을 세며) 에잉, 돈 아껴야지. 암, 그렇구먼! 누구도 내 재산을 넘보게 할 순 없지. 이 나라에서 내 돈 관리 실력은 내가 제일이랑께! 
+[상황 설명]: 이때 돌쇠가 마당으로 들어오며 넙죽 절을 한다. 손에는 초라한 밥상이 들려 있다.
+
+돌쇠 : 대감마님, 점심상 가져왔구먼유. 참으로 소박한 밥상이지만, 대감마님 입맛에 딱 맞을 거구먼유!
+황대감 : (밥상을 홱 쳐다보며) 이게 뭐시냐! 밥 한 사발에 시든 나부랭이 채소 쪼가리뿐 아니냐! 이걸 밥이라고 가져온 게냐? 당장 부엌으로 돌아가서 더 좋은 걸로 다시 해오란 말이여!
+
+(Escalation)
+[상황 설명]: 돌쇠가 대감을 설득해 보려 하지만, 황대감은 점점 더 노발대발한다.
+
+돌쇠 : 아따 대감마님, 집에 있는 재료는 이미 다 써버렸당께요. 여기서 더 좋은 걸 만들려면 돈이 더 들어가는디...
+황대감 : (말을 자르며) 돈? 네놈이 지금 나한테 돈 이야기를 하는 게냐! 내가 네놈한테 쏟아부은 돈이 얼만데! 네놈은 그저 내 재산이나 축내는 쓸모없는 노비 놈일 뿐이란 말이여!
+[상황 설명]: 돌쇠는 풀 죽은 표정을 짓더니, 이내 입가에 야비한 미소를 슬쩍 띄운다.
+
+(Twist/Punchline)
+돌쇠 : (고개를 까닥하며) 예이, 대감마님. 소인은 그저 쓸모없는 노비 놈이지유. 근디 말이여유... 제가 하도 쓸모가 없다 보니, 차라리 이 밥을 소인이 다 먹어버리는 게 낫겠구먼유! 
+[상황 설명]: 돌쇠가 대감 밥상을 뺏어 한 숟갈 크게 떠먹는다.
+
+돌쇠 : 오매! 이거 꿀맛이구먼유!
+황대감 : (얼굴이 홍당무가 되어 소리를 지르며) 뭐시라?! 이 고얀 놈이! 감히 내 밥을 처먹어?! 
+돌쇠 : (천연덕스럽게) 아따, 대감마님이 방금 저더러 먹으라고 하신 줄 알았지유. 우리 대감마님은 참으로 통이 크시기도 하당께!
+
+[상황 설명]: 황대감이 분노로 얼굴을 찌푸리며 마당 구석구석 돌쇠를 쫓아다니고, 돌쇠는 요리조리 피하며 약을 올린다.
+
+[비주얼 연출 프롬프트]
+1. (Masterpiece, best quality, 8k), a close-up shot of Lord Hwang's face, with a cartoonish 'angry' and 'greedy' expression, historical Korean village background.
+2. (Masterpiece, best quality, 8k), a dynamic shot of Dol-soi running away while holding a rice bowl, Lord Hwang chasing after him in a Joseon courtyard, pots and pans scattered on the ground.
+3. (Masterpiece, best quality, 8k), a wide shot of the chaotic courtyard scene, Lord Hwang and Dol-soi circling each other, comedic atmosphere, vibrant colors of Hanbok.

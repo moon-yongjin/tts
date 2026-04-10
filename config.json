@@ -1,0 +1,20 @@
+{
+    "ElevenLabs_API_KEY": "sk_5d7f330145a37647d022678f2f6eacceaaae6ccbc2be3c8b",
+    "ElevenLabs_API_KEY_2": "4ac65146a95169cd5530e663dfd89d5b41b05a6d503007f7256861dfc41de97d",
+    "Gemini_API_KEY": "AIzaSyDOtvWYJaFgSoOmDDQ77QO4i6RoFdWWuOA",
+    "Gemini_API_KEY_2": "AIzaSyDjaEyLq253JlnJxMYxSGhxSy4abuwmIQI",
+    "Gemini_API_KEY_3": "AIzaSyBUuJlt-ffb2DONban0sJJdg-QigdEVs-w",
+    "Azure_Speech_Key": "21HfTF65JeOoI5mqoW5NfPYZcmG114R7AFzrjbk5HLRE4fqIua7NJQQJ99CAACNns7RXJ3w3AAAYACOGMfRn",
+    "Azure_Region": "koreacentral",
+    "RunPod_API_KEY": "rpa_FHG3CVKINI8UZ0II8UU0V4O482A57CBUCMZDLU261yr9lz",
+    "HuggingFace_API_KEY": "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",
+    "LLM_PROVIDER": "GEMINI",
+    "audio_settings": {
+        "sfx_interval": 10,
+        "bgm_interval": 30,
+        "sfx_volume_offset": -10,
+        "bgm_volume_offset": -30,
+        "ambient_sound": "coffee_shop.mp3",
+        "ambient_volume_offset": -30
+    }
+}

@@ -1,0 +1,75 @@
+/Users/a12/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+🎬 총 10개의 샘플 생성을 시작합니다.
+
+🎵 [1/10] 생성 시작: 비장한 최후의 결전, 웅장한 오케스트라와 북소리, epic martial arts battle, orchestral
+  - 태스크 등록 성공: d5bc290d-4b57-4937-8893-c035b38a7033
+  - [1] 생성 성공! 다운로드 중: http://localhost:7860/v1/audio?path=/Users/a12/projects/tts/ace-step-local/ACE-Step-1.5/acestep/ui/gradio_outputs/api_1772436242/6fdbb470-3689-c984-1708-f93dc5fe4847.mp3
+  - [1] 파일 저장 완료: /Users/a12/projects/tts/tmp_samples/sample_1.mp3 (480620 bytes)
+✅ 텔레그램 전송 완료: 🎵 무협 샘플 1/10
+컨셉: 비장한 최후의 결전, 웅장한 오케스트라와 북소리, epic martial arts battle, orchestral
+
+🎵 [2/10] 생성 시작: 새벽녘 산사의 고요함, 대금과 가야금 연주, zen mountain temple, flute and gayageum
+  - 태스크 등록 성공: a0e4f5c0-e4f5-4c2b-b41d-02cb481c1ad8
+  - [2] 생성 성공! 다운로드 중: http://localhost:7860/v1/audio?path=/Users/a12/projects/tts/ace-step-local/ACE-Step-1.5/acestep/ui/gradio_outputs/api_1772436383/77d7b420-ac24-af62-45c1-2f649894fa02.mp3
+  - [2] 파일 저장 완료: /Users/a12/projects/tts/tmp_samples/sample_2.mp3 (480620 bytes)
+✅ 텔레그램 전송 완료: 🎵 무협 샘플 2/10
+컨셉: 새벽녘 산사의 고요함, 대금과 가야금 연주, zen mountain temple, flute and gayageum
+
+🎵 [3/10] 생성 시작: 빠르고 화려한 검술 액션, 박진감 넘치는 하이네너지 무협, fast sword fight, high energy
+  - 태스크 등록 성공: 196b8b90-84fd-498a-8d9d-0598f9d1d335
+  - [3] 생성 성공! 다운로드 중: http://localhost:7860/v1/audio?path=/Users/a12/projects/tts/ace-step-local/ACE-Step-1.5/acestep/ui/gradio_outputs/api_1772436452/d4af75ba-34ed-e95e-208a-f87b2e1ec97c.mp3
+  - [3] 파일 저장 완료: /Users/a12/projects/tts/tmp_samples/sample_3.mp3 (480620 bytes)
+✅ 텔레그램 전송 완료: 🎵 무협 샘플 3/10
+컨셉: 빠르고 화려한 검술 액션, 박진감 넘치는 하이네너지 무협, fast sword fight, high energy
+
+🎵 [4/10] 생성 시작: 떠나간 연인을 그리워하는 슬픈 비가, 정적이고 애절한 해금 선율, sad martial arts ballad, haegeum
+  - 태스크 등록 성공: a3ec2b32-0d8c-49b0-bfc4-5bc5d57e3908
+  - [4] 생성 성공! 다운로드 중: http://localhost:7860/v1/audio?path=/Users/a12/projects/tts/ace-step-local/ACE-Step-1.5/acestep/ui/gradio_outputs/api_1772436514/64dcd039-4fbe-1f6b-44ae-c557d7b88839.mp3
+  - [4] 파일 저장 완료: /Users/a12/projects/tts/tmp_samples/sample_4.mp3 (480620 bytes)
+✅ 텔레그램 전송 완료: 🎵 무협 샘플 4/10
+컨셉: 떠나간 연인을 그리워하는 슬픈 비가, 정적이고 애절한 해금 선율, sad martial arts ballad, haegeum
+
+🎵 [5/10] 생성 시작: 강호의 평화를 노래하는 경쾌한 민요풍, upbeat oriental folk dance
+  - 태스크 등록 성공: fd2e2d60-fa2d-42c0-b6b6-c9bc694054f8
+  - [5] 생성 성공! 다운로드 중: http://localhost:7860/v1/audio?path=/Users/a12/projects/tts/ace-step-local/ACE-Step-1.5/acestep/ui/gradio_outputs/api_1772436578/60d17bf2-690b-eb54-2e57-c12d83d846d7.mp3
+  - [5] 파일 저장 완료: /Users/a12/projects/tts/tmp_samples/sample_5.mp3 (480620 bytes)
+✅ 텔레그램 전송 완료: 🎵 무협 샘플 5/10
+컨셉: 강호의 평화를 노래하는 경쾌한 민요풍, upbeat oriental folk dance
+
+🎵 [6/10] 생성 시작: 어둠 속 비밀 살수의 추격전, 긴장감 넘치는 다크 무협 BGM, dark assassin pursuit, suspense
+  - 태스크 등록 성공: e319c8c9-f105-4073-bd83-641816a32656
+  - [6] 생성 성공! 다운로드 중: http://localhost:7860/v1/audio?path=/Users/a12/projects/tts/ace-step-local/ACE-Step-1.5/acestep/ui/gradio_outputs/api_1772436644/3fb5acfe-e84e-244e-bc5b-b6605dd5a072.mp3
+  - [6] 파일 저장 완료: /Users/a12/projects/tts/tmp_samples/sample_6.mp3 (480620 bytes)
+✅ 텔레그램 전송 완료: 🎵 무협 샘플 6/10
+컨셉: 어둠 속 비밀 살수의 추격전, 긴장감 넘치는 다크 무협 BGM, dark assassin pursuit, suspense
+
+🎵 [7/10] 생성 시작: 사부님의 가르침을 받는 정적인 수련 시간, 평화롭고 신비로운 분위기, meditative training, mystical
+  - 태스크 등록 성공: b420cbfc-9ffa-474d-aa78-f17d8f5afe59
+  - [7] 생성 성공! 다운로드 중: http://localhost:7860/v1/audio?path=/Users/a12/projects/tts/ace-step-local/ACE-Step-1.5/acestep/ui/gradio_outputs/api_1772436709/8a299418-ed05-889f-407e-ec36e3366ebf.mp3
+  - [7] 파일 저장 완료: /Users/a12/projects/tts/tmp_samples/sample_7.mp3 (480620 bytes)
+✅ 텔레그램 전송 완료: 🎵 무협 샘플 7/10
+컨셉: 사부님의 가르침을 받는 정적인 수련 시간, 평화롭고 신비로운 분위기, meditative training, mystical
+
+🎵 [8/10] 생성 시작: 축제가 열린 객잔의 흥겨운 분위기, 소란스럽고 활기찬 동양풍 음악, lively tavern festival, energetic
+  - 태스크 등록 성공: ee63e923-7aef-48a8-999f-c5fba1011f81
+  - [8] 생성 성공! 다운로드 중: http://localhost:7860/v1/audio?path=/Users/a12/projects/tts/ace-step-local/ACE-Step-1.5/acestep/ui/gradio_outputs/api_1772436774/4486d4fb-18e9-7931-94f6-74a43168ae8d.mp3
+  - [8] 파일 저장 완료: /Users/a12/projects/tts/tmp_samples/sample_8.mp3 (480620 bytes)
+✅ 텔레그램 전송 완료: 🎵 무협 샘플 8/10
+컨셉: 축제가 열린 객잔의 흥겨운 분위기, 소란스럽고 활기찬 동양풍 음악, lively tavern festival, energetic
+
+🎵 [9/10] 생성 시작: 광활한 중원을 달리는 기마대, 속도감 있고 장엄한 분위기, vast plains cavalry, majestic
+  - 태스크 등록 성공: 6dbd9b00-8340-4965-81c4-cb9d0416d9b3
+  - [9] 생성 성공! 다운로드 중: http://localhost:7860/v1/audio?path=/Users/a12/projects/tts/ace-step-local/ACE-Step-1.5/acestep/ui/gradio_outputs/api_1772436839/258867a7-b6b1-67bf-078b-6d3f79f117f3.mp3
+  - [9] 파일 저장 완료: /Users/a12/projects/tts/tmp_samples/sample_9.mp3 (480620 bytes)
+✅ 텔레그램 전송 완료: 🎵 무협 샘플 9/10
+컨셉: 광활한 중원을 달리는 기마대, 속도감 있고 장엄한 분위기, vast plains cavalry, majestic
+
+🎵 [10/10] 생성 시작: 신선이 사는 무릉도원의 몽환적인 배경음악, ethereal peach blossom spring, dreamlike
+  - 태스크 등록 성공: 0e70d101-c085-4043-be17-f5807500d6c2
+  - [10] 생성 성공! 다운로드 중: http://localhost:7860/v1/audio?path=/Users/a12/projects/tts/ace-step-local/ACE-Step-1.5/acestep/ui/gradio_outputs/api_1772436904/613c9cf5-61ac-cb75-a1cc-cb5131bc72c0.mp3
+  - [10] 파일 저장 완료: /Users/a12/projects/tts/tmp_samples/sample_10.mp3 (480620 bytes)
+✅ 텔레그램 전송 완료: 🎵 무협 샘플 10/10
+컨셉: 신선이 사는 무릉도원의 몽환적인 배경음악, ethereal peach blossom spring, dreamlike
+
+✅ 모든 샘플 생성 및 텔레그램 전송이 완료되었습니다.

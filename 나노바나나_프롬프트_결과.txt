@@ -1,0 +1,41 @@
+## [0단계] Nano Banana 아트 스타일 표준: 프리미엄 한국형 웹툰 (Premium Korean Webtoon)
+
+**[핵심 화풍 키워드]**
+> Masterpiece, best quality, ultra-detailed, premium Korean webtoon style, cinematic anime illustration, clean thin line art, soft cel-shading, subtle gradients, vibrant but sophisticated colors, golden hour lighting, sunset glow, volumetric lighting, semi-realistic proportions, highly detailed expressive eyes, emotional atmosphere, 8K render, perfect composition.
+
+---
+
+## [1단계] 캐릭터 에셋 (Person-only Assets)
+
+001 | @Mother | Masterpiece, best quality, ultra-detailed, premium Korean webtoon style, beautiful Korean woman in her 40s, looking remarkably youthful and elegant, long soft dark hair, kind and loving eyes with deep emotional depth, a warm and sophisticated smile, glamorous and gracefully curved figure, wearing a simple yet stylish ivory knit sweater, soft skin texture, cinematic lighting, high-quality anime illustration.
+002 | @Child | Masterpiece, best quality, ultra-detailed, premium Korean webtoon style, handsome adolescent boy/girl, slightly messy hair, expressive eyes reflecting inner vulnerability, wearing an oversized trendy hoodie, semi-realistic proportions, emotional depth, cool but sensitive vibe, cinematic lighting, high-quality anime illustration.
+003 | @Father | Masterpiece, best quality, ultra-detailed, premium Korean webtoon style, strong and reliable Korean man in his 40s, short black hair with elegant grey at the temples (silver fox style), calm and gentle smile, intelligent but warm eyes, athletic and well-built frame, wearing a navy button-down shirt, sophisticated daddy vibe, cinematic lighting, high-quality anime illustration.
+
+---
+
+## [2단계] 18개 시네마틱 장면 프롬프트: 프리미엄 한국형 웹툰 (Premium Korean Webtoon)
+
+001 | Scene_001 | (Premium Korean Webtoon Style:1.2), @[Child] sitting on the floor in a cozy modern living room, supposedly doing homework but secretly captivated by a glowing smartphone screen, vibrant cinematic colors, soft volumetric lighting.
+002 | Scene_002 | (Premium Korean Webtoon Style:1.2), @[Mother] opening the door of the living room, elegant and beautiful face showing a hint of subtle suspicion and weariness, dramatic cinematic shadows.
+003 | Scene_003 | (Premium Korean Webtoon Style:1.2), Close-up of @[Child] quickly hiding the phone under a cushion, expressive eyes wide with panic, sharp and clean line art, high-quality anime illustration.
+004 | Scene_004 | (Premium Korean Webtoon Style:1.2), @[Mother] standing in front of @[Child], questioning him about his progress, sunset glow hitting her long dark hair through the window, gentle but exhausted smile.
+005 | Scene_005 | (Premium Korean Webtoon Style:1.2), @[Child] giving a nervous thumbs-up with a forced, shaky smile (the lie), @[Mother] in the background looking deeply disappointed yet silent.
+006 | Scene_006 | (Premium Korean Webtoon Style:1.2), Close-up of @[Child]'s eyes reflecting the realization that he is lying to protect his mother from disappointment, emotional depth and sadness.
+007 | Scene_007 | Metaphor: @[Mother] and @[Father] rendered as towering, beautiful but cold statues in an empty hall, representing the child's feeling of being judged.
+008 | Scene_008 | (Premium Korean Webtoon Style:1.2), @[Child] alone in his dark room at night, cinematic shadows and a single light source, feeling the heavy burden of his hidden truth.
+009 | Scene_009 | Metaphor: A semi-transparent glass wall rising between @[Mother] and @[Child], representing the loss of a "safe space" due to repeated lies.
+010 | Scene_010 | (Premium Korean Webtoon Style:1.2), Close-up of @[Child] looking at a "C grade" test paper, eyes welling with tears, terrified that his true self will disappoint his parents.
+011 | Scene_011 | (Premium Korean Webtoon Style:1.2), @[Mother] and @[Father] in a warm kitchen at golden hour, having a quiet but serious heart-to-heart discussion about their parenting style.
+012 | Scene_012 | (Premium Korean Webtoon Style:1.2), @[Mother] approaching @[Child] in a cozy living room with a new, genuinely warm energy—open arms and no longer judging.
+013 | Scene_013 | (Premium Korean Webtoon Style:1.2), @[Mother] sitting beside @[Child] on a plush sofa, putting a gentle hand on his shoulder, premium webtoon composition and soft lighting.
+014 | Scene_014 | (Premium Korean Webtoon Style:1.2), Close-up of @[Mother] saying "I'm on your side" with a sincere, loving smile, cinematic rim lighting highlighting her features.
+015 | Scene_015 | (Premium Korean Webtoon Style:1.2), @[Child]'s perspective: The world around @[Mother] glowing with a warm, golden "safe space" light, his tension finally melting away.
+016 | Scene_016 | (Premium Korean Webtoon Style:1.2), @[Child] finally showing the hidden bad grade to @[Mother], @[Mother] listening with deep affection and non-judgmental understanding.
+017 | Scene_017 | Metaphor: A warm, glowing umbrella of light in the middle of a rainy room protecting @[Mother] and @[Child], symbolizing the built trust.
+018 | Scene_018 | (Premium Korean Webtoon Style:1.2), Full family scene in a sunset park, @[Mother], @[Child], and @[Father] laughing and sharing a genuine moment of connection, high-end cinematic harmony.
+
+---
+
+## [3단계] 화풍 숙달 예시 (Style Mastery Example)
+
+001 | Style_Sunset_Reference | (Premium Korean Webtoon Style:1.2), Masterpiece, best quality, ultra-detailed, a strong silver-fox Korean father and a warm glamorous Korean mother sharing a peaceful sunset moment in a beautiful garden park, sitting close together on a wooden bench, golden hour lighting, emotional atmosphere, high-quality cinematic anime illustration.

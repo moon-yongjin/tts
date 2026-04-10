@@ -1,0 +1,36 @@
+# 1단계: 에셋(레퍼런스 시트) 생성용 프롬프트
+# 이 프롬프트들을 먼저 실행해서 '캐릭터/장소'의 기준이 되는 이미지를 먼저 만듭니다.
+# 생성된 이미지를 구글 플로우 에셋에 등록할 때 이름을 [] 안의 내용으로 지정하세요.
+
+001 | 이재진_학생_고정 | Create a clean character reference sheet in cinematic realistic photography style on a plain light gray background. The canvas must be divided into two perfectly aligned rows. Top row (Full Body Turnaround, neutral pose): Full body front view, Full body right profile view, Full body left profile view, Full body back view. Bottom row (Head Turnaround): Front face view, Right profile face view, Left profile face view, Back of head view. The character is a Korean male in his early 30s as a law student, slim build, sharp features, rectangular black-framed glasses, neat but slightly flat black hair. He wears a simple gray hoodie, dark navy chinos, and plain white sneakers. All 8 views must show the exact same character with consistent facial features. No text, no watermarks.
+
+002 | 수진_아내_고정 | Create a clean character reference sheet in cinematic realistic photography style on a plain light gray background. The canvas must be divided into two perfectly aligned rows. Top row (Full Body Turnaround, neutral pose): Full body front view, Full body right profile view, Full body left profile view, Full body back view. Bottom row (Head Turnaround): Front face view, Right profile face view, Left profile face view, Back of head view. The character is a Korean female in her early 30s, natural beauty but with tired eyes, shoulder-length wavy black hair tied in a simple ponytail. She wears a cream-colored linen apron over a soft blue long-sleeve shirt and dark brown slacks, simple flat shoes. All 8 views must show the exact same character with consistent facial features. No text, no watermarks.
+
+003 | 이재진_변호사_고정 | Create a clean character reference sheet in cinematic realistic photography style on a plain light gray background. The canvas must be divided into two perfectly aligned rows. Top row (Full Body Turnaround, neutral pose): Full body front view, Full body right profile view, Full body left profile view, Full body back view. Bottom row (Head Turnaround): Front face view, Right profile face view, Left profile face view, Back of head view. The character is the same Korean male but now in his late 30s as a successful lawyer, slicked-back black hair, expensive navy custom-tailored suit. Cold, arrogant expression. All 8 views must show the exact same character. No text, no watermarks.
+
+004 | 은서_상류층_고정 | Create a clean character reference sheet in cinematic realistic photography style on a plain light gray background. The canvas must be divided into two perfectly aligned rows. Top row (Full Body Turnaround, neutral pose): Full body front view, Full body right profile view, Full body left profile view, Full body back view. Bottom row (Head Turnaround): Front face view, Right profile face view, Left profile face view, Back of head view. The character is a glamorous Korean female in her early 30s, long straight black hair, sharp nose, luxurious jewelry (diamond earrings). She wears a high-end designer white dress. Arrogant and sophisticated look. All 8 views must show the exact same character. No text, no watermarks.
+
+005 | 고시원_배경_고정 | Create a detailed environment reference sheet in cinematic realistic photography style on a plain light gray background. The canvas is divided into 4 equally sized panels arranged in a 2x2 grid. All 4 panels depict the same tiny, cluttered one-room apartment in Seoul. A small desk with thick law books, a single bed, worn-out wallpaper. All 4 panels must show the exact same space. No characters. No text, no watermarks.
+
+006 | 사무실_배경_고정 | Create a detailed environment reference sheet in cinematic realistic photography style on a plain light gray background. The canvas is divided into 4 equally sized panels arranged in a 2x2 grid. All 4 panels depict the same luxury law firm partner office. A grand mahogany desk, floor-to-ceiling city view. All 4 panels must show the exact same space. No characters. No text, no watermarks.
+
+007 | 결혼식장_배경_고정 | Create a detailed environment reference sheet in cinematic realistic photography style on a plain light gray background. The canvas is divided into 4 equally sized panels arranged in a 2x2 grid. All 4 panels depict the same high-end hotel wedding hall. Grand altar, chandeliers, floral decor. All 4 panels must show the exact same space. No characters. No text, no watermarks.
+
+008 | 교도소_배경_고정 | Create a detailed environment reference sheet in cinematic realistic photography style on a plain light gray background. The canvas is divided into 4 equally sized panels arranged in a 2x2 grid. All 4 panels depict the same cold, gray prison hallway. Iron doors, concrete floor. All 4 panels must show the exact same space. No characters. No text, no watermarks.
+
+# -------------------------------------------------------------
+# 2단계: 실제 스토리 장면 생성용 프롬프트
+# 위에서 만든 에셋들을 @[에셋명]으로 호출하여 일관성 있게 생성합니다.
+
+101 | 고시생 재진 | @[이재진_학생_고정] is studying hard in his @[고시원_배경_고정]. Tired face with glasses, thick law books on desk, flickering dim light. Cinematic photo, 8k.
+102 | 식당의 수진 | @[수진_아내_고정] is working in a busy local restaurant. Weary face, simple apron, carrying heavy trays, steam rising from food. Hyper-realistic, 8k.
+103 | 고시원 도시락 | @[수진_아내_고정] is smiling warmly while putting a simple lunch box on the desk for @[이재진_학생_고정] in @[고시원_배경_고정]. Emotional, warm lighting.
+104 | 성공한 이재진 | @[이재진_변호사_고정] is sitting in his grand @[사무실_배경_고정], looking out the city window with a cold, confident expression. Premium law firm aesthetic.
+105 | 은서와의 만남 | @[이재진_변호사_고정] and @[은서_상류층_고정] are having a conversation in a luxurious rooftop bar. Glamorous atmosphere, golden hour lighting.
+106 | 화려한 결혼식 | @[이재진_변호사_고정] in a white tuxedo and @[은서_상류층_고정] in a designer wedding gown are standing at the altar in the grand @[결혼식장_배경_고정], smiling at guests.
+107 | 난입한 수진 | @[수진_아내_고정] in a worn-out dress is crying at the entrance of @[결혼식장_배경_고정], while security guards block her. High-drama cinematic shot.
+108 | 오열하는 수진 | Close-up of @[수진_아내_고정]'s face crying in the rain outside the hotel. Heartbroken expression, dark night.
+109 | 검찰 압수수색 | Prosecutors in black suits raiding @[사무실_배경_고정], carrying boxes of evidence while @[이재진_변호사_고정] looks on in shock.
+110 | 감방의 이재진 | @[이재진_변호사_고정] wearing a blue prison uniform, sitting on the floor of the cold @[교도소_배경_고정] with a face filled with regret.
+111 | 거리를 헤매는 재진 | A man in ragged clothes (Lee Jae-jin) wandering the dark city streets, reaching out to shadows. Neon reflections on his pale face. 
+112 | 조강지처의 끝 | Close-up of @[수진_아내_고정], now looking successful and calm, looking out a car window with a cold, peaceful gaze at sunset.

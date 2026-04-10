@@ -1,0 +1,29 @@
+# Dockerfile_v3.0
+# Based on RunPod's official 5090 (Blackwell) ComfyUI image
+# Compatible with RTX 4090 & RTX 5090
+
+FROM runpod/comfyui:latest-5090
+
+LABEL maintainer="tts_project"
+
+# Pre-install custom node dependencies (ComfyUI-GGUF, VideoHelperSuite)
+RUN pip install --no-cache-dir \
+    gguf \
+    sqlalchemy \
+    alembic \
+    aiohttp \
+    sentencepiece \
+    protobuf \
+    transformers \
+    accelerate \
+    safetensors \
+    onnxruntime \
+    websocket-client \
+    einops \
+    numpy --upgrade
+
+# Add our custom entrypoint
+COPY comfy_entrypoint.sh /comfy_entrypoint.sh
+RUN chmod +x /comfy_entrypoint.sh
+
+CMD ["/comfy_entrypoint.sh"]

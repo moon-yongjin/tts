@@ -1,0 +1,25 @@
+chrome.action.onClicked.addListener((tab) => {
+  chrome.sidePanel.open({ tabId: tab.id });
+});
+
+chrome.sidePanel.setPanelBehavior({ openPanelOnActionClick: true });
+
+chrome.runtime.onMessage.addListener((msg, sender, sendResponse) => {
+  if (msg.action === 'download' || msg.type === 'download') {
+    // [Mod] 다운로드 기능 비활성화 요청으로 인한 주석 처리
+    console.log('[NB2 Auto] 다운로드 요청 무시 (Push 전전용 모드)');
+    sendResponse({ ok: true, note: 'Download disabled' });
+    return true;
+    /*
+    const url = msg.url;
+    const filename = msg.filename;
+    ...
+    */
+  }
+
+});
+
+chrome.runtime.onInstalled.addListener(() => {
+  console.log('[NB2 Auto] Extension installed');
+  chrome.storage.local.set({ state: 'idle' });
+});

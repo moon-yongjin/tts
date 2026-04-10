@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "Consolidate Configuration Files",
+        "reasoning": "Currently, there are multiple configuration files (e.g., config.json, comfy_info.json, session.json) scattered throughout the project. Consolidating them into a single file will improve maintainability and reduce chances of version conflicts.",
+        "file_path": "config_master.json",
+        "action": "CREATE_ONLY",
+        "new_content": "{\\n  \"comfy_info\": { ... },\\n  \"session\": { ... },\\n  \"other_config\": { ... }\\n}"
+    },
+    {
+        "id": 2,
+        "name": "Create a Utility Script for File Operations",
+        "reasoning": "There are multiple files performing similar file operations (e.g., move_separated_audio.py, move_sfx.py). Creating a utility script will reduce code duplication and improve reusability.",
+        "file_path": "file_utils.py",
+        "action": "CREATE_ONLY",
+        "new_content": "import os\\n\\ndef move_file(src, dst):\\n    os.rename(src, dst)\\n\\ndef copy_file(src, dst):\\n    ...\\n"
+    },
+    {
+        "id": 3,
+        "name": "Establish a Consistent Naming Convention",
+        "reasoning": "The current file names lack consistency, making it difficult to understand the project structure. Establishing a consistent naming convention will improve readability and maintainability.",
+        "file_path": "naming_convention.md",
+        "action": "CREATE_ONLY",
+        "new_content": "# Naming Convention\\n\\n* Use snake_case for file names\\n* Use underscores to separate words\\n* Avoid using special characters or spaces\\n"
+    }
+]

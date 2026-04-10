@@ -1,0 +1,902 @@
+[
+  {
+    "tag": "BUTTON",
+    "id": "",
+    "className": "ant-dropdown-trigger group relative px-3 py-3  text-sm font-medium text-gray-900 dark:text-white hover:text-gray-700 dark:hover:text-gray-300 rounded-lg transition-all duration-200 ease-in-out hover:bg-slate-100 dark:hover:bg-slate-800 flex items-center",
+    "placeholder": "",
+    "text": "Free Tools",
+    "ariaLabel": "",
+    "frameUrl": "https://nanobanana.im/"
+  },
+  {
+    "tag": "BUTTON",
+    "id": "",
+    "className": "ant-dropdown-trigger group relative px-3 py-3  text-sm font-medium text-gray-900 dark:text-white hover:text-gray-700 dark:hover:text-gray-300 rounded-lg transition-all duration-200 ease-in-out hover:bg-slate-100 dark:hover:bg-slate-800 flex items-center",
+    "placeholder": "",
+    "text": "AI Video",
+    "ariaLabel": "",
+    "frameUrl": "https://nanobanana.im/"
+  },
+  {
+    "tag": "BUTTON",
+    "id": "",
+    "className": "ant-dropdown-trigger group relative px-3 py-3 text-sm font-medium text-gray-900 dark:text-white hover:text-gray-700 dark:hover:text-gray-300 rounded-lg transition-all duration-200 ease-in-out hover:bg-slate-100 dark:hover:bg-slate-800 flex items-center",
+    "placeholder": "",
+    "text": "",
+    "ariaLabel": "",
+    "frameUrl": "https://nanobanana.im/"
+  },
+  {
+    "tag": "BUTTON",
+    "id": "",
+    "className": "ant-dropdown-trigger group relative px-3 py-3  text-sm font-medium text-gray-900 dark:text-white hover:text-gray-700 dark:hover:text-gray-300 rounded-lg transition-all duration-200 ease-in-out hover:bg-slate-100 dark:hover:bg-slate-800 flex items-center",
+    "placeholder": "",
+    "text": "Free Tools",
+    "ariaLabel": "",
+    "frameUrl": "https://nanobanana.im/"
+  },
+  {
+    "tag": "BUTTON",
+    "id": "",
+    "className": "ant-dropdown-trigger group relative px-3 py-3 pr-5 mr-3 text-sm font-medium text-gray-900 dark:text-white hover:text-gray-700 dark:hover:text-gray-300 rounded-lg transition-all duration-200 ease-in-out hover:bg-slate-100 dark:hover:bg-slate-800 flex items-center",
+    "placeholder": "",
+    "text": "LoRA\nLora",
+    "ariaLabel": "",
+    "frameUrl": "https://nanobanana.im/"
+  },
+  {
+    "tag": "BUTTON",
+    "id": "",
+    "className": "ant-dropdown-trigger group relative px-3 py-3  text-sm font-medium text-gray-900 dark:text-white hover:text-gray-700 dark:hover:text-gray-300 rounded-lg transition-all duration-200 ease-in-out hover:bg-slate-100 dark:hover:bg-slate-800 flex items-center",
+    "placeholder": "",
+    "text": "AI Video",
+    "ariaLabel": "",
+    "frameUrl": "https://nanobanana.im/"
+  },
+  {
+    "tag": "BUTTON",
+    "id": "radix-_r_7_",
+    "className": "inline-flex items-center whitespace-nowrap font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 rounded-md text-xs h-8 w-auto justify-center gap-1.5 px-2 hover:bg-slate-100 text-slate-600 hover:text-slate-800",
+    "placeholder": "",
+    "text": "EN",
+    "ariaLabel": "",
+    "frameUrl": "https://nanobanana.im/"
+  },
+  {
+    "tag": "BUTTON",
+    "id": "radix-_r_24_",
+    "className": "inline-flex items-center justify-center gap-2 whitespace-nowrap font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 hover:text-accent-foreground text-xs h-8 sm:h-9 px-1 sm:px-2 rounded-full hover:bg-neutral-100",
+    "placeholder": "",
+    "text": "",
+    "ariaLabel": "",
+    "frameUrl": "https://nanobanana.im/"
+  },
+  {
+    "tag": "BUTTON",
+    "id": "radix-_r_9_",
+    "className": "inline-flex items-center whitespace-nowrap font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 rounded-md text-xs h-8 w-auto justify-center gap-1.5 px-2 hover:bg-slate-100 text-slate-600 hover:text-slate-800",
+    "placeholder": "",
+    "text": "en",
+    "ariaLabel": "",
+    "frameUrl": "https://nanobanana.im/"
+  },
+  {
+    "tag": "BUTTON",
+    "id": "radix-_r_27_",
+    "className": "inline-flex items-center justify-center gap-2 whitespace-nowrap font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 hover:text-accent-foreground text-xs h-8 sm:h-9 px-1 sm:px-2 rounded-full hover:bg-neutral-100",
+    "placeholder": "",
+    "text": "",
+    "ariaLabel": "",
+    "frameUrl": "https://nanobanana.im/"
+  },
+  {
+    "tag": "BUTTON",
+    "id": "",
+    "className": "inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 hover:bg-accent hover:text-accent-foreground h-9 w-9 lg:hidden text-gray-900 dark:text-white",
+    "placeholder": "",
+    "text": "Open menu",
+    "ariaLabel": "",
+    "frameUrl": "https://nanobanana.im/"
+  },
+  {
+    "tag": "BUTTON",
+    "id": "radix-_r_e_",
+    "className": "inline-flex items-center whitespace-nowrap font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 rounded-md text-xs h-8 w-auto justify-center gap-1.5 px-2 hover:bg-slate-100 text-slate-600 hover:text-slate-800",
+    "placeholder": "",
+    "text": "en",
+    "ariaLabel": "",
+    "frameUrl": "https://nanobanana.im/"
+  },
+  {
+    "tag": "BUTTON",
+    "id": "radix-_r_2a_",
+    "className": "inline-flex items-center justify-center gap-2 whitespace-nowrap font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 hover:text-accent-foreground text-xs h-8 sm:h-9 px-1 sm:px-2 rounded-full hover:bg-neutral-100",
+    "placeholder": "",
+    "text": "",
+    "ariaLabel": "",
+    "frameUrl": "https://nanobanana.im/"
+  },
+  {
+    "tag": "BUTTON",
+    "id": "",
+    "className": "inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 hover:bg-accent hover:text-accent-foreground h-9 w-9 lg:hidden text-gray-900 dark:text-white",
+    "placeholder": "",
+    "text": "Open menu",
+    "ariaLabel": "",
+    "frameUrl": "https://nanobanana.im/"
+  },
+  {
+    "tag": "TEXTAREA",
+    "id": "",
+    "className": "flex rounded-md border-input shadow-sm focus-visible:outline-none focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 md:text-sm min-h-[140px] md:min-h-[160px] w-full px-4 sm:px-6 py-5 pr-16 bg-transparent border-0 outline-none focus:outline-none focus:ring-0 focus-visible:ring-0 focus-visible:ring-offset-0 text-base leading-relaxed resize-none placeholder:text-slate-400/70 placeholder:font-normal",
+    "placeholder": "Describe what you want to edit...",
+    "text": "",
+    "ariaLabel": "",
+    "frameUrl": "https://nanobanana.im/"
+  },
+  {
+    "tag": "BUTTON",
+    "id": "",
+    "className": "h-9 w-9 flex items-center justify-center rounded-xl transition-all text-slate-300 bg-slate-50/60 cursor-not-allowed",
+    "placeholder": "",
+    "text": "",
+    "ariaLabel": "Clear prompt",
+    "frameUrl": "https://nanobanana.im/"
+  },
+  {
+    "tag": "BUTTON",
+    "id": "",
+    "className": "h-9 px-3 flex items-center justify-center gap-1 rounded-xl transition-all bg-white text-slate-500 cursor-not-allowed border border-slate-200/60 hover:bg-slate-50",
+    "placeholder": "",
+    "text": "2",
+    "ariaLabel": "",
+    "frameUrl": "https://nanobanana.im/"
+  },
+  {
+    "tag": "BUTTON",
+    "id": "",
+    "className": "gap-2 whitespace-nowrap focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 shadow-sm py-2 h-7 sm:h-8 md:h-9 justify-between bg-white hover:bg-slate-50 border border-slate-200/60 focus:border-slate-300/60 focus:ring-0 flex items-center transition-all duration-200 rounded-lg sm:rounded-xl px-1.5 sm:px-2 md:px-3 text-xs sm:text-sm font-medium text-slate-500 hover:text-slate-700",
+    "placeholder": "",
+    "text": "Nano Banana",
+    "ariaLabel": "",
+    "frameUrl": "https://nanobanana.im/"
+  },
+  {
+    "tag": "INPUT",
+    "id": "",
+    "className": "hidden",
+    "placeholder": "",
+    "text": "",
+    "ariaLabel": "",
+    "frameUrl": "https://nanobanana.im/"
+  },
+  {
+    "tag": "BUTTON",
+    "id": "",
+    "className": "h-8 w-8 sm:h-9 sm:w-9 flex items-center justify-center rounded-lg sm:rounded-xl bg-gradient-to-br from-violet-50 to-purple-50 hover:from-violet-100 hover:to-purple-100 text-violet-600 hover:text-violet-700 transition-all hover:shadow-md border border-violet-200/60 hover:border-violet-300/60 relative overflow-hidden",
+    "placeholder": "",
+    "text": "",
+    "ariaLabel": "",
+    "frameUrl": "https://nanobanana.im/"
+  },
+  {
+    "tag": "BUTTON",
+    "id": "",
+    "className": "w-full justify-between whitespace-nowrap py-2 shadow-sm ring-offset-background data-[placeholder]:text-muted-foreground focus:outline-none focus:ring-ring disabled:cursor-not-allowed disabled:opacity-50 [&>span]:line-clamp-1 h-7 sm:h-8 md:h-9 px-1 sm:px-2 md:px-3 text-xs sm:text-sm font-medium text-slate-500 hover:text-slate-700 border border-slate-200/60 hover:bg-slate-50 focus:border-slate-300/60 focus:ring-0 bg-white flex items-center transition-all duration-200 rounded sm:rounded-xl min-w-[45px] sm:min-w-[60px]",
+    "placeholder": "",
+    "text": "auto",
+    "ariaLabel": "",
+    "frameUrl": "https://nanobanana.im/"
+  },
+  {
+    "tag": "BUTTON",
+    "id": "",
+    "className": "w-full justify-between whitespace-nowrap py-2 shadow-sm ring-offset-background data-[placeholder]:text-muted-foreground focus:outline-none focus:ring-ring disabled:cursor-not-allowed disabled:opacity-50 [&>span]:line-clamp-1 h-7 sm:h-8 md:h-9 px-1 sm:px-2 md:px-3 text-xs sm:text-sm font-medium text-slate-500 hover:text-slate-700 border border-slate-200/60 hover:bg-slate-50 focus:border-slate-300/60 focus:ring-0 bg-white flex items-center transition-all duration-200 rounded sm:rounded-xl min-w-[45px] sm:min-w-[70px]",
+    "placeholder": "",
+    "text": "1x",
+    "ariaLabel": "",
+    "frameUrl": "https://nanobanana.im/"
+  },
+  {
+    "tag": "BUTTON",
+    "id": "",
+    "className": "w-full justify-between whitespace-nowrap py-2 shadow-sm ring-offset-background data-[placeholder]:text-muted-foreground focus:outline-none focus:ring-ring disabled:cursor-not-allowed disabled:opacity-50 [&>span]:line-clamp-1 h-7 sm:h-8 md:h-9 px-1 sm:px-2 md:px-3 text-xs sm:text-sm font-medium text-slate-500 hover:text-slate-700 border border-slate-200/60 hover:bg-slate-50 focus:border-slate-300/60 focus:ring-0 bg-white flex items-center transition-all duration-200 rounded sm:rounded-xl min-w-[55px] sm:min-w-[70px]",
+    "placeholder": "",
+    "text": "2K",
+    "ariaLabel": "",
+    "frameUrl": "https://nanobanana.im/"
+  },
+  {
+    "tag": "BUTTON",
+    "id": "",
+    "className": "gap-2 whitespace-nowrap focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 shadow-sm py-2 h-7 sm:h-8 md:h-9 justify-between bg-white hover:bg-slate-50 border border-slate-200/60 focus:border-slate-300/60 focus:ring-0 flex items-center transition-all duration-200 rounded sm:rounded-xl min-w-[70px] max-w-[120px] px-1.5 sm:px-2 md:px-3 text-xs sm:text-sm font-medium text-slate-500 hover:text-slate-700",
+    "placeholder": "",
+    "text": "LoRA: None",
+    "ariaLabel": "",
+    "frameUrl": "https://nanobanana.im/"
+  },
+  {
+    "tag": "BUTTON",
+    "id": "",
+    "className": "peer inline-flex h-5 w-9 shrink-0 cursor-pointer items-center rounded-full border-2 border-transparent shadow-sm transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background disabled:cursor-not-allowed disabled:opacity-50 data-[state=checked]:bg-violet-500 data-[state=unchecked]:bg-gray-300 scale-90 sm:scale-100",
+    "placeholder": "",
+    "text": "on",
+    "ariaLabel": "",
+    "frameUrl": "https://nanobanana.im/"
+  },
+  {
+    "tag": "INPUT",
+    "id": "",
+    "className": "",
+    "placeholder": "",
+    "text": "on",
+    "ariaLabel": "",
+    "frameUrl": "https://nanobanana.im/"
+  },
+  {
+    "tag": "BUTTON",
+    "id": "",
+    "className": "h-9 w-9 flex items-center justify-center rounded-xl transition-all text-slate-300 bg-slate-50/60 cursor-not-allowed",
+    "placeholder": "",
+    "text": "",
+    "ariaLabel": "Clear prompt",
+    "frameUrl": "https://nanobanana.im/"
+  },
+  {
+    "tag": "BUTTON",
+    "id": "",
+    "className": "h-9 px-3 flex items-center justify-center gap-1 rounded-xl transition-all bg-white text-slate-500 cursor-not-allowed border border-slate-200/60 hover:bg-slate-50",
+    "placeholder": "",
+    "text": "2",
+    "ariaLabel": "",
+    "frameUrl": "https://nanobanana.im/"
+  },
+  {
+    "tag": "BUTTON",
+    "id": "",
+    "className": "h-1.5 md:h-2 rounded-full transition-all duration-500 ease-out w-1.5 md:w-2 bg-gray-400 dark:bg-gray-600 hover:bg-gray-500 dark:hover:bg-gray-500 hover:scale-125",
+    "placeholder": "",
+    "text": "",
+    "ariaLabel": "Go to caricature trend example (1 of 53)",
+    "frameUrl": "https://nanobanana.im/"
+  },
+  {
+    "tag": "BUTTON",
+    "id": "",
+    "className": "h-1.5 md:h-2 rounded-full transition-all duration-500 ease-out w-1.5 md:w-2 bg-gray-400 dark:bg-gray-600 hover:bg-gray-500 dark:hover:bg-gray-500 hover:scale-125",
+    "placeholder": "",
+    "text": "",
+    "ariaLabel": "Go to Professional Business Photo example (2 of 53)",
+    "frameUrl": "https://nanobanana.im/"
+  },
+  {
+    "tag": "BUTTON",
+    "id": "",
+    "className": "h-1.5 md:h-2 rounded-full transition-all duration-500 ease-out w-6 md:w-8 bg-violet-600 dark:bg-violet-400",
+    "placeholder": "",
+    "text": "",
+    "ariaLabel": "Go to Santa Hat example (3 of 53)",
+    "frameUrl": "https://nanobanana.im/"
+  },
+  {
+    "tag": "BUTTON",
+    "id": "",
+    "className": "h-1.5 md:h-2 rounded-full transition-all duration-500 ease-out w-1.5 md:w-2 bg-gray-400 dark:bg-gray-600 hover:bg-gray-500 dark:hover:bg-gray-500 hover:scale-125",
+    "placeholder": "",
+    "text": "",
+    "ariaLabel": "Go to Zootopia Selfie example (4 of 53)",
+    "frameUrl": "https://nanobanana.im/"
+  },
+  {
+    "tag": "BUTTON",
+    "id": "",
+    "className": "h-1.5 md:h-2 rounded-full transition-all duration-500 ease-out w-1.5 md:w-2 bg-gray-400 dark:bg-gray-600 hover:bg-gray-500 dark:hover:bg-gray-500 hover:scale-125",
+    "placeholder": "",
+    "text": "",
+    "ariaLabel": "Go to Rim Light Portrait example (5 of 53)",
+    "frameUrl": "https://nanobanana.im/"
+  },
+  {
+    "tag": "BUTTON",
+    "id": "",
+    "className": "h-1.5 md:h-2 rounded-full transition-all duration-500 ease-out w-1.5 md:w-2 bg-gray-400 dark:bg-gray-600 hover:bg-gray-500 dark:hover:bg-gray-500 hover:scale-125",
+    "placeholder": "",
+    "text": "",
+    "ariaLabel": "Go to Product Photo Studio example (6 of 53)",
+    "frameUrl": "https://nanobanana.im/"
+  },
+  {
+    "tag": "BUTTON",
+    "id": "",
+    "className": "h-1.5 md:h-2 rounded-full transition-all duration-500 ease-out w-1.5 md:w-2 bg-gray-400 dark:bg-gray-600 hover:bg-gray-500 dark:hover:bg-gray-500 hover:scale-125",
+    "placeholder": "",
+    "text": "",
+    "ariaLabel": "Go to AI Beauty Filter example (7 of 53)",
+    "frameUrl": "https://nanobanana.im/"
+  },
+  {
+    "tag": "BUTTON",
+    "id": "",
+    "className": "h-1.5 md:h-2 rounded-full transition-all duration-500 ease-out w-1.5 md:w-2 bg-gray-400 dark:bg-gray-600 hover:bg-gray-500 dark:hover:bg-gray-500 hover:scale-125",
+    "placeholder": "",
+    "text": "",
+    "ariaLabel": "Go to Halloween Poster example (8 of 53)",
+    "frameUrl": "https://nanobanana.im/"
+  },
+  {
+    "tag": "BUTTON",
+    "id": "",
+    "className": "h-1.5 md:h-2 rounded-full transition-all duration-500 ease-out w-1.5 md:w-2 bg-gray-400 dark:bg-gray-600 hover:bg-gray-500 dark:hover:bg-gray-500 hover:scale-125",
+    "placeholder": "",
+    "text": "",
+    "ariaLabel": "Go to GHIBSKY Illustration example (9 of 53)",
+    "frameUrl": "https://nanobanana.im/"
+  },
+  {
+    "tag": "BUTTON",
+    "id": "",
+    "className": "h-1.5 md:h-2 rounded-full transition-all duration-500 ease-out w-1.5 md:w-2 bg-gray-400 dark:bg-gray-600 hover:bg-gray-500 dark:hover:bg-gray-500 hover:scale-125",
+    "placeholder": "",
+    "text": "",
+    "ariaLabel": "Go to Christmas Doll example (10 of 53)",
+    "frameUrl": "https://nanobanana.im/"
+  },
+  {
+    "tag": "BUTTON",
+    "id": "",
+    "className": "h-1.5 md:h-2 rounded-full transition-all duration-500 ease-out w-1.5 md:w-2 bg-gray-400 dark:bg-gray-600 hover:bg-gray-500 dark:hover:bg-gray-500 hover:scale-125",
+    "placeholder": "",
+    "text": "",
+    "ariaLabel": "Go to Candy Cane AI example (11 of 53)",
+    "frameUrl": "https://nanobanana.im/"
+  },
+  {
+    "tag": "BUTTON",
+    "id": "",
+    "className": "h-1.5 md:h-2 rounded-full transition-all duration-500 ease-out w-1.5 md:w-2 bg-gray-400 dark:bg-gray-600 hover:bg-gray-500 dark:hover:bg-gray-500 hover:scale-125",
+    "placeholder": "",
+    "text": "",
+    "ariaLabel": "Go to Bangs Filter example (12 of 53)",
+    "frameUrl": "https://nanobanana.im/"
+  },
+  {
+    "tag": "BUTTON",
+    "id": "",
+    "className": "h-1.5 md:h-2 rounded-full transition-all duration-500 ease-out w-1.5 md:w-2 bg-gray-400 dark:bg-gray-600 hover:bg-gray-500 dark:hover:bg-gray-500 hover:scale-125",
+    "placeholder": "",
+    "text": "",
+    "ariaLabel": "Go to AI Man Filter example (13 of 53)",
+    "frameUrl": "https://nanobanana.im/"
+  },
+  {
+    "tag": "BUTTON",
+    "id": "",
+    "className": "h-1.5 md:h-2 rounded-full transition-all duration-500 ease-out w-1.5 md:w-2 bg-gray-400 dark:bg-gray-600 hover:bg-gray-500 dark:hover:bg-gray-500 hover:scale-125",
+    "placeholder": "",
+    "text": "",
+    "ariaLabel": "Go to Image To Pixel example (14 of 53)",
+    "frameUrl": "https://nanobanana.im/"
+  },
+  {
+    "tag": "BUTTON",
+    "id": "",
+    "className": "h-1.5 md:h-2 rounded-full transition-all duration-500 ease-out w-1.5 md:w-2 bg-gray-400 dark:bg-gray-600 hover:bg-gray-500 dark:hover:bg-gray-500 hover:scale-125",
+    "placeholder": "",
+    "text": "",
+    "ariaLabel": "Go to AI Minecraft Filter example (15 of 53)",
+    "frameUrl": "https://nanobanana.im/"
+  },
+  {
+    "tag": "BUTTON",
+    "id": "",
+    "className": "h-1.5 md:h-2 rounded-full transition-all duration-500 ease-out w-1.5 md:w-2 bg-gray-400 dark:bg-gray-600 hover:bg-gray-500 dark:hover:bg-gray-500 hover:scale-125",
+    "placeholder": "",
+    "text": "",
+    "ariaLabel": "Go to AI Homeless Man example (16 of 53)",
+    "frameUrl": "https://nanobanana.im/"
+  },
+  {
+    "tag": "BUTTON",
+    "id": "",
+    "className": "h-1.5 md:h-2 rounded-full transition-all duration-500 ease-out w-1.5 md:w-2 bg-gray-400 dark:bg-gray-600 hover:bg-gray-500 dark:hover:bg-gray-500 hover:scale-125",
+    "placeholder": "",
+    "text": "",
+    "ariaLabel": "Go to Flat Illustration example (17 of 53)",
+    "frameUrl": "https://nanobanana.im/"
+  },
+  {
+    "tag": "BUTTON",
+    "id": "",
+    "className": "h-1.5 md:h-2 rounded-full transition-all duration-500 ease-out w-1.5 md:w-2 bg-gray-400 dark:bg-gray-600 hover:bg-gray-500 dark:hover:bg-gray-500 hover:scale-125",
+    "placeholder": "",
+    "text": "",
+    "ariaLabel": "Go to Scream AI Picture Trends example (18 of 53)",
+    "frameUrl": "https://nanobanana.im/"
+  },
+  {
+    "tag": "BUTTON",
+    "id": "",
+    "className": "h-1.5 md:h-2 rounded-full transition-all duration-500 ease-out w-1.5 md:w-2 bg-gray-400 dark:bg-gray-600 hover:bg-gray-500 dark:hover:bg-gray-500 hover:scale-125",
+    "placeholder": "",
+    "text": "",
+    "ariaLabel": "Go to 3D toy example (19 of 53)",
+    "frameUrl": "https://nanobanana.im/"
+  },
+  {
+    "tag": "BUTTON",
+    "id": "",
+    "className": "h-1.5 md:h-2 rounded-full transition-all duration-500 ease-out w-1.5 md:w-2 bg-gray-400 dark:bg-gray-600 hover:bg-gray-500 dark:hover:bg-gray-500 hover:scale-125",
+    "placeholder": "",
+    "text": "",
+    "ariaLabel": "Go to Y2K Style AI Of Yourself example (20 of 53)",
+    "frameUrl": "https://nanobanana.im/"
+  },
+  {
+    "tag": "BUTTON",
+    "id": "",
+    "className": "h-1.5 md:h-2 rounded-full transition-all duration-500 ease-out w-1.5 md:w-2 bg-gray-400 dark:bg-gray-600 hover:bg-gray-500 dark:hover:bg-gray-500 hover:scale-125",
+    "placeholder": "",
+    "text": "",
+    "ariaLabel": "Go to 3D Caricature Of Yourself example (21 of 53)",
+    "frameUrl": "https://nanobanana.im/"
+  },
+  {
+    "tag": "BUTTON",
+    "id": "",
+    "className": "h-1.5 md:h-2 rounded-full transition-all duration-500 ease-out w-1.5 md:w-2 bg-gray-400 dark:bg-gray-600 hover:bg-gray-500 dark:hover:bg-gray-500 hover:scale-125",
+    "placeholder": "",
+    "text": "",
+    "ariaLabel": "Go to 16-bit Video Game Character example (22 of 53)",
+    "frameUrl": "https://nanobanana.im/"
+  },
+  {
+    "tag": "BUTTON",
+    "id": "",
+    "className": "h-1.5 md:h-2 rounded-full transition-all duration-500 ease-out w-1.5 md:w-2 bg-gray-400 dark:bg-gray-600 hover:bg-gray-500 dark:hover:bg-gray-500 hover:scale-125",
+    "placeholder": "",
+    "text": "",
+    "ariaLabel": "Go to Boob Boost Effect example (23 of 53)",
+    "frameUrl": "https://nanobanana.im/"
+  },
+  {
+    "tag": "BUTTON",
+    "id": "",
+    "className": "h-1.5 md:h-2 rounded-full transition-all duration-500 ease-out w-1.5 md:w-2 bg-gray-400 dark:bg-gray-600 hover:bg-gray-500 dark:hover:bg-gray-500 hover:scale-125",
+    "placeholder": "",
+    "text": "",
+    "ariaLabel": "Go to Inverted Face Filter example (24 of 53)",
+    "frameUrl": "https://nanobanana.im/"
+  },
+  {
+    "tag": "BUTTON",
+    "id": "",
+    "className": "h-1.5 md:h-2 rounded-full transition-all duration-500 ease-out w-1.5 md:w-2 bg-gray-400 dark:bg-gray-600 hover:bg-gray-500 dark:hover:bg-gray-500 hover:scale-125",
+    "placeholder": "",
+    "text": "",
+    "ariaLabel": "Go to Gemini Hug My Younger Self example (25 of 53)",
+    "frameUrl": "https://nanobanana.im/"
+  },
+  {
+    "tag": "BUTTON",
+    "id": "",
+    "className": "h-1.5 md:h-2 rounded-full transition-all duration-500 ease-out w-1.5 md:w-2 bg-gray-400 dark:bg-gray-600 hover:bg-gray-500 dark:hover:bg-gray-500 hover:scale-125",
+    "placeholder": "",
+    "text": "",
+    "ariaLabel": "Go to Object Extraction example (26 of 53)",
+    "frameUrl": "https://nanobanana.im/"
+  },
+  {
+    "tag": "BUTTON",
+    "id": "",
+    "className": "h-1.5 md:h-2 rounded-full transition-all duration-500 ease-out w-1.5 md:w-2 bg-gray-400 dark:bg-gray-600 hover:bg-gray-500 dark:hover:bg-gray-500 hover:scale-125",
+    "placeholder": "",
+    "text": "",
+    "ariaLabel": "Go to Time-Based Image Edit example (27 of 53)",
+    "frameUrl": "https://nanobanana.im/"
+  },
+  {
+    "tag": "BUTTON",
+    "id": "",
+    "className": "h-1.5 md:h-2 rounded-full transition-all duration-500 ease-out w-1.5 md:w-2 bg-gray-400 dark:bg-gray-600 hover:bg-gray-500 dark:hover:bg-gray-500 hover:scale-125",
+    "placeholder": "",
+    "text": "",
+    "ariaLabel": "Go to Chibi Knitted Doll example (28 of 53)",
+    "frameUrl": "https://nanobanana.im/"
+  },
+  {
+    "tag": "BUTTON",
+    "id": "",
+    "className": "h-1.5 md:h-2 rounded-full transition-all duration-500 ease-out w-1.5 md:w-2 bg-gray-400 dark:bg-gray-600 hover:bg-gray-500 dark:hover:bg-gray-500 hover:scale-125",
+    "placeholder": "",
+    "text": "",
+    "ariaLabel": "Go to Pixie Cut Filter example (29 of 53)",
+    "frameUrl": "https://nanobanana.im/"
+  },
+  {
+    "tag": "BUTTON",
+    "id": "",
+    "className": "h-1.5 md:h-2 rounded-full transition-all duration-500 ease-out w-1.5 md:w-2 bg-gray-400 dark:bg-gray-600 hover:bg-gray-500 dark:hover:bg-gray-500 hover:scale-125",
+    "placeholder": "",
+    "text": "",
+    "ariaLabel": "Go to Professional Headshots example (30 of 53)",
+    "frameUrl": "https://nanobanana.im/"
+  },
+  {
+    "tag": "BUTTON",
+    "id": "",
+    "className": "h-1.5 md:h-2 rounded-full transition-all duration-500 ease-out w-1.5 md:w-2 bg-gray-400 dark:bg-gray-600 hover:bg-gray-500 dark:hover:bg-gray-500 hover:scale-125",
+    "placeholder": "",
+    "text": "",
+    "ariaLabel": "Go to 1960s Beehive Hairstyle example (31 of 53)",
+    "frameUrl": "https://nanobanana.im/"
+  },
+  {
+    "tag": "BUTTON",
+    "id": "",
+    "className": "h-1.5 md:h-2 rounded-full transition-all duration-500 ease-out w-1.5 md:w-2 bg-gray-400 dark:bg-gray-600 hover:bg-gray-500 dark:hover:bg-gray-500 hover:scale-125",
+    "placeholder": "",
+    "text": "",
+    "ariaLabel": "Go to LinkedIn Profile Photo example (32 of 53)",
+    "frameUrl": "https://nanobanana.im/"
+  },
+  {
+    "tag": "BUTTON",
+    "id": "",
+    "className": "h-1.5 md:h-2 rounded-full transition-all duration-500 ease-out w-1.5 md:w-2 bg-gray-400 dark:bg-gray-600 hover:bg-gray-500 dark:hover:bg-gray-500 hover:scale-125",
+    "placeholder": "",
+    "text": "",
+    "ariaLabel": "Go to Three-view drawing example (33 of 53)",
+    "frameUrl": "https://nanobanana.im/"
+  },
+  {
+    "tag": "BUTTON",
+    "id": "",
+    "className": "h-1.5 md:h-2 rounded-full transition-all duration-500 ease-out w-1.5 md:w-2 bg-gray-400 dark:bg-gray-600 hover:bg-gray-500 dark:hover:bg-gray-500 hover:scale-125",
+    "placeholder": "",
+    "text": "",
+    "ariaLabel": "Go to Expand Image example (34 of 53)",
+    "frameUrl": "https://nanobanana.im/"
+  },
+  {
+    "tag": "BUTTON",
+    "id": "",
+    "className": "h-1.5 md:h-2 rounded-full transition-all duration-500 ease-out w-1.5 md:w-2 bg-gray-400 dark:bg-gray-600 hover:bg-gray-500 dark:hover:bg-gray-500 hover:scale-125",
+    "placeholder": "",
+    "text": "",
+    "ariaLabel": "Go to Emoji Icon example (35 of 53)",
+    "frameUrl": "https://nanobanana.im/"
+  },
+  {
+    "tag": "BUTTON",
+    "id": "",
+    "className": "h-1.5 md:h-2 rounded-full transition-all duration-500 ease-out w-1.5 md:w-2 bg-gray-400 dark:bg-gray-600 hover:bg-gray-500 dark:hover:bg-gray-500 hover:scale-125",
+    "placeholder": "",
+    "text": "",
+    "ariaLabel": "Go to From Design to Reality example (36 of 53)",
+    "frameUrl": "https://nanobanana.im/"
+  },
+  {
+    "tag": "BUTTON",
+    "id": "",
+    "className": "h-1.5 md:h-2 rounded-full transition-all duration-500 ease-out w-1.5 md:w-2 bg-gray-400 dark:bg-gray-600 hover:bg-gray-500 dark:hover:bg-gray-500 hover:scale-125",
+    "placeholder": "",
+    "text": "",
+    "ariaLabel": "Go to Artistic Portrait Photography example (37 of 53)",
+    "frameUrl": "https://nanobanana.im/"
+  },
+  {
+    "tag": "BUTTON",
+    "id": "",
+    "className": "h-1.5 md:h-2 rounded-full transition-all duration-500 ease-out w-1.5 md:w-2 bg-gray-400 dark:bg-gray-600 hover:bg-gray-500 dark:hover:bg-gray-500 hover:scale-125",
+    "placeholder": "",
+    "text": "",
+    "ariaLabel": "Go to Studio Portrait example (38 of 53)",
+    "frameUrl": "https://nanobanana.im/"
+  },
+  {
+    "tag": "BUTTON",
+    "id": "",
+    "className": "h-1.5 md:h-2 rounded-full transition-all duration-500 ease-out w-1.5 md:w-2 bg-gray-400 dark:bg-gray-600 hover:bg-gray-500 dark:hover:bg-gray-500 hover:scale-125",
+    "placeholder": "",
+    "text": "",
+    "ariaLabel": "Go to Esports Portrait Photography example (39 of 53)",
+    "frameUrl": "https://nanobanana.im/"
+  },
+  {
+    "tag": "BUTTON",
+    "id": "",
+    "className": "h-1.5 md:h-2 rounded-full transition-all duration-500 ease-out w-1.5 md:w-2 bg-gray-400 dark:bg-gray-600 hover:bg-gray-500 dark:hover:bg-gray-500 hover:scale-125",
+    "placeholder": "",
+    "text": "",
+    "ariaLabel": "Go to AI Baby Prediction and Generation example (40 of 53)",
+    "frameUrl": "https://nanobanana.im/"
+  },
+  {
+    "tag": "BUTTON",
+    "id": "",
+    "className": "h-1.5 md:h-2 rounded-full transition-all duration-500 ease-out w-1.5 md:w-2 bg-gray-400 dark:bg-gray-600 hover:bg-gray-500 dark:hover:bg-gray-500 hover:scale-125",
+    "placeholder": "",
+    "text": "",
+    "ariaLabel": "Go to Stylized illustrations & stickers example (41 of 53)",
+    "frameUrl": "https://nanobanana.im/"
+  },
+  {
+    "tag": "BUTTON",
+    "id": "",
+    "className": "h-1.5 md:h-2 rounded-full transition-all duration-500 ease-out w-1.5 md:w-2 bg-gray-400 dark:bg-gray-600 hover:bg-gray-500 dark:hover:bg-gray-500 hover:scale-125",
+    "placeholder": "",
+    "text": "",
+    "ariaLabel": "Go to Cute 3D Building example (42 of 53)",
+    "frameUrl": "https://nanobanana.im/"
+  },
+  {
+    "tag": "BUTTON",
+    "id": "",
+    "className": "h-1.5 md:h-2 rounded-full transition-all duration-500 ease-out w-1.5 md:w-2 bg-gray-400 dark:bg-gray-600 hover:bg-gray-500 dark:hover:bg-gray-500 hover:scale-125",
+    "placeholder": "",
+    "text": "",
+    "ariaLabel": "Go to Make 3*3 Photo Booth Grid example (43 of 53)",
+    "frameUrl": "https://nanobanana.im/"
+  },
+  {
+    "tag": "BUTTON",
+    "id": "",
+    "className": "h-1.5 md:h-2 rounded-full transition-all duration-500 ease-out w-1.5 md:w-2 bg-gray-400 dark:bg-gray-600 hover:bg-gray-500 dark:hover:bg-gray-500 hover:scale-125",
+    "placeholder": "",
+    "text": "",
+    "ariaLabel": "Go to Redesign your interior example (44 of 53)",
+    "frameUrl": "https://nanobanana.im/"
+  },
+  {
+    "tag": "BUTTON",
+    "id": "",
+    "className": "h-1.5 md:h-2 rounded-full transition-all duration-500 ease-out w-1.5 md:w-2 bg-gray-400 dark:bg-gray-600 hover:bg-gray-500 dark:hover:bg-gray-500 hover:scale-125",
+    "placeholder": "",
+    "text": "",
+    "ariaLabel": "Go to Comic Storyboard example (45 of 53)",
+    "frameUrl": "https://nanobanana.im/"
+  },
+  {
+    "tag": "BUTTON",
+    "id": "",
+    "className": "h-1.5 md:h-2 rounded-full transition-all duration-500 ease-out w-1.5 md:w-2 bg-gray-400 dark:bg-gray-600 hover:bg-gray-500 dark:hover:bg-gray-500 hover:scale-125",
+    "placeholder": "",
+    "text": "",
+    "ariaLabel": "Go to Convert to line art example (46 of 53)",
+    "frameUrl": "https://nanobanana.im/"
+  },
+  {
+    "tag": "BUTTON",
+    "id": "",
+    "className": "h-1.5 md:h-2 rounded-full transition-all duration-500 ease-out w-1.5 md:w-2 bg-gray-400 dark:bg-gray-600 hover:bg-gray-500 dark:hover:bg-gray-500 hover:scale-125",
+    "placeholder": "",
+    "text": "",
+    "ariaLabel": "Go to Internal Structure Diagram of the Product example (47 of 53)",
+    "frameUrl": "https://nanobanana.im/"
+  },
+  {
+    "tag": "BUTTON",
+    "id": "",
+    "className": "h-1.5 md:h-2 rounded-full transition-all duration-500 ease-out w-1.5 md:w-2 bg-gray-400 dark:bg-gray-600 hover:bg-gray-500 dark:hover:bg-gray-500 hover:scale-125",
+    "placeholder": "",
+    "text": "",
+    "ariaLabel": "Go to Product Poster example (48 of 53)",
+    "frameUrl": "https://nanobanana.im/"
+  },
+  {
+    "tag": "BUTTON",
+    "id": "",
+    "className": "h-1.5 md:h-2 rounded-full transition-all duration-500 ease-out w-1.5 md:w-2 bg-gray-400 dark:bg-gray-600 hover:bg-gray-500 dark:hover:bg-gray-500 hover:scale-125",
+    "placeholder": "",
+    "text": "",
+    "ariaLabel": "Go to 3D Figure example (49 of 53)",
+    "frameUrl": "https://nanobanana.im/"
+  },
+  {
+    "tag": "BUTTON",
+    "id": "",
+    "className": "h-1.5 md:h-2 rounded-full transition-all duration-500 ease-out w-1.5 md:w-2 bg-gray-400 dark:bg-gray-600 hover:bg-gray-500 dark:hover:bg-gray-500 hover:scale-125",
+    "placeholder": "",
+    "text": "",
+    "ariaLabel": "Go to Cosplay Maker example (50 of 53)",
+    "frameUrl": "https://nanobanana.im/"
+  },
+  {
+    "tag": "BUTTON",
+    "id": "",
+    "className": "h-1.5 md:h-2 rounded-full transition-all duration-500 ease-out w-1.5 md:w-2 bg-gray-400 dark:bg-gray-600 hover:bg-gray-500 dark:hover:bg-gray-500 hover:scale-125",
+    "placeholder": "",
+    "text": "",
+    "ariaLabel": "Go to Watermark Remove example (51 of 53)",
+    "frameUrl": "https://nanobanana.im/"
+  },
+  {
+    "tag": "BUTTON",
+    "id": "",
+    "className": "h-1.5 md:h-2 rounded-full transition-all duration-500 ease-out w-1.5 md:w-2 bg-gray-400 dark:bg-gray-600 hover:bg-gray-500 dark:hover:bg-gray-500 hover:scale-125",
+    "placeholder": "",
+    "text": "",
+    "ariaLabel": "Go to Old Photo Restore example (52 of 53)",
+    "frameUrl": "https://nanobanana.im/"
+  },
+  {
+    "tag": "BUTTON",
+    "id": "",
+    "className": "h-1.5 md:h-2 rounded-full transition-all duration-500 ease-out w-1.5 md:w-2 bg-gray-400 dark:bg-gray-600 hover:bg-gray-500 dark:hover:bg-gray-500 hover:scale-125",
+    "placeholder": "",
+    "text": "",
+    "ariaLabel": "Go to 3D Figure example (53 of 53)",
+    "frameUrl": "https://nanobanana.im/"
+  },
+  {
+    "tag": "BUTTON",
+    "id": "",
+    "className": "ml-2 p-1 md:p-1.5 rounded-md hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors group",
+    "placeholder": "",
+    "text": "",
+    "ariaLabel": "View Santa Hat details",
+    "frameUrl": "https://nanobanana.im/"
+  },
+  {
+    "tag": "BUTTON",
+    "id": "",
+    "className": "absolute right-2 md:right-4 top-1/2 -translate-y-1/2 p-1 md:p-1.5 rounded-md hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors group",
+    "placeholder": "",
+    "text": "",
+    "ariaLabel": "Copy Santa Hat prompt",
+    "frameUrl": "https://nanobanana.im/"
+  },
+  {
+    "tag": "BUTTON",
+    "id": "",
+    "className": "absolute left-3 md:left-4 top-[calc(50%-1rem)] sm:top-[140px] md:top-[240px] sm:-translate-y-1/2 p-1.5 md:p-2 rounded-full bg-violet-600/90 hover:bg-violet-700 text-white transition-all duration-300 sm:opacity-0 sm:group-hover:opacity-100 hover:scale-110 active:scale-95 z-20 shadow-lg shadow-violet-500/25",
+    "placeholder": "",
+    "text": "",
+    "ariaLabel": "View previous AI transformation example",
+    "frameUrl": "https://nanobanana.im/"
+  },
+  {
+    "tag": "BUTTON",
+    "id": "",
+    "className": "absolute right-3 md:right-4 top-[calc(50%-1rem)] sm:top-[140px] md:top-[240px] sm:-translate-y-1/2 p-1.5 md:p-2 rounded-full bg-violet-600/90 hover:bg-violet-700 text-white transition-all duration-300 sm:opacity-0 sm:group-hover:opacity-100 hover:scale-110 active:scale-95 z-20 shadow-lg shadow-violet-500/25",
+    "placeholder": "",
+    "text": "",
+    "ariaLabel": "View next AI transformation example",
+    "frameUrl": "https://nanobanana.im/"
+  },
+  {
+    "tag": "BUTTON",
+    "id": "",
+    "className": "w-2 h-2 rounded-full transition-all duration-300 bg-slate-300 hover:bg-slate-400",
+    "placeholder": "",
+    "text": "",
+    "ariaLabel": "Go to testimonial 1",
+    "frameUrl": "https://nanobanana.im/"
+  },
+  {
+    "tag": "BUTTON",
+    "id": "",
+    "className": "w-2 h-2 rounded-full transition-all duration-300 bg-slate-300 hover:bg-slate-400",
+    "placeholder": "",
+    "text": "",
+    "ariaLabel": "Go to testimonial 2",
+    "frameUrl": "https://nanobanana.im/"
+  },
+  {
+    "tag": "BUTTON",
+    "id": "",
+    "className": "w-2 h-2 rounded-full transition-all duration-300 bg-slate-300 hover:bg-slate-400",
+    "placeholder": "",
+    "text": "",
+    "ariaLabel": "Go to testimonial 3",
+    "frameUrl": "https://nanobanana.im/"
+  },
+  {
+    "tag": "BUTTON",
+    "id": "",
+    "className": "w-2 h-2 rounded-full transition-all duration-300 bg-slate-300 hover:bg-slate-400",
+    "placeholder": "",
+    "text": "",
+    "ariaLabel": "Go to testimonial 4",
+    "frameUrl": "https://nanobanana.im/"
+  },
+  {
+    "tag": "BUTTON",
+    "id": "",
+    "className": "h-2 rounded-full transition-all duration-300 bg-slate-600 w-8",
+    "placeholder": "",
+    "text": "",
+    "ariaLabel": "Go to testimonial 5",
+    "frameUrl": "https://nanobanana.im/"
+  },
+  {
+    "tag": "BUTTON",
+    "id": "radix-_r_t_",
+    "className": "flex flex-1 items-center justify-between [&[data-state=open]>svg]:rotate-180 text-left hover:no-underline py-4 sm:py-5 px-0 text-slate-900 hover:text-slate-700 transition-colors text-sm sm:text-base font-medium",
+    "placeholder": "",
+    "text": "What is Nano Banana?",
+    "ariaLabel": "",
+    "frameUrl": "https://nanobanana.im/"
+  },
+  {
+    "tag": "BUTTON",
+    "id": "radix-_r_v_",
+    "className": "flex flex-1 items-center justify-between [&[data-state=open]>svg]:rotate-180 text-left hover:no-underline py-4 sm:py-5 px-0 text-slate-900 hover:text-slate-700 transition-colors text-sm sm:text-base font-medium",
+    "placeholder": "",
+    "text": "How does it work?",
+    "ariaLabel": "",
+    "frameUrl": "https://nanobanana.im/"
+  },
+  {
+    "tag": "BUTTON",
+    "id": "radix-_r_11_",
+    "className": "flex flex-1 items-center justify-between [&[data-state=open]>svg]:rotate-180 text-left hover:no-underline py-4 sm:py-5 px-0 text-slate-900 hover:text-slate-700 transition-colors text-sm sm:text-base font-medium",
+    "placeholder": "",
+    "text": "How is it better than Flux Kontext?",
+    "ariaLabel": "",
+    "frameUrl": "https://nanobanana.im/"
+  },
+  {
+    "tag": "BUTTON",
+    "id": "radix-_r_13_",
+    "className": "flex flex-1 items-center justify-between [&[data-state=open]>svg]:rotate-180 text-left hover:no-underline py-4 sm:py-5 px-0 text-slate-900 hover:text-slate-700 transition-colors text-sm sm:text-base font-medium",
+    "placeholder": "",
+    "text": "Can I use it for commercial projects?",
+    "ariaLabel": "",
+    "frameUrl": "https://nanobanana.im/"
+  },
+  {
+    "tag": "BUTTON",
+    "id": "radix-_r_15_",
+    "className": "flex flex-1 items-center justify-between [&[data-state=open]>svg]:rotate-180 text-left hover:no-underline py-4 sm:py-5 px-0 text-slate-900 hover:text-slate-700 transition-colors text-sm sm:text-base font-medium",
+    "placeholder": "",
+    "text": "What types of edits can it handle?",
+    "ariaLabel": "",
+    "frameUrl": "https://nanobanana.im/"
+  },
+  {
+    "tag": "BUTTON",
+    "id": "radix-_r_17_",
+    "className": "flex flex-1 items-center justify-between [&[data-state=open]>svg]:rotate-180 text-left hover:no-underline py-4 sm:py-5 px-0 text-slate-900 hover:text-slate-700 transition-colors text-sm sm:text-base font-medium",
+    "placeholder": "",
+    "text": "Where can I try Nano Banana?",
+    "ariaLabel": "",
+    "frameUrl": "https://nanobanana.im/"
+  },
+  {
+    "tag": "BUTTON",
+    "id": "radix-_r_19_",
+    "className": "flex flex-1 items-center justify-between [&[data-state=open]>svg]:rotate-180 text-left hover:no-underline py-4 sm:py-5 px-0 text-slate-900 hover:text-slate-700 transition-colors text-sm sm:text-base font-medium",
+    "placeholder": "",
+    "text": "Are the images watermarked?",
+    "ariaLabel": "",
+    "frameUrl": "https://nanobanana.im/"
+  },
+  {
+    "tag": "BUTTON",
+    "id": "radix-_r_1b_",
+    "className": "flex flex-1 items-center justify-between [&[data-state=open]>svg]:rotate-180 text-left hover:no-underline py-4 sm:py-5 px-0 text-slate-900 hover:text-slate-700 transition-colors text-sm sm:text-base font-medium",
+    "placeholder": "",
+    "text": "What is Nano Banana's world knowledge?",
+    "ariaLabel": "",
+    "frameUrl": "https://nanobanana.im/"
+  },
+  {
+    "tag": "BUTTON",
+    "id": "radix-_r_1d_",
+    "className": "flex flex-1 items-center justify-between [&[data-state=open]>svg]:rotate-180 text-left hover:no-underline py-4 sm:py-5 px-0 text-slate-900 hover:text-slate-700 transition-colors text-sm sm:text-base font-medium",
+    "placeholder": "",
+    "text": "Is Nano Banana free to use?",
+    "ariaLabel": "",
+    "frameUrl": "https://nanobanana.im/"
+  },
+  {
+    "tag": "BUTTON",
+    "id": "radix-_r_1f_",
+    "className": "inline-flex items-center whitespace-nowrap font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 rounded-md text-xs h-8 w-auto justify-center gap-1.5 px-2 hover:bg-slate-100 text-slate-600 hover:text-slate-800",
+    "placeholder": "",
+    "text": "EN",
+    "ariaLabel": "",
+    "frameUrl": "https://nanobanana.im/"
+  }
+]

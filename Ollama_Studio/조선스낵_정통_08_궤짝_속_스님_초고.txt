@@ -1,0 +1,59 @@
+알겠습니다, 국장님! '대본.txt'에 적어주신 '궤짝 속 스님' 야담을 조선스낵만의 병맛과 독설이 담긴 스타일로 화끈하게 매만져봤습니다.
+
+---
+
+**[제목]: 조선스낵 - 궤짝에서 나는 염불 소리 (Episode 8)**
+
+[상황 설명(나레이션)]: 아따, 옛날 어느 고을에 남편만 나갔다 하면 대머리 스님을 안방으로 모시는 '신심(?)' 깊은 아내가 살았더랬다.
+
+### (기-Hook)
+**[비주얼]**: (Masterpiece, best quality, 8k), 주막에서 탁주를 벌컥벌컥 마시는 건장한 남편. 그 옆에서 K-pop 아이돌급 얼굴에 압도적인 풍채(Plus size beauty, curvy)를 지닌 주모가 지저분한 흰색 광목(Dirty white gwangmok) 옷을 입고 국밥을 나르며 남편에게 은밀하게 귓속말을 한다.
+**[Dialogue]**:
+주모: (능글맞게) 아따, 서방님. 댁의 안방 궤짝이 그렇게 영험하다면서유? 요새 스님들이 그 집 담장을 그렇게 넘나든다길래~
+
+---
+
+### (승-Escalation)
+**[비주얼]**: (Masterpiece, best quality, 8k), 갑자기 집에 들이닥친 남편. 당황한 아내는 땀을 뻘뻘 흘리며 커다란 나무 궤짝 위에 떡하니 앉아 있고, 그 궤짝 안에서는 미세하게 스님의 가사 자락이 삐져나와 있다.
+**[Dialogue]**:
+남편: (싱글벙글 웃으며) 부인! 내 오늘 길에서 노스님을 만났는데, 우리 집 궤짝을 절에 시주시하면 떼돈을 번다지 뭐야? 지금 당장 들고 가야겠소!
+아내: (하얗게 질려) 안... 안 돼요! 그 안에 내 소중한... 비단 옷이 가득하단 말이오!
+
+---
+
+### (전-Twist)
+**[비주얼]**: (Masterpiece, best quality, 8k), 절 마당 한복판. 남편이 장사꾼들을 시켜 궤짝을 '쾅!' 소리 나게 내려놓는다. 주지 스님과 제자 스님들이 어리둥절하게 모여들고, 궤짝 안에서는 겁에 질린 "나무아미타불..." 소리가 작게 새어 나온다.
+**[Dialogue]**:
+남편: (손뼉을 치며) 아니, 이것 보시오! 이 궤짝은 얼마나 신통방통한지 안에서 염불 소리가 납니다! 자, 주지 스님! 어서 열어서 이 '살아있는 보물'을 확인해 보시지요!
+
+---
+
+### (결-Punchline)
+**[비주얼]**: (Masterpiece, best quality, 8k), 궤짝 문이 활짝 열리고, 땀과 눈물로 범벅이 된 대머리 스님이 기어 나온다. 남편은 비웃으며 허리춤에 손을 올리고, 주지 스님은 뒷목을 잡는다.
+**[Dialogue]**:
+남편: (뼈 때리는 독설) 아따~ 부처님 모시는 절간에 내연남 숨겨다 '날고기 공양' 하는 분은 대체 누구랴!
+
+**[비주얼]**: 도망치는 스님 뒤로 남편이 낄낄대며 웃고, 주모가 평상에서 닭다리를 뜯으며 관전하는 코믹한 엔딩.
+
+---
+
+### [등장인물 고정 프롬프트 (Character Consistency)]
+
+1. **Jumo (The Tavern Keeper)**: 
+   - (Masterpiece, best quality, 8k), a curvy plus-size beauty around 30 years old, K-pop idol-like graceful face, **messy traditional hair with a decorative hairpin(binyeo)**, wearing dirty and slightly stained white traditional gwangmok(hemp) clothes, charismatic and mischievous expression.
+
+2. **The Husband (배고픈 남편)**:
+   - (Masterpiece, best quality, 8k), a Joseon man in his late 30s, rugged facial features with a thick beard, wearing a worn-out brown durumagi and a traditional horsehair hat(gat), looking clever yet furious.
+
+3. **The Wife (간 큰 아내)**:
+   - (Masterpiece, best quality, 8k), **Aesthetic same as Jumo**, a curvy plus-size beauty around 30 years old, K-pop idol-like graceful face, **modern trendy long wavy hairstyle**, wearing a simple white jeogori that is slightly translucent or messy, looking panicked and sweating.
+
+4. **The Monk (대머리 스님)**:
+   - (Masterpiece, best quality, 8k), a bald middle-aged monk, wearing a gray Buddhist robe(gasa) that is disheveled and dirty, round face with a terrified and guilty expression, sweaty skin.
+
+---
+
+### [비주얼 연출 프롬프트 (AI Image Generation)]
+1. **Scene 1 (Tavern Insider)**: (Masterpiece, best quality, 8k), cinematic lighting, a Joseon tavern, **Jumo** whispering a secret to the **Husband** while pouring makgeolli.
+2. **Scene 2 (Panic in the Room)**: (Masterpiece, best quality, 8k), the **Wife** sitting terrified on a large wooden chest in a traditional room, a corner of the **Monk's** gray robe visible from the chest.
+3. **Scene 3 (The Reveal)**: (Masterpiece, best quality, 8k), the **Monk** crawling out of a wooden chest in a temple courtyard, looking disheveled and sweaty, the **Husband** pointing and laughing, the temple background. him, monk disciples looking shocked in the background.

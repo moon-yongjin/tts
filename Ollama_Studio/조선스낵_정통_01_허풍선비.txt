@@ -1,0 +1,30 @@
+[제목]: 허풍 선비와 까마귀 (Episode 1 - 완성판)
+
+[상황 설명(나레이션)]: 옛날 어느 깊은 산골 길목에, 새와 대화를 할 수 있다고 우기는 허풍쟁이 선비가 살았더랬다.
+(기-Hook)
+[비주얼]: 물 섞은 술을 파는 주모. 나그네가 '신령'이라 쓰인 커다란 빈 항아리를 들고 온다. 주모는 신이 나서 물 탄 술을 항아리가 넘치도록 가득 채운다. 
+
+(승-Escalation)
+[비주얼]: 술을 가득 채운 나그네가 손가락을 넣어 맛을 본더니만, 갑자기 얼굴을 심하게 찡그리더니 항아리를 귀에 갖다 대고 소리를 듣는 척을한다. 
+
+그러더니 그가 고개를 절래절래 흔든다.
+
+(전-Twist)
+[비주얼]: 주모가 의아해할 틈도 없이, 나그네가 항아리를 들어 주모의 술통에 술을 다시 콸콸 쏟아버린다. 주모가 경악하며 나그네의 멱살을 잡으려 한다.
+
+(결-Punchline)
+[비주얼]: 나그네가 빈 항아리를 툭툭 치며 주모를 빤히 본다.
+
+나그네 : (능청스럽게) 주모! 이 항아리가 '가짜'는 못 담겠다고 침을 뱉어버리네유! 아따, 물 냄새가 예까지 진동허구먼!
+
+[비주얼]: 황망하게 제 물 탄 술통을 바라보는 주모. 
+
+[비주얼 연출 프롬프트]
+1. (Masterpiece, best quality, 8k), a traveler showing a large ceramic jar with 'Holy' written on it to a greedy innkeeper.
+2. (Masterpiece, best quality, 8k), the traveler pouring the liquid back into the main barrel with a disgusted face.
+3. (Masterpiece, best quality, 8k), close-up of the innkeeper's shocked face looking at her ruined barrel of watered-down wine.
+
+[비주얼 연출 프롬프트]
+1. (Masterpiece, best quality, 8k), a Joseon scholar with a long tobacco pipe acting legendary on a rock, a beautiful young woman picking wild vegetables in the forest, cinematic sunlight filtering through trees.
+2. (Masterpiece, best quality, 8k), a black crow swooping down and grabbing a scholar's traditional hat (Gat), the scholar's hair bun (Sangtu) exposed, funny shocked expression, motion blur.
+3. (Masterpiece, best quality, 8k), the scholar slapping his own cheek with a serious face, the woman looking surprised, a crow perched on a high branch holding the hat, humorous Joseon story vibe.

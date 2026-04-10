@@ -1,0 +1,10 @@
+#!/bin/bash
+PROJECT_DIR="$(cd "$(dirname "$0")" && pwd)"
+cd "$PROJECT_DIR/scripts"
+echo "🎙️ [AI 노래 자막 추출기] 가동 중..."
+echo "💡 노래나 배경음이 섞인 영상도 목소리만 골라내어 인식합니다."
+echo ""
+/Users/a12/miniforge3/bin/python "1-3-102_자막추출기.py"
+echo ""
+echo "✅ 모든 작업이 완료되었습니다!"
+read -p "엔터를 누르면 종료됩니다..."

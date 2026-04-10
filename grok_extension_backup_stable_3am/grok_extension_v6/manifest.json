@@ -1,0 +1,49 @@
+{
+  "manifest_version": 3,
+  "name": "Grok Bulk Premium V6 - Asset Support",
+  "version": "6.0.0",
+  "description": "Asset name support (@[Name]) and Batch Image-to-Video Production",
+  "permissions": [
+    "storage",
+    "activeTab",
+    "scripting",
+    "sidePanel"
+  ],
+  "host_permissions": [
+    "https://grok.com/*",
+    "https://grok.x.ai/*"
+  ],
+  "side_panel": {
+    "default_path": "side_panel.html"
+  },
+  "action": {
+    "default_title": "Grok Bulk V6 열기"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://grok.com/*",
+        "https://grok.x.ai/*"
+      ],
+      "js": [
+        "assets.js",
+        "content.js"
+      ],
+      "run_at": "document_end"
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "*"
+      ],
+      "matches": [
+        "https://grok.com/*",
+        "https://grok.x.ai/*"
+      ]
+    }
+  ]
+}

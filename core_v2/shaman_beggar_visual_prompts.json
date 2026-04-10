@@ -1,0 +1,62 @@
+[
+  {
+    "scene": 1,
+    "description": "500만원 돈다발을 든 거지가 천신당 점집으로 들어서는 모습",
+    "visual_prompt": "The scruffy Korean man, holding a bundle of cash, confidently walking into a traditional Korean shaman room, 9:16 vertical, photorealistic, cinematic lighting."
+  },
+  {
+    "scene": 2,
+    "description": "무당이 거지를 바라보며 속으로 쾌재를 부르는 장면",
+    "visual_prompt": "A middle-aged Korean female shaman, bright Hanbok, stern face, hair bun, looking at the scruffy man with greedy expression, in a shaman's room filled with talismans and candles, 9:16 vertical, photorealistic, cinematic lighting."
+  },
+  {
+    "scene": 3,
+    "description": "거지가 무당에게 직업이 없다고 말하며 웃는 모습",
+    "visual_prompt": "A scruffy Korean man, ragged grey hoodie, sly smile, telling the shaman he doesn't have a job, inside a shaman's room with mystic objects, 9:16 vertical, photorealistic, cinematic lighting."
+  },
+  {
+    "scene": 4,
+    "description": "무당이 가슴을 치며 내기를 덥석 받아들이는 모습",
+    "visual_prompt": "A middle-aged Korean female shaman, bright Hanbok, stern face, hair bun, hitting her chest accepting the bet with confidence, in a shaman's room, 9:16 vertical, photorealistic, cinematic lighting."
+  },
+  {
+    "scene": 5,
+    "description": "양복을 입은 변호사와 함께 점집에 나타난 거지",
+    "visual_prompt": "A scruffy Korean man, now neatly dressed, with a Korean man in a navy business suit, glasses, briefcase, entering the shaman's room, 9:16 vertical, photorealistic, cinematic lighting."
+  },
+  {
+    "scene": 6,
+    "description": "변호사가 증인이라 소개하는 거지",
+    "visual_prompt": "The scruffy Korean man introducing the Korean man in a navy business suit, glasses, briefcase, as his lawyer in the shaman's room, 9:16 vertical, photorealistic, cinematic lighting."
+  },
+  {
+    "scene": 7,
+    "description": "무당이 바지를 벗고 뒤돌아선 모습",
+    "visual_prompt": "A middle-aged Korean female shaman, bright Hanbok, stern face, hair bun, turned her back, showing her bare butt to the lawyer and the man, inside 천신당, 9:16 vertical, photorealistic, cinematic lighting."
+  },
+  {
+    "scene": 8,
+    "description": "변호사가 얼굴을 가리고 우는 모습",
+    "visual_prompt": "A Korean man in a navy business suit, glasses, briefcase, covering his face with his hands and crying, in the shaman's room, 9:16 vertical, photorealistic, cinematic lighting."
+  },
+  {
+    "scene": 9,
+    "description": "변호사가 떨리는 목소리로 거지를 가리키는 모습",
+    "visual_prompt": "A Korean man in a navy business suit, glasses, briefcase, pointing at the scruffy man with a trembling voice, in the shaman's room, 9:16 vertical, photorealistic, cinematic lighting."
+  },
+  {
+    "scene": 10,
+    "description": "무당의 얼굴이 새하얗게 질린 모습",
+    "visual_prompt": "A middle-aged Korean female shaman, bright Hanbok, stern face, hair bun, pale face, shocked expression, inside the shaman's room, 9:16 vertical, photorealistic, cinematic lighting."
+  },
+  {
+    "scene": 11,
+    "description": "거지가 무당의 어깨를 두드리며 돈을 챙기는 모습",
+    "visual_prompt": "The scruffy Korean man, patting the shaman's shoulder, calmly collecting money, in the shaman's room, 9:16 vertical, photorealistic, cinematic lighting."
+  },
+  {
+    "scene": 12,
+    "description": "카메라를 응시하며 2편을 예고하는 거지",
+    "visual_prompt": "The scruffy Korean man, looking directly at the camera with a slight grin, background is the shaman's room, 9:16 vertical, photorealistic, cinematic lighting."
+  }
+]

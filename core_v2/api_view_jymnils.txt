@@ -1,0 +1,46 @@
+Loaded as API: https://jymnils-qwen3-tts.hf.space
+Client.predict() Usage Info
+---------------------------
+Named API endpoints: 3
+
+ - predict(text, language, voice_description, api_name="/generate_voice_design") -> (generated_audio, status)
+    Parameters:
+     - [Textbox] text: str (not required, defaults to:   It's in the top drawer... wait, it's empty? No way, that's impossible! I'm sure I put it there!)  
+     - [Dropdown] language: Literal['Auto', 'Chinese', 'English', 'Japanese', 'Korean', 'French', 'German', 'Spanish', 'Portuguese', 'Russian'] (not required, defaults to:   Auto)  
+     - [Textbox] voice_description: str (not required, defaults to:   Speak in an incredulous tone, but with a hint of panic beginning to creep into your voice.)  
+    Returns:
+     - [Audio] generated_audio: filepath 
+     - [Textbox] status: str 
+
+ - predict(ref_audio, ref_text, target_text, language, use_xvector_only, model_size, api_name="/generate_voice_clone") -> (generated_audio, status)
+    Parameters:
+     - [Audio] ref_audio: filepath (required)  (The FileData class is a subclass of the GradioModel class that represents a file object within a Gradio interface. It is used to store file data and metadata when a file is uploaded.
+
+Attributes:
+    path: The server file path where the file is stored.
+    url: The normalized server URL pointing to the file.
+    size: The size of the file in bytes.
+    orig_name: The original filename before upload.
+    mime_type: The MIME type of the file.
+    is_stream: Indicates whether the file is a stream.
+    meta: Additional metadata used internally (should not be changed).) 
+     - [Textbox] ref_text: str (required)  
+     - [Textbox] target_text: str (required)  
+     - [Dropdown] language: Literal['Auto', 'Chinese', 'English', 'Japanese', 'Korean', 'French', 'German', 'Spanish', 'Portuguese', 'Russian'] (not required, defaults to:   Auto)  
+     - [Checkbox] use_xvector_only: bool (not required, defaults to:   False)  
+     - [Dropdown] model_size: Literal['0.6B', '1.7B'] (not required, defaults to:   1.7B)  
+    Returns:
+     - [Audio] generated_audio: filepath 
+     - [Textbox] status: str 
+
+ - predict(text, language, speaker, instruct, model_size, api_name="/generate_custom_voice") -> (generated_audio, status)
+    Parameters:
+     - [Textbox] text: str (not required, defaults to:   Hello! Welcome to Text-to-Speech system. This is a demo of our TTS capabilities.)  
+     - [Dropdown] language: Literal['Auto', 'Chinese', 'English', 'Japanese', 'Korean', 'French', 'German', 'Spanish', 'Portuguese', 'Russian'] (not required, defaults to:   English)  
+     - [Dropdown] speaker: Literal['Aiden', 'Dylan', 'Eric', 'Ono_anna', 'Ryan', 'Serena', 'Sohee', 'Uncle_fu', 'Vivian'] (not required, defaults to:   Ryan)  
+     - [Textbox] instruct: str (required)  
+     - [Dropdown] model_size: Literal['0.6B', '1.7B'] (not required, defaults to:   1.7B)  
+    Returns:
+     - [Audio] generated_audio: filepath 
+     - [Textbox] status: str 
+

@@ -1,0 +1,25 @@
+[제목]: 황금 보리쌀 소동 (Episode 4)
+
+[상황 설명(나레이션)]: 아따, 욕심 많기로 소문난 황대감이, 귀한 쌀 대신 보리쌀을 금괴라 속여 팔려다 봉변을 당했더랬다.
+
+(기-Hook)
+[비주얼]: 땀을 뻘뻘 흘리며 장사꾼 행색을 한 사내가 황대감 댁 대문 앞에서 머뭇거린다. 마당에는 탐욕스러운 눈빛의 황대감이 기름종이에 싸인 큼지막한 덩어리를 늘어놓고 감탄하고 있다. 주모는 K-pop 아이돌급 소두에 압도적인 풍채, 지저분한 흰색 광목 옷을 입고 곁에서 부채질을 하고 있다.
+
+(승-Escalation)
+[비주얼]: 장사꾼이 조심스럽게 대감에게 다가가 쌀을 팔고 싶다고 말한다. 황대감은 쌀에는 관심 없다며 콧방귀를 뀐다. 장사꾼은 실망한 표정으로 돌아서려다, 기름종이에 싸인 덩어리들을 보고 눈이 휘둥그래진다. 그는 금괴냐고 묻고, 황대감은 능글맞게 웃으며 "쉬잇!" 제스처를 취한다.
+
+(전-Twist)
+[비주얼]: 장사꾼은 흥분을 감추지 못하며, 금괴를 쌀과 바꾸자고 제안한다. 황대감은 못 이기는 척하며 쌀 한 포대에 금괴 한 덩이를 교환하기로 한다. 장사꾼은 쌀 포대를 풀고, 황대감은 기름종이를 푼다. 쌀은 윤기가 자르르 흐르는 최상급 쌀이었지만, 기름종이 안에는 누렇게 칠해진 보리쌀 덩어리가 들어있다. 장사꾼은 코웃음을 친다.
+
+(결-Punchline)
+[비주얼]: 장사꾼이 보리쌀 덩어리를 툭툭 치며 황대감을 빤히 본다.
+
+[Dialogue]:
+장사꾼: (능글맞게) 대감! 이 쌀이 '보리'는 딱 질색이라 뱉어버리네유! 아따, 숭늉 냄새가 예까지 진동허구먼! 금은보화도 몰라보는 툇마루 밑 천둥벌거지 같은 놈!
+
+[비주얼]: 당황한 황대감, 얼굴이 흙빛이 되어 장사꾼과 쌀을 번갈아 바라본다. 주모는 아랑곳 않고 보리쌀 숭늉을 한 사발 들이킨다.
+
+[비주얼 연출 프롬프트]
+1. (Masterpiece, best quality, 8k), A wealthy landlord (Hwang Daegam) showing fake gold bars (painted barley) to a merchant in his yard, a plump innkeeper (Jumo) fanning him with a leaf fan, traditional Korean house background.
+2. (Masterpiece, best quality, 8k), The merchant exchanging a bag of high-quality rice for a fake gold bar (painted barley), the landlord looking smug and greedy.
+3. (Masterpiece, best quality, 8k), Close-up of the landlord's shocked face realizing he has been tricked, the merchant smirking and pointing at the fake gold, the innkeeper drinking barley gruel.

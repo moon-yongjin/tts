@@ -1,0 +1,61 @@
+## [0단계] Nano Banana 아트 스타일 표준: 프리미엄 한국형 웹툰 (Premium Korean Webtoon)
+
+**[핵심 화풍 키워드]**
+> Masterpiece, best quality, ultra-detailed, premium Korean webtoon style, cinematic anime illustration, clean thin line art, soft cel-shading, subtle gradients, vibrant but sophisticated colors, golden hour lighting, sunset glow, volumetric lighting, semi-realistic proportions, highly detailed expressive eyes, emotional atmosphere, 8K render, perfect composition.
+
+---
+
+## [1단계] 캐릭터 에셋 (Person-only Assets)
+
+001 | @Mother | Masterpiece, best quality, ultra-detailed, premium Korean webtoon style, beautiful Korean woman in her 40s, looking remarkably youthful and elegant, long soft dark hair, kind and loving eyes with deep emotional depth, a warm and sophisticated smile, glamorous and gracefully curved figure, wearing a simple yet stylish ivory knit sweater, soft skin texture, cinematic lighting, high-quality anime illustration.
+002 | @Child | Masterpiece, best quality, ultra-detailed, premium Korean webtoon style, handsome adolescent boy, slightly messy hair, expressive eyes reflecting inner vulnerability, wearing an oversized trendy hoodie, semi-realistic proportions, emotional depth, cool but sensitive vibe, cinematic lighting, high-quality anime illustration.
+003 | @Father | Masterpiece, best quality, ultra-detailed, premium Korean webtoon style, strong and reliable Korean man in his 40s, short black hair with elegant grey at the temples (silver fox style), calm and gentle smile, intelligent but warm eyes, athletic and well-built frame, wearing a navy button-down shirt, sophisticated daddy vibe, cinematic lighting, high-quality anime illustration.
+
+---
+
+## [2단계] 44개 시네마틱 장면 프롬프트 (인물 에셋 포함 + 장소 직접 묘사)
+
+001 | Scene_001 | (Premium Korean Webtoon Style:1.2), Masterpiece, high quality, @[Mother] standing in a warm modern kitchen with soft morning light, looking dedicated but tired, cinematic atmosphere.
+002 | Scene_002 | (Premium Korean Webtoon Style:1.2), Masterpiece, high quality, @[Mother] busy cooking various dishes in a sunlit kitchen with steam rising from pots, sweat droplets on her youthful face, realistic food textures.
+003 | Scene_003 | (Premium Korean Webtoon Style:1.2), Masterpiece, high quality, @[Child] sitting on a plush sofa in a cozy living room, eyes glued to a glowing handheld gaming console, ignoring his surroundings, cinematic shadows.
+004 | Scene_004 | (Premium Korean Webtoon Style:1.2), Masterpiece, high quality, Close-up of @[Mother]’s hopeful and kind face, holding a steaming porcelain bowl of soup toward her child in a warm domestic setting.
+005 | Scene_005 | (Premium Korean Webtoon Style:1.2), Masterpiece, high quality, @[Child] pushing the soup bowl away with a cold smirk, @[Mother] standing in the background looking drained and hurt, dramatic perspective.
+006 | Scene_006 | (Premium Korean Webtoon Style:1.2), Masterpiece, high quality, @[Father] entering a cozy living room and observing his son's disrespectful behavior with a calm but firm expression.
+007 | Scene_007 | (Premium Korean Webtoon Style:1.2), Masterpiece, high quality, @[Father] handing a silver coin to @[Child] in the living room, @[Child] grabbing it arrogantly without making eye contact.
+008 | Scene_008 | (Premium Korean Webtoon Style:1.2), Masterpiece, high quality, Metaphorical scene: @[Mother] becoming semi-transparent and ghostly in a kitchen, representing her feeling invisible and taken for granted.
+009 | Scene_009 | (Premium Korean Webtoon Style:1.2), Masterpiece, high quality, Metaphorical scene: @[Child] seeing his parents as cold, mechanical service robots with glowing eyes in a dark, distorted environment.
+010 | Scene_010 | (Premium Korean Webtoon Style:1.2), Masterpiece, high quality, Close-up of @[Mother] looking into a bathroom mirror, her face showing weariness and deep self-reproach, dim lighting.
+011 | Scene_011 | (Premium Korean Webtoon Style:1.2), Masterpiece, high quality, @[Mother] standing alone in a dark kitchen filled with piles of dirty dishes, moonlight through the window creating a lonely atmosphere.
+012 | Scene_012 | (Premium Korean Webtoon Style:1.2), Masterpiece, high quality, @[Father] approaching @[Mother] in a dim kitchen, placing a supportive hand on her shoulder, warm healing light.
+013 | Scene_013 | (Premium Korean Webtoon Style:1.2), Masterpiece, high quality, @[Mother] and @[Father] having a serious but quiet discussion on a sofa in a dim living room, plan for boundaries, sophisticated composition.
+014 | Scene_014 | (Premium Korean Webtoon Style:1.2), Masterpiece, high quality, @[Child] demanding snacks while gaming in a messy room, looking demanding and arrogant, crumbs on his hoodie.
+015 | Scene_015 | (Premium Korean Webtoon Style:1.2), Masterpiece, high quality, @[Mother] calmly but firmly saying "No" to @[Child] in a kitchen, a moment of setting boundaries, her expression strong and determined.
+016 | Scene_016 | (Premium Korean Webtoon Style:1.2), Masterpiece, high quality, @[Mother] walking slowly alone in a beautiful park during sunset, breathing in fresh air, golden hour glow, peaceful expression.
+017 | Scene_017 | (Premium Korean Webtoon Style:1.2), Masterpiece, high quality, @[Child] trying to find his socks in a cluttered, messy living room, looking confused and frustrated, cinematic shadows.
+018 | Scene_018 | (Premium Korean Webtoon Style:1.2), Masterpiece, high quality, @[Father] sitting on a sofa, focused on reading a document, ignoring @[Child]'s complaints, showing firm boundaries.
+019 | Scene_019 | (Premium Korean Webtoon Style:1.2), Masterpiece, high quality, @[Child] looking at an empty kitchen table with no food prepared, realization and hunger starting to show in his wide eyes, dim evening light.
+020 | Scene_020 | (Premium Korean Webtoon Style:1.2), Masterpiece, high quality, Close-up of @[Child] trying to pour his own water from a heavy pitcher, spilling a little, looking frustrated and helpless.
+021 | Scene_021 | (Premium Korean Webtoon Style:1.2), Masterpiece, high quality, @[Mother] and @[Father] talking and laughing together in a sunny park, enjoying their own time, vibrant park background.
+022 | Scene_022 | (Premium Korean Webtoon Style:1.2), Masterpiece, high quality, @[Child] watching his parents from an apartment window, feeling a sense of loneliness and curiosity, reflection on the glass.
+023 | Scene_023 | (Premium Korean Webtoon Style:1.2), Masterpiece, high quality, @[Child] successfully folding a blanket by himself on his bed, a small proud smile forming on his face, soft morning light.
+024 | Scene_024 | (Premium Korean Webtoon Style:1.2), Masterpiece, high quality, @[Child] approaching @[Mother] in a kitchen while she is having tea, holding a respectful and humble posture.
+025 | Scene_025 | (Premium Korean Webtoon Style:1.2), Masterpiece, high quality, @[Child] asking "Can I help?" to @[Mother] with a shy smile and wide, sincere eyes, warm emotional atmosphere.
+026 | Scene_026 | (Premium Korean Webtoon Style:1.2), Masterpiece, high quality, @[Mother] looking warm and happy, smiling back at @[Child] with deep affection in a sunlit room, vibrant colors.
+027 | Scene_027 | (Premium Korean Webtoon Style:1.2), Masterpiece, high quality, @[Father] showing @[Child] how to use a tool or do a chore, a moment of mutual respect and learning, cinematic bonding.
+028 | Scene_028 | (Premium Korean Webtoon Style:1.2), Masterpiece, high quality, The whole family having a happy dinner together, @[Child] helping to set the table, steaming fresh food, joyful faces.
+029 | Scene_029 | (Premium Korean Webtoon Style:1.2), Masterpiece, high quality, Metaphorical scene: A sturdy, glowing wooden bridge being built over a dark abyss between @[Mother] and @[Child].
+030 | Scene_030 | (Premium Korean Webtoon Style:1.2), Masterpiece, high quality, @[Child] looking at @[Mother] and @[Father] with a face of deep appreciation, realizing their value and sacrifices.
+031 | Scene_031 | (Premium Korean Webtoon Style:1.2), Masterpiece, high quality, @[Mother] resting peacefully on a living room sofa, @[Child] quietly bringing her a soft pillow and a blanket.
+032 | Scene_032 | (Premium Korean Webtoon Style:1.2), Masterpiece, high quality, @[Child] helping @[Father] carry a heavy box, both of them with determined and happy smiles, teamwork.
+033 | Scene_033 | (Premium Korean Webtoon Style:1.2), Masterpiece, high quality, @[Mother] looking refreshed and elegant, standing in a flower garden, vibrant colors, sunlight through leaves.
+034 | Scene_034 | (Premium Korean Webtoon Style:1.2), Masterpiece, high quality, Close-up of @[Child]'s happy face as he receives praise from his parents, eyes wide and sparkling with emotional warmth.
+035 | Scene_035 | (Premium Korean Webtoon Style:1.2), Masterpiece, high quality, a harmonious living room scene where the family is doing their own tasks in a peaceful atmosphere, warm golden hour lighting.
+036 | Scene_036 | (Premium Korean Webtoon Style:1.2), Masterpiece, high quality, @[Mother] and @[Child] having a deep heart-to-heart conversation on a park bench at sunset, glowing sky background.
+037 | Scene_037 | (Premium Korean Webtoon Style:1.2), Masterpiece, high quality, @[Child] giving @[Mother] a warm and sincere hug, @[Mother] closing her eyes and smiling, emotional focus.
+038 | Scene_038 | (Premium Korean Webtoon Style:1.2), Masterpiece, high quality, @[Father] smiling warmly at @[Mother] and @[Child] from a distance, volumetric lighting, protective atmosphere.
+039 | Scene_039 | (Premium Korean Webtoon Style:1.2), Masterpiece, high quality, The family standing together on a hill like heroes, looking toward a bright horizon, hopeful composition.
+040 | Scene_040 | (Premium Korean Webtoon Style:1.2), Masterpiece, high quality, @[Mother]’s silhouette standing in front of a bright window, looking powerful and peaceful, artistic lighting.
+041 | Scene_041 | (Premium Korean Webtoon Style:1.2), Masterpiece, high quality, @[Child] doing chores independently while @[Mother] watches him from the background with a satisfied smile.
+042 | Scene_042 | (Premium Korean Webtoon Style:1.2), Masterpiece, high quality, a warm sunset scene with the family walking together in a beautiful park, golden hour light and glow effects.
+043 | Scene_043 | (Premium Korean Webtoon Style:1.2), Masterpiece, high quality, Ultra-close-up of the happy eyes of @[Mother], @[Child], and @[Father], showing true happiness and deep connection.
+044 | Scene_044 | (Premium Korean Webtoon Style:1.2), Masterpiece, high quality, The final full family portrait, everyone smiling brightly, vibrant and loving atmosphere, premium webtoon masterpiece.

@@ -1,0 +1,29 @@
+알겠습니다, 국장님! '조선스낵' 성공 공식을 완벽하게 숙지하고 레퍼런스를 참고하여 즉시 6편을 작성하겠습니다.
+
+---
+
+**[제목]: 짠돌이 양반과 엿장수 (Episode 6)**
+
+[상황 설명(나레이션)]: 아따, 옛날 옛적 한양 저잣거리에, 유난히 인색하기로 소문난 양반이 살았더랬다.
+
+(기-Hook)
+[비주얼]: 땀을 뻘뻘 흘리며 엿을 팔고 있는 넉살 좋은 엿장수. K-pop 아이돌급 소두에 압도적인 풍채(Plus size beauty, curvy)의 주모가 지저분한 흰색 광목 옷을 입고 엿을 한 웅큼 집어 맛본다.
+
+(승-Escalation)
+[비주얼]: 엿 맛을 본 주모가 흐뭇한 미소를 지으며 엿 한 판의 가격을 묻는다. 엿장수가 능글맞게 웃으며 시세를 이야기한다. 그 때, 비단 도포를 입은 짠돌이 양반이 나타나 엿판을 빤히 쳐다본다.
+
+(전-Twist)
+[비주얼]: 양반이 엿판을 한참 살펴보더니, 갑자기 엿가위를 들어 엿을 '가장자리'만 조금씩 잘라내기 시작한다. 엿장수와 주모는 어이없어 쳐다본다. 양반은 자른 엿을 모아 자기 주머니에 챙겨 넣는다.
+
+(결-Punchline)
+[비주얼]: 엿을 조금씩 베어낸 양반이 만족스러운 표정으로 엿장수를 빤히 쳐다본다.
+
+[Dialogue]:
+양반: (뻔뻔하게) 흠, 이 정도면 됐네. 자, 이제 깎아주시오! 원래 물건은 흠집이 있으면 값을 깎는 법!
+
+[비주얼]: 엿장수가 어이없다는 표정으로 양반을 바라본다. 주모는 뒷목을 잡고 쓰러질 듯한 표정을 짓는다.
+
+[비주얼 연출 프롬프트]
+1. (Masterpiece, best quality, 8k), a Joseon Dynasty marketplace, a clever street vendor selling taffy candy, a plus-size beauty innkeeper in dirty and worn-out off-white coarse hemp clothes tasting the taffy.
+2. (Masterpiece, best quality, 8k), a stingy nobleman in silk robes appearing and meticulously cutting off the edges of the taffy with scissors, the vendor and innkeeper looking dumbfounded.
+3. (Masterpiece, best quality, 8k), the nobleman smiling smugly, demanding a discount because the taffy is "damaged," the taffy vendor speechless, the innkeeper holding the back of her neck in disbelief.

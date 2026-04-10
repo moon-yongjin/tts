@@ -1,0 +1,52 @@
+job: extension
+config:
+  name: "dil1_dongtan"
+  process:
+    - type: 'sd_trainer'
+      training_folder: "/workspace/ai-toolkit/output"
+      device: cuda:0
+      network:
+        type: "lora"
+        linear: 16
+        linear_alpha: 16
+      save:
+        dtype: float16
+        save_every: 200
+        max_step_num_to_keep: 2
+      datasets:
+        - folder_path: "/workspace/lora_training/Users/a12/Downloads/LoRA_Datasets/DIL1"
+          caption_ext: "txt"
+          caption_dropout_rate: 0.05
+          shuffle_tokens: false
+          cache_latents_to_disk: true
+          resolution: [ 1024, 1024 ]
+      train:
+        batch_size: 4
+        steps: 800
+        gradient_accumulation_steps: 1
+        train_unet: true
+        train_text_encoder: false
+        gradient_checkpointing: true
+        noise_scheduler: "flowmatch"
+        optimizer: "adamw8bit"
+        lr: 1e-4
+        ema_config:
+          use_ema: true
+          ema_decay: 0.99
+        dtype: bf16
+      model:
+        name_or_path: "/workspace/flux_dev_local" # Local folder path
+        is_flux: true
+        assistant_lora_path: null # Disable assistant LoRA to avoid extra HF hits
+      sample:
+        sampler: "flowmatch"
+        sample_every: 200
+        width: 1024
+        height: 1024
+        prompts:
+          - "c1_dil1, beautiful Korean woman in her late 30s, sharp cold features, arrogant face, medium bob hair style, wearing a Dongtan-missy style sexy outfit with an extremely deep plunging neckline, revealing deep cleavage, extremely large breasts, very voluptuous and curvy body, healthy glamorous and full figure"
+        neg: ""
+        seed: 42
+        walk_seed: true
+        guidance_scale: 1.0 
+        sample_steps: 4 

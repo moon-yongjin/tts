@@ -1,0 +1,108 @@
+## 프로젝트: 기구한 인생 (Korean Family Drama)
+## 날짜: 2026-04-09
+## 나노바나나 지침 기반 프롬프트
+
+---
+
+## [0단계] 아트 스타일 표준
+
+**핵심 화풍 키워드**
+> Masterpiece, best quality, ultra-detailed, premium Korean webtoon style, cinematic anime illustration, clean thin line art, soft cel-shading, subtle gradients, vibrant but sophisticated colors, golden hour lighting, sunset glow, volumetric lighting, semi-realistic proportions, highly detailed expressive eyes, emotional atmosphere, 8K render, perfect composition.
+
+---
+
+## [1단계] 캐릭터 에셋
+
+001 | @Narrator | Masterpiece, best quality, ultra-detailed, premium Korean webtoon style, ordinary Korean man in his late 30s, short neat black hair, gentle but burdened eyes carrying hidden sorrow, wearing a simple grey button-down shirt, realistic but expressive proportions, emotional atmosphere, cinematic lighting, high-quality anime illustration.
+
+002 | @StepMother | Masterpiece, best quality, ultra-detailed, premium Korean webtoon style, elegant Korean woman in her 60s, silver-streaked dark hair softly styled, deep kind eyes hiding 30 years of guilt and longing, wearing a modest warm-toned hanbok-inspired blouse, graceful posture of someone who has loved in silence, cinematic lighting, high-quality anime illustration.
+
+003 | @Wife | Masterpiece, best quality, ultra-detailed, premium Korean webtoon style, beautiful Korean woman in her mid-30s, long dark hair, soft features with a melancholic gentleness, warm eyes carrying unspoken secrets, wearing a simple ivory dress, emotional depth, cinematic lighting, high-quality anime illustration.
+
+004 | @Daughter | Masterpiece, best quality, ultra-detailed, premium Korean webtoon style, innocent Korean girl around 11 years old, slightly messy pigtails, wide curious eyes with an unknowing but sincere expression, wearing a pastel school uniform, pure and honest vibe, cinematic lighting, high-quality anime illustration.
+
+005 | @Father | Masterpiece, best quality, ultra-detailed, premium Korean webtoon style, dignified Korean man in his 60s, silver fox short hair, calm and compassionate eyes, deep wrinkles that speak of wisdom and endurance, wearing a simple dark linen shirt, quiet strength, cinematic lighting, high-quality anime illustration.
+
+---
+
+## [2단계] 40개 장면 프롬프트
+
+001 | Scene_001 | (Premium Korean Webtoon Style:1.2), @[Narrator] standing alone at a crossroads in the rain, reflective expression, symbolic wide shot, desaturated blue tones, sense of a life derailed by fate, cinematic atmosphere.
+
+002 | Scene_002 | (Premium Korean Webtoon Style:1.2), Young @[Narrator] as a child, kneeling beside a grave, soft rain, @[StepMother] gently placing her warm hand on his small shoulder from behind, golden memory filter.
+
+003 | Scene_003 | (Premium Korean Webtoon Style:1.2), @[StepMother] cooking in a warm kitchen, humming softly, young @[Narrator] watching her from the doorway, golden hour light, safe and loving atmosphere.
+
+004 | Scene_004 | (Premium Korean Webtoon Style:1.2), @[StepMother] introducing @[Wife] to @[Narrator] at a bright café, both smiling, spring flowers through the window, hopeful beginning scene.
+
+005 | Scene_005 | (Premium Korean Webtoon Style:1.2), @[Narrator] and @[Wife] wedding ceremony, confetti and petals, joyful tearful faces, @[StepMother] watching from the audience with a smile hiding guilt, warm golden lighting.
+
+006 | Scene_006 | (Premium Korean Webtoon Style:1.2), Close-up of @[StepMother]'s eyes during the wedding, bright smile on her face but her eyes carry 30 years of hidden secret, complex emotional close-up.
+
+007 | Scene_007 | (Premium Korean Webtoon Style:1.2), Happy family dinner scene, @[Narrator], @[Wife], @[Daughter], and @[StepMother] laughing around a table, warm interior lighting, peaceful domestic bliss.
+
+008 | Scene_008 | (Premium Korean Webtoon Style:1.2), @[Daughter] playing in the living room, casually glancing up at @[Narrator] with wide innocent eyes, saying something that changes everything, dramatic lighting shift.
+
+009 | Scene_009 | (Premium Korean Webtoon Style:1.2), Extreme close-up of @[Narrator]'s face, eyes widening mid-conversation, a single word freezing his expression, cold dramatic lighting, tension peak.
+
+010 | Scene_010 | (Premium Korean Webtoon Style:1.2), @[Narrator] alone at night, sitting at the kitchen table staring into an empty cup, the house dark and silent, internal storm visible on his face.
+
+011 | Scene_011 | (Premium Korean Webtoon Style:1.2), @[StepMother] and @[Wife] sitting close together on the living room sofa, speaking in hushed voices, unaware of @[Narrator]'s shadow at the hallway entrance.
+
+012 | Scene_012 | (Premium Korean Webtoon Style:1.2), @[Narrator]'s trembling hand placing a small black voice recorder beneath a shelf in the hallway, extreme close-up, cold blue lighting, guilt and desperation.
+
+013 | Scene_013 | (Premium Korean Webtoon Style:1.2), @[Narrator] alone in his car parked outside the house at night, pressing play on a recording device, one earbud in, dread on his face.
+
+014 | Scene_014 | (Premium Korean Webtoon Style:1.2), Abstract scene: audio soundwaves slowly morphing into the word "엄마" in Korean, dark moody background, the truth being heard visually.
+
+015 | Scene_015 | (Premium Korean Webtoon Style:1.2), @[Narrator] in the car breaking down in tears, steering wheel gripped with both hands, night rain on the windshield, completely devastated.
+
+016 | Scene_016 | (Premium Korean Webtoon Style:1.2), Flashback: @[StepMother] secretly holding @[Wife]'s birth certificate, whispering to a civil registry official, dark corridor, hidden crime atmosphere.
+
+017 | Scene_017 | (Premium Korean Webtoon Style:1.2), @[Wife]'s profile in soft bedroom light, unknowingly peaceful in sleep, @[Narrator] watching her from the doorway, love and betrayal written across his face simultaneously.
+
+018 | Scene_018 | (Premium Korean Webtoon Style:1.2), @[Narrator] sitting across from @[StepMother] at the kitchen table in the morning, the recorder between them, neither speaking, cold morning light.
+
+019 | Scene_019 | (Premium Korean Webtoon Style:1.2), @[StepMother] finally breaking, covering her face with both hands, silent weeping, the truth crumbling out of her, @[Wife] entering the room mid-scene.
+
+020 | Scene_020 | (Premium Korean Webtoon Style:1.2), @[Wife]'s eyes going still as she understands the confession, slow realization, tears running silently, the world collapsing inward, devastating close-up.
+
+021 | Scene_021 | (Premium Korean Webtoon Style:1.2), @[Narrator] clenching his fists at the dining table, trembling with betrayal, holding himself from exploding, sheer emotional restraint, dramatic tension.
+
+022 | Scene_022 | (Premium Korean Webtoon Style:1.2), @[StepMother] and @[Wife] at the front door with small bags, heads bowed, quietly stepping out as the door closes behind them, cold empty hallway.
+
+023 | Scene_023 | (Premium Korean Webtoon Style:1.2), @[Narrator] alone in the living room, @[Daughter] asleep on the couch behind him, staring at old family photos on the wall, grief and silence.
+
+024 | Scene_024 | (Premium Korean Webtoon Style:1.2), @[Father] arriving at @[Narrator]'s home, removing his coat calmly, sitting across from him with a cup of tea, the steady presence of a wise elder.
+
+025 | Scene_025 | (Premium Korean Webtoon Style:1.2), Close-up of @[Father]'s weathered hands wrapped around a teacup, speaking slowly and surely, the weight of wisdom in every line on his face.
+
+026 | Scene_026 | (Premium Korean Webtoon Style:1.2), @[Narrator] listening to @[Father], expression slowly shifting from rage to grief to something softer, emotional turning point, warm amber interior light.
+
+027 | Scene_027 | (Premium Korean Webtoon Style:1.2), Symbolic collage: @[StepMother]'s hands over the years — cooking, bandaging a wound, combing young @[Narrator]'s hair — layered like a memory montage, golden glow.
+
+028 | Scene_028 | (Premium Korean Webtoon Style:1.2), @[Narrator] sitting on the floor against the wall, quietly crying into his knees, the first tears that are not from anger, emotional release, deep blue shadow.
+
+029 | Scene_029 | (Premium Korean Webtoon Style:1.2), @[Narrator] driving along the coastal highway toward Gangwon-do, wide cinematic shot, grey ocean to his left, an invisible weight lifting.
+
+030 | Scene_030 | (Premium Korean Webtoon Style:1.2), @[StepMother] and @[Wife] standing near the Gangwon-do sea cliff edge, wind in their hair, holding hands, guilt and relief intertwined, overcast sky.
+
+031 | Scene_031 | (Premium Korean Webtoon Style:1.2), @[Narrator] appearing from behind them on the cliff, all three silently turning to face each other, no words, crashing waves, 30 years of weight in the air.
+
+032 | Scene_032 | (Premium Korean Webtoon Style:1.2), @[Narrator] stepping forward and pulling both @[StepMother] and @[Wife] into a tight embrace, all three breaking down, wind and sea spray, raw emotional peak.
+
+033 | Scene_033 | (Premium Korean Webtoon Style:1.2), Wide aerial shot of the Gangwon coastline, three tiny silhouettes embracing on the rocks below, vast grey sea, overwhelming cinematic scale.
+
+034 | Scene_034 | (Premium Korean Webtoon Style:1.2), Close-up of @[StepMother]'s tear-streaked face against @[Narrator]'s shoulder, 30 years of guilt finally released, soft golden light breaking through the clouds.
+
+035 | Scene_035 | (Premium Korean Webtoon Style:1.2), The family reunited at the dinner table — @[Narrator], @[Wife], @[StepMother], @[Father], @[Daughter] — quiet warmth, a fragile peace, cinematic shallow depth.
+
+036 | Scene_036 | (Premium Korean Webtoon Style:1.2), @[Wife] glancing across the table at @[StepMother], a deep longing in her eyes, lips closed instead of saying "엄마", bittersweet restraint, warm light.
+
+037 | Scene_037 | (Premium Korean Webtoon Style:1.2), @[StepMother] gently brushing @[Daughter]'s hair in the morning, a private tender moment, the secret protecting this child, soft morning light.
+
+038 | Scene_038 | (Premium Korean Webtoon Style:1.2), @[Narrator] watching @[StepMother] and @[Daughter] from the hallway, a small quiet smile forming, acceptance settling into his chest, warm golden light.
+
+039 | Scene_039 | (Premium Korean Webtoon Style:1.2), @[Narrator] sitting at his desk writing in a journal at night, soft lamp light, the act of choosing to accept this fate, peaceful resolve, close-up of pen on paper.
+
+040 | Scene_040 | (Premium Korean Webtoon Style:1.2), Final wide shot: the family living room at evening, @[Daughter] playing on the floor, @[Wife] knitting, @[StepMother] pouring tea, @[Father] reading — ordinary life hiding an extraordinary secret, warm golden hour, cinematic fade.

@@ -1,0 +1,48 @@
+# Ignore all .env files everywhere
+**/.env
+**/.env.*
+.env
+.env.*
+
+# Standard ignores
+node_modules/
+.DS_Store
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Large models and tool directories
+kohya_ss/
+Qwen3-TTS-finetune/
+qwen3-tts-apple-silicon/
+ComfyUI/
+venv_dt/
+verify_pkg/
+
+# Media and binary files
+*.mp4
+*.wav
+*.webm
+*.part
+*.exe
+*.png
+*.tar.gz
+*.ckpt
+*.safetensors
+*.bin
+*.pth
+
+# Generated/temp directories
+tmp_separated/
+scrap/
+
+# Data and asset directories
+voices/
+references/
+reference_shorts/
+
+# Web app dependencies (redundant but safe)
+**/node_modules/
+**/dist/
+**/build/

@@ -1,0 +1,5 @@
+### [Step 1: 고정 에셋 정의 (Anime Locked)]
+
+001 | @Woman_C | (2D anime style:1.2), flat color illustration, Extreme close-up portrait of a kind Korean woman in her late 30s, gentle and warm eyes, faint caring smile, hair tied back neatly, Studio Ghibli and Makoto Shinkai inspired, soft cel-shading, delicate lines, clean line art, warm painterly colors, light gray background, single face only, no grid, no split screen, cinematic lighting, 8k, [Negative: photorealistic, realistic skin, real life, 8k raw photo, fujifilm, hyperrealistic, 3d render, doll, plastic].
+
+002 | @Kitchen_C | (2D anime style:1.2), flat color illustration, [Background] Empty high-tech but cozy modern kitchen, sunlit wooden counters, various fresh ingredients and pots on the stove, open window showing vast blue sky and clouds, Studio Ghibli and Makoto Shinkai inspired, intricate details, cinematic lighting, warm painterly colors, no people, empty room, masterwork, 8k, [Negative: photorealistic, realistic skin, real life, 8k raw photo, fujifilm, hyperrealistic, 3d render, doll, plastic].

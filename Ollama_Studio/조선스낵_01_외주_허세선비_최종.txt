@@ -1,0 +1,21 @@
+[제목]: 허세 선비의 굴욕 (HF 외주판 초월 번역 및 보정)
+
+(기-Hook)
+[비주얼]: 한양 저잣거리. 노 선비가 갓을 하늘 끝까지 치켜쓰고, 부채질을 하며 고개를 뻣뻣하게 든 채 걷고 있다. 주변 상인들이 혀를 차지만 선비는 아랑곳하지 않고 엣헴거리며 구름만 보고 걷는다.
+
+(승-Escalation)
+[비주얼]: 선비의 발밑에 커다란 말똥 무더기가 나타난다. 선비는 하늘만 보느라 이를 못 보고 비단신으로 정통으로 밟는다. '찌익-' 소리와 함께 선비의 표정이 일그러진다. 
+[비주얼]: 주변 아이들이 모여들어 손가락질하며 낄낄거린다. 선비가 체통을 지키려 헛기침을 하며 아이들을 부채로 쫓으려다, 미끄러운 말똥에 중심을 잃고 옆 진흙탕에 '철퍼덕' 고꾸라진다.
+
+(전-Twist)
+[비주얼]: 온몸이 진흙과 똥 범벅이 된 선비. 갓은 비뚤어지고 수염에는 진흙이 대롱대롱 매달려 있다. 이때 길가에서 엿을 팔던 엿장수가 그 꼴을 보고 쟁반 위의 엿 하나를 툭 던져준다.
+
+(결-Punchline)
+[비주얼]: 선비가 진흙 묻은 손으로 엿을 받아들고 멍하니 서 있다. 엿장수가 가위질을 멈추고 한마디 툭 던진다.
+
+엿장수 : (능청스럽게) 아따, 글 공부보다는 엿 고는 게 훨씬 소질 있어 보이구먼!
+
+[비주얼 연출 프롬프트]
+1. (Masterpiece, best quality, 8k), a proud Joseon scholar walking with a stiff neck in a busy market, wearing a high black hat (Gat), traditional Korean street background, cinematic lighting.
+2. (Masterpiece, best quality, 8k), a close-up of a silk shoe stepping on a pile of horse manure, squishing texture, the scholar's face turning pale, detailed expression.
+3. (Masterpiece, best quality, 8k), the scholar fainted in a mud pit, covered in brown mud and dirt, a street candy seller looking at him with a smirk, humorous atmosphere, high resolution.

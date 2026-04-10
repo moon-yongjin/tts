@@ -1,0 +1,52 @@
+job: extension
+config:
+  name: "mil_modest"
+  process:
+    - type: 'sd_trainer'
+      training_folder: "/workspace/ai-toolkit/output"
+      device: cuda:0
+      network:
+        type: "lora"
+        linear: 16
+        linear_alpha: 16
+      save:
+        dtype: float16
+        save_every: 200
+        max_step_num_to_keep: 2
+      datasets:
+        - folder_path: "/workspace/lora_training/Users/a12/Downloads/LoRA_Datasets/MIL"
+          caption_ext: "txt"
+          caption_dropout_rate: 0.05
+          shuffle_tokens: false
+          cache_latents_to_disk: true
+          resolution: [ 1024, 1024 ]
+      train:
+        batch_size: 4
+        steps: 800
+        gradient_accumulation_steps: 1
+        train_unet: true
+        train_text_encoder: false
+        gradient_checkpointing: true
+        noise_scheduler: "flowmatch"
+        optimizer: "adamw8bit"
+        lr: 1e-4
+        ema_config:
+          use_ema: true
+          ema_decay: 0.99
+        dtype: bf16
+      model:
+        name_or_path: "/workspace/flux_dev_local"
+        is_flux: true
+        assistant_lora_path: "/workspace/flux_dev_local"
+      sample:
+        sampler: "flowmatch"
+        sample_every: 200
+        width: 1024
+        height: 1024
+        prompts:
+          - "m1_mil, Korean grandmother in her 60s, plain and modest natural grandmotherly face, salt and pepper hair in a simple natural style, humble and elegant appearance, wearing a modest and high-neck long-sleeve knit sweater, absolutely NO cleavage, NO skin exposure on chest, conservative clothing, but having an extremely voluminous and glamorous body, curvy full figure"
+        neg: ""
+        seed: 42
+        walk_seed: true
+        guidance_scale: 1.0
+        sample_steps: 4

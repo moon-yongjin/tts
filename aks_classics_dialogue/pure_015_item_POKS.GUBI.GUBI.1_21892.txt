@@ -1,0 +1,5 @@
+Prompt/Action: 현남면 설화 2
+Prompt/Action: 혼잣말로 중얼거린다.
+Dialogue: 어, 그 간을 가져오라.
+Dialogue: 가져오라.
+Prompt/Action: 조사자: 김상만씨 할아버지요?

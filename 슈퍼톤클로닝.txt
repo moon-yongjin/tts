@@ -1,0 +1,6 @@
+# 슈퍼톤 클로닝 정보
+
+- **보이스 이름**: me (형님 클로닝 보이스)
+- **보이스 ID**: 6HL8gGg8PYdE8qDpTbF26E
+- **설명**: 사용자의 목소리를 기반으로 슈퍼톤 API에 등록된 고유 아이디입니다.
+- **최근 샘플**: ~/Downloads/supertone_me_sample_10s.wav

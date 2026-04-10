@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    body { background:#000; color:#0f0; margin:0; padding:20px; font-family:sans-serif; }
+    h2 { color:#0f0; border-left: 4px solid #0f0; padding-left: 10px; font-size: 1.1rem; }
+    .card { background:#111; border:1px solid #222; border-radius:12px; padding:20px; margin-top: 15px; }
+    input[type="file"] { width:100%; padding:10px; background:#222; color:#0f0; border:1px solid #444; border-radius:8px; margin:10px 0; box-sizing: border-box; }
+    .btn { width:100%; padding:15px; margin:10px 0; border:none; border-radius:8px; font-weight:bold; cursor:pointer; }
+    .btn-primary { background:#0f0; color:#000; }
+    .btn-secondary { background:#c00; color:white; }
+    #status { text-align:center; font-weight:bold; margin:15px 0; color: #ff0; }
+    #log { height:180px; background:#050505; border: 1px solid #222; border-radius:8px; padding:10px; overflow-y:auto; font-size: 13px; white-space: pre-wrap; color: #0b0; }
+  </style>
+</head>
+<body>
+  <h2>Grok Bulk Premium v11</h2>
+  <div class="card">
+    <div id="status">● 이미지 파일을 선택하세요 (여러 개 가능)</div>
+    <input type="file" id="imageFiles" multiple accept="image/*">
+    
+    <label style="color:#0f0;font-weight:bold;display:block;margin:10px 0 5px;">📝 프롬프트</label>
+    <textarea id="promptText" rows="3" style="width:100%; padding:10px; background:#222; color:#0f0; border:1px solid #444; border-radius:8px; box-sizing: border-box; margin-bottom: 10px;" placeholder="Grok에 입력할 프롬프트를 적으세요">Animate this image with smooth natural motion</textarea>
+    
+    <button id="btnStart" class="btn btn-primary">🎬 시작하기</button>
+    <button id="btnStop" class="btn btn-secondary">⏹ 중지</button>
+    <div id="captureStatus" style="text-align:center; margin:8px 0; color:#0af; font-size:13px; font-weight:bold;">📡 낚아챈 영상: 0개</div>
+    <button id="btnDownload" class="btn" style="background:#0066cc; color:white;">⬇️ 영상 다운로드</button>
+  </div>
+  <div id="log"></div>
+
+  <script src="side_panel.js"></script>
+</body>
+</html>

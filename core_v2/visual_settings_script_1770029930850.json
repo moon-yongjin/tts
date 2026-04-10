@@ -1,0 +1,13 @@
+{
+  "approved": false,
+  "character_ko": "Anxious-looking middle-aged Korean man, around his 50s. He is wearing old, worn clothes. His face shows worry and desperation. He has short, thinning hair. He nervously hands money to the delivery man.",
+  "character_en": "Middle-aged Korean man, 50s, anxious expression, worn clothes, short thinning hair.",
+  "background_ko": "陰울한 분위기의 낡은 단칸방. 빛바랜 벽지와 뜯겨진 장판, 먼지가 쌓인 가구들이 방치된 세월을 드러낸다. 작은 창문으로는 희미한 빛만이 들어오고, 전체적으로 어둡고 습한 느낌을 준다. 짜장면 그릇이 놓인 낡은 밥상.",
+  "background_en": "A dilapidated one-room apartment with a gloomy atmosphere. Faded wallpaper, torn linoleum, and dusty furniture reveal years of neglect. Dim light filters through a small window, creating an overall dark and humid feeling. A worn-out dining table has two bowls of Jajangmyeon on it.",
+  "art_style_override_ko": "영화 '올드보이'와 유사한 누아르 스타일. 어둡고 강렬한 색감, 대비가 강한 조명, 불안정한 구도를 사용하여 인물의 심리 상태를 시각적으로 표현한다.",
+  "art_style_override_en": "Noir style similar to the movie 'Oldboy'. Use dark and intense colors, high-contrast lighting, and unstable compositions to visually express the character's psychological state. Consider a graphic novel illustration style.",
+  "visual_variety_ko": "[대립과 긴장] 캐릭터 간의 감정 선과 갈등을 강조하는 연출: 표정의 대비, 그림자 활용, 긴박한 구도 위주.",
+  "visual_variety_en": "Conflict and Tension: Emphasize emotional tension between characters. Use dramatic lighting, sharp contrasts, and tight framing on facial expressions.",
+  "target_interval": 6.0,
+  "clip_duration": 6.0
+}

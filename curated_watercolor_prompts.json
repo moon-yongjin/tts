@@ -1,0 +1,74 @@
+[
+    {
+        "scene": 1,
+        "timestamp": "509.8s",
+        "prompt": "Korean young mother holding a tiny infant wrapped in a blanket, looking devastated and shocked as she hears a breakup announcement, emotional watercolor style, soft edges, melancholic blue and grey tones.",
+        "reference": "CHAR_01: young mother, CHAR_03: soft watercolor style"
+    },
+    {
+        "scene": 2,
+        "timestamp": "525.8s",
+        "prompt": "A small, quiet room, the Korean mother sitting on the floor hugging her knees, looking lonely and burdened, soft window light hitting her exhausted face, delicate watercolor texture.",
+        "reference": "CHAR_01: young mother, LOC_01: humble home, CHAR_03: soft watercolor style"
+    },
+    {
+        "scene": 3,
+        "timestamp": "546.8s",
+        "prompt": "A sharp shadow of a man on the wall pointing towards a door, the mother in the foreground clutching the baby tighter to her chest, looking firm and protective, high contrast watercolor.",
+        "reference": "CHAR_01: young mother, CHAR_03: soft watercolor style"
+    },
+    {
+        "scene": 4,
+        "timestamp": "555.8s",
+        "prompt": "Close-up of a baby's tiny hand grasping the mother's finger, heartwarming and emotional, soft warm light, detailed watercolor brushstrokes, emotional bond.",
+        "reference": "CHAR_03: soft watercolor style"
+    },
+    {
+        "scene": 5,
+        "timestamp": "664.8s",
+        "prompt": "Two Korean women in their 20s sitting across from each other at a kitchen table, one sharing her secret with a sad face, the other listening with empathy, cozy domestic watercolor.",
+        "reference": "CHAR_01: young mother, LOC_01: kitchen, CHAR_03: soft watercolor style"
+    },
+    {
+        "scene": 6,
+        "timestamp": "676.8s",
+        "prompt": "The mother looking through a window at a group of fashionable young people laughing on the street, her reflection in the glass looking tired, bittersweet contrast, watercolor.",
+        "reference": "CHAR_01: young mother, CHAR_03: soft watercolor style"
+    },
+    {
+        "scene": 7,
+        "timestamp": "682.8s",
+        "prompt": "Side profile of the mother looking at her sleeping baby in a crib, a faint peaceful smile on her face, morning sunlight, soft pastel watercolor colors, hope and love.",
+        "reference": "CHAR_01: young mother, LOC_01: baby room, CHAR_03: soft watercolor style"
+    },
+    {
+        "scene": 8,
+        "timestamp": "695.8s",
+        "prompt": "Mother in a consultation room, looking worriedly at a document or medical monitor, doctor's white coat briefly visible, sterile but soft watercolor atmosphere, anxiety.",
+        "reference": "CHAR_01: young mother, CHAR_03: soft watercolor style"
+    },
+    {
+        "scene": 9,
+        "timestamp": "703.8s",
+        "prompt": "Mother looking into a washroom mirror, tears streaming down her face, feeling guilty and blaming herself, dramatic watercolor shadows, emotional intensity.",
+        "reference": "CHAR_01: young mother, LOC_01: washroom, CHAR_03: soft watercolor style"
+    },
+    {
+        "scene": 10,
+        "timestamp": "717.8s",
+        "prompt": "Mother shielding her baby with her body from a cold wind or metaphorical shadows, strong protective posture, determined eyes, expressive watercolor splashes.",
+        "reference": "CHAR_01: young mother, CHAR_03: soft watercolor style"
+    },
+    {
+        "scene": 11,
+        "timestamp": "1102.8s",
+        "prompt": "Mother holding her 1-year-old son 'Han-uri', looking into his eyes with pure adoration, golden hour sunlight, beautiful cinematic watercolor, a mother's promise.",
+        "reference": "CHAR_01: young mother, CHAR_03: soft watercolor style"
+    },
+    {
+        "scene": 12,
+        "timestamp": "1198.4s",
+        "prompt": "Mother and toddler playing together in a park, laughing, the sun shining brightly, vibrant and cheerful watercolor, focusing on current happiness.",
+        "reference": "CHAR_01: young mother, LOC_01: park, CHAR_03: soft watercolor style"
+    }
+]

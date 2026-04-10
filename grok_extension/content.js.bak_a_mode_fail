@@ -1,0 +1,93 @@
+/**
+ * Grok Bulk - 초간단 버전
+ */
+
+let isRunning = false;
+
+const sendLog = (text) => chrome.runtime.sendMessage({ action: 'UI_LOG', text });
+
+chrome.runtime.onMessage.addListener((msg) => {
+    if (msg.action === 'START_BATCH') {
+        if (isRunning) {
+            sendLog('이미 실행 중입니다');
+            return;
+        }
+
+        isRunning = true;
+        sendLog(`🚀 ${msg.images.length}개 이미지 처리 시작`);
+
+        startProcessing(msg.images);
+    }
+
+    if (msg.action === 'STOP_BATCH') {
+        isRunning = false;
+        sendLog('중지되었습니다');
+    }
+});
+
+async function startProcessing(images) {
+    for (let i = 0; i < images.length; i++) {
+        if (!isRunning) break;
+
+        const img = images[i];
+        sendLog(`[${i+1}/${images.length}] ${img.name} 업로드 시도`);
+
+        try {
+            // 이미지 준비
+            const res = await fetch(img.dataUrl);
+            const blob = await res.blob();
+            const file = new File([blob], img.name, { type: img.type || 'image/jpeg' });
+
+            // Drag & Drop (현재 가장 잘 먹히는 방식)
+            const dropZone = document.body; // 가장 넓게
+
+            const dt = new DataTransfer();
+            dt.items.add(file);
+
+            dropZone.dispatchEvent(new DragEvent('drop', {
+                bubbles: true,
+                cancelable: true,
+                dataTransfer: dt
+            }));
+
+            sendLog('Drag & Drop 시도 완료');
+            await new Promise(r => setTimeout(r, 4500));
+
+            // Video 모드 시도
+            const videoBtn = Array.from(document.querySelectorAll('button')).find(b => 
+                b.textContent.toLowerCase().includes('video')
+            );
+            if (videoBtn) {
+                videoBtn.click();
+                sendLog('Video 모드 클릭');
+                await new Promise(r => setTimeout(r, 1000));
+            }
+
+            // 6초 모드 시도
+            const sixBtn = Array.from(document.querySelectorAll('button')).find(b => 
+                b.textContent.includes('6s') || b.textContent.includes('6초')
+            );
+            if (sixBtn) {
+                sixBtn.click();
+                sendLog('6초 모드 적용');
+            }
+
+            // 생성 버튼 클릭
+            const submit = Array.from(document.querySelectorAll('button')).find(b => 
+                b.textContent.includes('Generate') || b.textContent.includes('제출')
+            );
+            if (submit) {
+                submit.click();
+                sendLog('생성 버튼 클릭');
+            }
+
+            await new Promise(r => setTimeout(r, 25000)); // 25초 대기
+
+        } catch (e) {
+            sendLog(`오류: ${e.message}`);
+        }
+    }
+
+    isRunning = false;
+    sendLog('모든 처리 완료');
+}

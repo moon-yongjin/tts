@@ -1,0 +1,13 @@
+{
+  "approved": false,
+  "character_ko": "An elderly Korean man in his 70s. He wears a worn undershirt covered by a neatly ironed old delivery uniform vest. His face is etched with deep wrinkles, reflecting a life of hardship and grief. His eyes are filled with sorrow, and his hair is likely thin and graying. He appears frail but meticulously neat in his attire.",
+  "character_en": "Elderly Korean man in delivery uniform vest, sorrowful expression, wrinkled face.",
+  "background_ko": "낡은 연립주택의 좁고 어두운 거실. 오후 5시, 해가 지기 시작하는 시간대의 흐릿한 빛이 창문을 통해 스며든다. 낡은 식탁 위에는 짜장면 두 그릇과 단무지 접시, 젓가락 두 벌이 놓여 있다. 전체적으로 어둡고 차가운 색감.",
+  "background_en": "The cramped, dimly lit living room of an old Korean apartment. It's 5 PM, and the fading light filters through the windows. On the worn-out dining table are two bowls of Jajangmyeon (black bean noodles), a small dish of Danmuji (yellow pickled radish), and two sets of chopsticks. The overall color scheme is dark and cold. Focus on hyperrealistic details.",
+  "art_style_override_ko": "극사실적인 묘사를 기반으로, 한국 드라마 영화의 어둡고 절제된 분위기를 유지한다. 인물의 감정선을 섬세하게 표현하며, 배경의 디테일을 살려 현실감을 더한다.",
+  "art_style_override_en": "Maintain a dark and restrained atmosphere reminiscent of Korean drama films, based on hyperrealistic depiction. Express the characters' emotional nuances delicately and enhance realism by emphasizing background details. Cinematic lighting, 35mm lens.",
+  "visual_variety_ko": "[대립과 긴장] 캐릭터 간의 감정 선과 갈등을 강조하는 연출: 표정의 대비, 그림자 활용, 긴박한 구도 위주.",
+  "visual_variety_en": "Conflict and Tension: Emphasize emotional tension between characters. Use dramatic lighting, sharp contrasts, and tight framing on facial expressions.",
+  "target_interval": 6.0,
+  "clip_duration": 6.0
+}

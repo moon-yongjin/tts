@@ -1,0 +1,13 @@
+{
+  "approved": false,
+  "character_ko": "주인공: 이름은 '현'(玄), 20대 초반의 젊은 무사. 날카로운 눈매와 굳게 다문 입술에서 강인함이 느껴진다. 검은색 도포를 입고 있으며, 허리에는 낡은 가죽 혁대가 둘러져 있다. 헝클어진 머리카락 몇 가닥이 이마를 가리고 있으며, 얼굴에는 희미한 흉터가 남아 있다. 그의 검은 오랜 수련의 흔적을 보여주듯 날카롭고 윤기 있다.",
+  "character_en": "Main character: Hyun, a young martial artist in his early 20s. He has sharp eyes and tightly closed lips, conveying strength. He wears a black dopo (Korean traditional robe) and an old leather belt around his waist. A few strands of messy hair cover his forehead, and a faint scar remains on his face. His sword is sharp and gleaming, showing traces of long training.",
+  "background_ko": "배경: 깊은 밤, 인적 없는 산 속의 낡은 사찰 마당. 달빛이 희미하게 비추고 있으며, 주변은 고요하고 적막하다. 부서진 석탑과 이끼 낀 돌계단은 오랜 세월의 흔적을 보여준다. 차가운 가을 공기가 감돌고, 나뭇잎이 바람에 흔들리는 소리만이 들려온다.",
+  "background_en": "Setting: A deserted courtyard of an old temple deep in the mountains at night. The moonlight shines faintly, and the surroundings are quiet and desolate. Broken stone pagodas and mossy stone steps show traces of a long time. Cold autumn air lingers, and only the sound of leaves rustling in the wind is heard.",
+  "art_style_override_ko": "전통적인 한국화 스타일을 현대적인 감각으로 재해석. 묵직한 붓터치와 섬세한 표현을 조화롭게 사용하여 깊이 있는 분위기를 연출한다. 색감은 모노톤을 기본으로 하되, 달빛과 그림자를 활용하여 대비를 강조한다.",
+  "art_style_override_en": "Reinterpret traditional Korean painting style with a modern sensibility. Harmoniously combine heavy brushstrokes and delicate expressions to create a deep atmosphere. The color scheme is based on monotone, but the contrast is emphasized by utilizing moonlight and shadows. Use ink wash painting and sumi-e techniques. Simulate brush strokes.",
+  "visual_variety_ko": "사물과 분위기를 통한 상징적 연출. 주인공의 검 끝에 맺힌 달빛, 흔들리는 나뭇가지 그림자, 낡은 사찰 문틈으로 새어 나오는 희미한 빛 등 디테일에 집중하여 긴장감과 고독감을 표현한다. 클로즈업 샷을 섞어 누아르적인 분위기 강조",
+  "visual_variety_en": "Focus on Mise-en-scène and symbolic details: moonlight on the tip of the protagonist's sword, shadows of swaying branches, and faint light leaking through the cracks of the old temple door to express tension and loneliness. Use close-up shots to emphasize the noir atmosphere without over-relying on character shots.",
+  "target_interval": 6.0,
+  "clip_duration": 6.0
+}

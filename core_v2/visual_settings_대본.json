@@ -1,0 +1,13 @@
+{
+  "approved": true,
+  "character_ko": "주인공 시어머니(영란)를 중심으로 장면별 등장인물 묘사",
+  "character_en": "Focus on the main character described in the script chunk. Maintain consistency for MIL_YEONGRAN (60s, natural wrinkles, grey permed hair) when she appears.",
+  "background_ko": "장면에 맞는 사실적인 한국 가정집 또는 아파트 배경",
+  "background_en": "Realistic Korean household background as described in the script.",
+  "art_style_override_ko": "선명하고 깨끗한 실사 사진 스타일",
+  "art_style_override_en": "Photorealistic, cinematic film, 8k, natural lighting, crisp and clear. NO split screen, NO collage.",
+  "visual_variety_ko": "대본의 상황에 맞는 자연스러운 구도",
+  "visual_variety_en": "Natural cinematic framing suitable for the script context.",
+  "target_interval": 4.0,
+  "clip_duration": 4.0
+}

@@ -1,0 +1,37 @@
+# [야 벌구] 에피소드 02 (패러디): 꿈은 대박, 현실은 쪽박 (한씨 부인)
+
+## 🎙️ 오프닝 (Serious & Mystical)
+(배경: 웅장한 국악 선율, 안개 낀 조선의 새벽)
+**나레이션**: "여러분, 인생 역전을 꿈꾸십니까? 여기 단돈 보물 몇 가지에 '대박 꿈'을 사서 팔자를 고치려던 여인이 있습니다. 하지만 역사가 숨긴 그 끝은... 생각보다 훨씬 맵디맵습니다."
+
+---
+
+## 📖 본편 (The Dream & The Twist)
+(배경: 방 안, 언니가 숨을 헐떡이며 잠에서 깨어남)
+**나레이션**: "어느 날 언니가 하늘을 승천하는 거대한 용 꿈을 꾸고 맙니다. 이를 듣던 동생 한씨, 눈이 번쩍 뜨이죠. '언니! 그 꿈 나한테 팔아! 내 보물 다 줄게!'"
+
+(배경: 동생이 언니에게 비단과 노리개를 넘겨주고 꿈을 사는 모습)
+**나레이션**: "그렇게 거액(?)을 들여 꿈을 산 한씨. 이제 왕비가 될 날만 기다리며 우물가에서 인연을 찾아 나섭니다. 드디어 먼지를 일으키며 나타난 고귀한 사내! '물... 물 좀 주시오!'"
+
+(배경: 슬로우 모션 - 처녀가 우아하게 바가지에 버들잎을 띄워 바침)
+**나레이션**: "드디어 기회가 왔습니다. 한씨는 역사에 남을 그 지혜를 발휘하죠. '급히 마시다 체할까 봐...' 정중하게 버들잎 하나를 툭 띄워 바쳤는데...!"
+
+(배경: 음악 중단 - '레코드 긁는 소리' - 사내의 분노 폭발)
+**사내 (TTS 버럭)**: "야!! 이 벌구 같은 X아!! 목말라 죽겠는데 지금 장난하냐? 물에 풀떼기를 왜 넣어!! 나 풀 알레르기 있다고!!"
+**나레이션**: "사내는 사실 성격 지랄 맞은 한량이었고, 감동은커녕 바가지를 집어 던지며 한씨를 우물가에서 메치고 쫓아버렸습니다."
+
+---
+
+## 🎬 클로징 (Comedy Outro)
+(배경: 우물가에서 엉엉 울며 쫓겨나는 한씨, 야 벌구 로고)
+**나레이션**: "꿈은 언니가 꿨는데, 매는 동생이 맞았네요. 여러분, 남의 꿈 억지로 사서 지혜 부리다간 우물물 고문당하기 딱 좋습니다. 이게 진짜 현실 야사, [야 벌구]였습니다."
+
+---
+
+## 🎨 AI 비주얼 프롬프트 (5090/Wan 2.2 최적화)
+
+1. **Scene 1 (Dream)**: A giant golden dragon ascending to the heavens through dark clouds, surreal and epic animation, 8k, cinematic lighting.
+2. **Scene 2 (The Deal)**: Two sisters in a traditional Joseon room, exchanging a silk bundle and jewelry, greedy and hopeful facial expressions, warm candle light.
+3. **Scene 3 (The Well Transition)**: Beautiful cinematic view of a Korean well, morning sunlight filtering through willow leaves, a noble horseman approaching in slow motion.
+4. **Scene 4 (The Rage)**: A noble man in high-quality Hanbok, face turning beet red with anger, water dripping from his face, looking into the camera and shouting.
+5. **Scene 5 (Ending)**: Comedic illustration, a girl crying and running away from a well while being chased by an angry man waving a wooden ladle.

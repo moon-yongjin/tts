@@ -1,0 +1,197 @@
+{
+    "1": {
+        "inputs": {
+            "ckpt_name": "ltx-2-19b-dev-fp8.safetensors"
+        },
+        "class_type": "CheckpointLoaderSimple",
+        "_meta": {
+            "title": "Model (UNET/VAE)"
+        }
+    },
+    "2": {
+        "inputs": {
+            "text_encoder": "gemma_3_12B_it_fp4_mixed.safetensors",
+            "ckpt_name": "ltx-2-19b-dev-fp8.safetensors",
+            "device": "default"
+        },
+        "class_type": "LTXAVTextEncoderLoader",
+        "_meta": {
+            "title": "Gemma-3 CLIP Loader"
+        }
+    },
+    "3": {
+        "inputs": {
+            "text": "A cinematic video of a Korean man, smiling, photorealistic, 4k.",
+            "clip": [
+                "2",
+                0
+            ]
+        },
+        "class_type": "CLIPTextEncode",
+        "_meta": {
+            "title": "Positive"
+        }
+    },
+    "4": {
+        "inputs": {
+            "text": "blurry, low quality, static, text, subtitles.",
+            "clip": [
+                "2",
+                0
+            ]
+        },
+        "class_type": "CLIPTextEncode",
+        "_meta": {
+            "title": "Negative"
+        }
+    },
+    "10": {
+        "inputs": {
+            "image": "1.png",
+            "upload": "image"
+        },
+        "class_type": "LoadImage"
+    },
+    "20": {
+        "inputs": {
+            "lora_name": "ltx-2-19b-distilled-lora-384.safetensors",
+            "strength_model": 1.0,
+            "strength_clip": 1.0,
+            "model": [
+                "1",
+                0
+            ],
+            "clip": [
+                "2",
+                0
+            ]
+        },
+        "class_type": "LoraLoader",
+        "_meta": {
+            "title": "Turbo LoRA"
+        }
+    },
+    "5": {
+        "inputs": {
+            "frame_rate": 25,
+            "positive": [
+                "3",
+                0
+            ],
+            "negative": [
+                "4",
+                0
+            ]
+        },
+        "class_type": "LTXVConditioning"
+    },
+    "6": {
+        "inputs": {
+            "width": 768,
+            "height": 512,
+            "length": 97,
+            "batch_size": 1
+        },
+        "class_type": "EmptyLTXVLatentVideo"
+    },
+    "8": {
+        "inputs": {
+            "steps": 8,
+            "denoise": 1.0,
+            "latent": [
+                "6",
+                0
+            ],
+            "stretch": true,
+            "max_shift": 1.15,
+            "terminal": 0.1,
+            "base_shift": 0.95
+        },
+        "class_type": "LTXVScheduler"
+    },
+    "9": {
+        "inputs": {
+            "sampler_name": "euler"
+        },
+        "class_type": "KSamplerSelect"
+    },
+    "15": {
+        "inputs": {
+            "noise_seed": 5
+        },
+        "class_type": "RandomNoise"
+    },
+    "12": {
+        "inputs": {
+            "cfg": 1.5,
+            "model": [
+                "20",
+                0
+            ],
+            "positive": [
+                "5",
+                0
+            ],
+            "negative": [
+                "5",
+                1
+            ]
+        },
+        "class_type": "CFGGuider"
+    },
+    "11": {
+        "inputs": {
+            "noise": [
+                "15",
+                0
+            ],
+            "guider": [
+                "12",
+                0
+            ],
+            "sampler": [
+                "9",
+                0
+            ],
+            "sigmas": [
+                "8",
+                0
+            ],
+            "latent_image": [
+                "6",
+                0
+            ]
+        },
+        "class_type": "SamplerCustomAdvanced"
+    },
+    "13": {
+        "inputs": {
+            "samples": [
+                "11",
+                0
+            ],
+            "vae": [
+                "1",
+                2
+            ]
+        },
+        "class_type": "VAEDecode"
+    },
+    "14": {
+        "inputs": {
+            "frame_rate": 24,
+            "loop_count": 0,
+            "filename_prefix": "LTX_Turbo",
+            "format": "video/h264-mp4",
+            "pix_fmt": "yuv420p",
+            "crf": 19,
+            "save_output": true,
+            "pingpong": false,
+            "images": [
+                "13",
+                0
+            ]
+        },
+        "class_type": "VHS_VideoCombine"
+    }
+}

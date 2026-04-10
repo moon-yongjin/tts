@@ -1,0 +1,102 @@
+{
+    "32": {
+        "inputs": {
+            "landscape": false,
+            "ratio": "3:2  (photo)",
+            "size": "medium (recommended)",
+            "batch_size": 1
+        },
+        "class_type": "EmptyZImageLatentImage //ZImagePowerNodes"
+    },
+    "35": {
+        "inputs": {
+            "unet_name": "z_image_turbo_bf16.safetensors",
+            "weight_dtype": "default"
+        },
+        "class_type": "UNETLoader"
+    },
+    "37": {
+        "inputs": {
+            "vae_name": "ae.safetensors"
+        },
+        "class_type": "VAELoader"
+    },
+    "44": {
+        "inputs": {
+            "clip_name": "qwen_3_4b.safetensors",
+            "type": "lumina2"
+        },
+        "class_type": "CLIPLoader"
+    },
+    "42": {
+        "inputs": {
+            "text": "A cinematic shot, dramatic lighting, high quality, photorealistic, 8k",
+            "clip": [
+                "44",
+                0
+            ]
+        },
+        "class_type": "CLIPTextEncode"
+    },
+    "43": {
+        "inputs": {
+            "text": "text, watermark, low quality, blurry",
+            "clip": [
+                "44",
+                0
+            ]
+        },
+        "class_type": "CLIPTextEncode"
+    },
+    "18": {
+        "inputs": {
+            "seed": 12345,
+            "steps": 6,
+            "cfg": 1.5,
+            "sampler_name": "euler",
+            "scheduler": "normal",
+            "denoise": 1.0,
+            "model": [
+                "35",
+                0
+            ],
+            "positive": [
+                "42",
+                0
+            ],
+            "negative": [
+                "43",
+                0
+            ],
+            "latent_input": [
+                "32",
+                0
+            ]
+        },
+        "class_type": "ZSamplerTurbo //ZImagePowerNodes"
+    },
+    "8": {
+        "inputs": {
+            "samples": [
+                "18",
+                0
+            ],
+            "vae": [
+                "37",
+                0
+            ]
+        },
+        "class_type": "VAEDecode"
+    },
+    "31": {
+        "inputs": {
+            "images": [
+                "8",
+                0
+            ],
+            "filename_prefix": "ZImage/Working/ZI_",
+            "civitai_compatible_metadata": true
+        },
+        "class_type": "SaveImage //ZImagePowerNodes"
+    }
+}

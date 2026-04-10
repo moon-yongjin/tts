@@ -1,0 +1,30 @@
+# [조선스낵] 맑눈광 봉사 vs 갑질 빌런, 자기 뿔에 찔린 사연 (Ep.05)
+
+## 🎙️ 나레이션 (맛깔나는 충청도 사투리)
+"아~ 요새 말로 '맑눈광'이라 그러쥬? 앞은 못 봐두 빌런들 앞날은 기가 막히게 때려 맞히는 봉사 한 분이 살았대유. 이 양반이 글쎄, 점괘 하나로 동네 갑질 왕 '만석군'을 아주 기냥~ 탈탈 털어버린 사연, 궁금허시면 함 들어보셔유. 기가 맥힘미다-"
+
+---
+
+## 📖 본편 (기-승-전-결)
+
+**#1. 기(Hook) - 뱀 사(蛇) 자의 비밀**
+(배경: 맑은 눈의 봉사가 부채를 펴며 점괘를 보고, 그 옆에서 제자가 수제비를 떠먹는 코믹한 장면)
+"이 봉사님 실력이 어느 정도냐- 뱀 사(蛇) 자를 뽑더니 '오늘 저녁은 수제비여!' 하시는 거예유. 제자가 '뱀은 기니까 국수 아뉴?' 했더니, '이놈아, 밤엔 뱀이 똬리를 트니까 똘똘 뭉친 수제비지!'라며 무릎을 탁 치게 만드네유. 한마디루 통찰력이 미쳤쥬?"
+
+**#2. 승(Escalation) - 빌런의 등판과 뿔 각(角)**
+(배경: 거만한 표정의 만석군이 돈주머니를 흔들며 봉사 앞에 나타나 겁박하는 장면)
+"소문 듣고 동네 갑질 대장 만석군이 등판함미다. '야! 네가 그렇게 잘 맞혀? 내 운세 틀리면 너 여기서 쫓겨날 줄 알어!' 봉사가 뽑은 글자는 뿔 각(角). 그러곤 덤덤하게 예언하쥬. '나으리, 오늘 정오에 소한테 들이받혀 피 볼 팔자구만유-'"
+
+## 🎨 AI 비주얼 프롬프트 (조선스낵 스타일)
+1. **Scene 1**: Colorful webtoon drawing style, a blind scholar with 'clear eyes' (Mal-nun-gwang style) holding a traditional fan, a bowl of chewy Sujebi soup on a small wooden table, humorous 2D anime style.
+2. **Scene 2**: Colorful webtoon drawing style, a wealthy, arrogant nobleman (Man-seok-gun) in luxurious silk Hanbok, glaring at the blind man, holding a large gold coin pouch, expressive comic characters.
+3. **Scene 3**: Colorful webtoon drawing style, a dramatic scene of a locked Korean traditional room, the nobleman lying on the floor in shock, blood dripping from his head where a sharp coral topknot pin (Dong-got) is stuck, no cows visible, comic book composition.
+4. **Scene 4**: Colorful webtoon drawing style, the blind man smiling subtly while pointing a finger upwards, the nobleman looking humiliated and defeated, a group of villagers laughing in the background, vibrant and dynamic illustration.
+
+**#3. 전(Twist) - 소 없는 방에서의 비명**
+(배경: 만석군이 소를 다 쫓아내고 방 문을 걸어 잠근 채 비웃다가, 정작 방 안에서 피를 흘리며 쓰러지는 반전 장면)
+"만석군이 코웃음 치며 동네 소란 소는 30리 밖으로 다 쫓아버림미다. 그러곤 방문 꽁꽁 잠그고 앉았는데... 웬걸? 정오가 되자마자 방안에서 '사람 살려!' 소리가 터지네유? 들어가 보니 소 한 마리 없는데, 제 머리에 꽂았던 소 뿔 모양 ‘산호 동곳’에 찔려 피범벅이 된 거쥬! 소 안 만나려다 제 머리에 꽂힌 뿔에 지가 받힌 꼴이라니께유!"
+
+**#4. 결(Punchline) - 머리 꼭대기 위의 소**
+(배경: 봉사가 씩 웃으며 만석군에게 일침을 가하고, 동네 사람들이 만석군을 손가락질하며 비웃는 모습)
+"봉사님이 찰진 한 방을 날림미다. '나으리- 밖의 소는 다 쫓았으면서 왜 나으리 머리 꼭대기에 앉은 소는 못 보셨대유?' 결국 만석군은 재산 절반을 봉사한테 뺏기고 '자기 뿔에 받힌 놈'이라구 평생 놀림감이 됐다쥬. 역시 법도는 피해가도 제 팔자 논리는 못 피하는 법인가 봐유!"

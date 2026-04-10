@@ -1,0 +1,13 @@
+{
+  "approved": true,
+  "character_ko": "주름이 깊게 패인 얼굴, 흰색에 가깝게 탈색된 머리카락, 낡은 작업복 바지와 페인트가 묻은 셔츠, 낡은 헌팅캡을 눌러쓴 노인. 초라하지만 어딘가 모르게 느껴지는 예술가적 기품. 70대 남성. 깊은 눈가의 주름과 굳게 다문 입술에서 고집과 연륜이 느껴진다. 낡은 도록을 들고 있다.",
+  "character_en": "An elderly man in his 70s with deeply wrinkled face, nearly white hair, wearing worn work pants and a paint-splattered shirt, and a battered hunting cap. Despite his shabby appearance, he exudes an air of artistic dignity. Deep wrinkles around his eyes and firmly set lips suggest stubbornness and experience. He carries an old art catalog.",
+  "background_ko": "청담동의 고급 갤러리 내부. 깨끗한 흰색 벽, 은은한 조명, 고급스러운 바닥재. 세련된 현대 미술 작품들이 전시되어 있다. 전체적으로 밝고 차분한 분위기.",
+  "background_en": "The interior of a high-end gallery in Cheongdam-dong. Clean white walls, subtle lighting, and luxurious flooring. Sophisticated contemporary artworks are on display. The overall atmosphere is bright and calm.",
+  "art_style_override_ko": "하이퍼 리얼리즘 사진, 자연스러운 스튜디오 조명, 중립적인 화이트 밸런스, 생생한 자연 색감.",
+  "art_style_override_en": "Hyper-realistic photography, natural studio lighting, neutral white balance, vivid natural colors.",
+  "visual_variety_ko": "인물의 감정과 대비를 강조하는 클로즈업 샷, 갤러리 내부의 분위기를 담는 와이드 샷, 등장인물 간의 갈등을 보여주는 역동적인 구도.",
+  "visual_variety_en": "Close-up shots emphasizing the characters' emotions and contrasts, wide shots capturing the atmosphere of the gallery interior, and dynamic compositions showcasing the conflict between the characters.",
+  "target_interval": 6.0,
+  "clip_duration": 6.0
+}

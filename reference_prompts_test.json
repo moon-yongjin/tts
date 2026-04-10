@@ -1,0 +1,122 @@
+[
+  {
+    "type": "character",
+    "name": "만수_전신",
+    "prompt": "Full body portrait of a 70s Korean man, wearing a raggedy old robe and mud-covered straw shoes, holding a Mapae(royal emblem), simple white background, photorealistic"
+  },
+  {
+    "type": "character",
+    "name": "최 행수_전신",
+    "prompt": "Full body portrait of a 40s Korean man, arrogant expression, fine traditional Korean clothing, holding a long smoking pipe, simple white background, photorealistic"
+  },
+  {
+    "type": "character",
+    "name": "지원_전신",
+    "prompt": "Full body portrait of a young Korean woman in her 20s, wearing simple kitchen servant clothing, anxious expression, simple white background, photorealistic"
+  },
+  {
+    "type": "group_shot",
+    "name": "단체_사진",
+    "prompt": "Group Portrait of Mansu(암행어사), Choi Haeng-soo, and Ji-won in a traditional Korean inn setting, each character positioned to highlight their personality, typical Korean faces, simple background, cinematic composition"
+  },
+  {
+    "type": "face_angle",
+    "name": "만수_정면",
+    "prompt": "Close-up portrait of the same 70s Korean man, front view, neutral expression, simple white background, photorealistic, 8k"
+  },
+  {
+    "type": "face_angle",
+    "name": "만수_왼쪽45도",
+    "prompt": "Close-up portrait of the same 70s Korean man, 45 degree left angle, neutral expression, simple white background, photorealistic, 8k"
+  },
+  {
+    "type": "face_angle",
+    "name": "만수_오른쪽45도",
+    "prompt": "Close-up portrait of the same 70s Korean man, 45 degree right angle, neutral expression, simple white background, photorealistic, 8k"
+  },
+  {
+    "type": "face_angle",
+    "name": "만수_왼쪽측면",
+    "prompt": "Close-up portrait of the same 70s Korean man, left profile view, neutral expression, simple white background, photorealistic, 8k"
+  },
+  {
+    "type": "face_angle",
+    "name": "만수_오른쪽측면",
+    "prompt": "Close-up portrait of the same 70s Korean man, right profile view, neutral expression, simple white background, photorealistic, 8k"
+  },
+  {
+    "type": "face_angle",
+    "name": "만수_위",
+    "prompt": "Close-up portrait of the same 70s Korean man, looking slightly up, neutral expression, simple white background, photorealistic, 8k"
+  },
+  {
+    "type": "face_angle",
+    "name": "최 행수_정면",
+    "prompt": "Close-up portrait of the same 40s Korean man, front view, neutral expression, simple white background, photorealistic, 8k"
+  },
+  {
+    "type": "face_angle",
+    "name": "최 행수_왼쪽45도",
+    "prompt": "Close-up portrait of the same 40s Korean man, 45 degree left angle, neutral expression, simple white background, photorealistic, 8k"
+  },
+  {
+    "type": "face_angle",
+    "name": "최 행수_오른쪽45도",
+    "prompt": "Close-up portrait of the same 40s Korean man, 45 degree right angle, neutral expression, simple white background, photorealistic, 8k"
+  },
+  {
+    "type": "face_angle",
+    "name": "최 행수_왼쪽측면",
+    "prompt": "Close-up portrait of the same 40s Korean man, left profile view, neutral expression, simple white background, photorealistic, 8k"
+  },
+  {
+    "type": "face_angle",
+    "name": "최 행수_오른쪽측면",
+    "prompt": "Close-up portrait of the same 40s Korean man, right profile view, neutral expression, simple white background, photorealistic, 8k"
+  },
+  {
+    "type": "face_angle",
+    "name": "최 행수_위",
+    "prompt": "Close-up portrait of the same 40s Korean man, looking slightly up, neutral expression, simple white background, photorealistic, 8k"
+  },
+  {
+    "type": "face_angle",
+    "name": "지원_정면",
+    "prompt": "Close-up portrait of the same 20s Korean woman, front view, neutral expression, simple white background, photorealistic, 8k"
+  },
+  {
+    "type": "face_angle",
+    "name": "지원_왼쪽45도",
+    "prompt": "Close-up portrait of the same 20s Korean woman, 45 degree left angle, neutral expression, simple white background, photorealistic, 8k"
+  },
+  {
+    "type": "face_angle",
+    "name": "지원_오른쪽45도",
+    "prompt": "Close-up portrait of the same 20s Korean woman, 45 degree right angle, neutral expression, simple white background, photorealistic, 8k"
+  },
+  {
+    "type": "face_angle",
+    "name": "지원_왼쪽측면",
+    "prompt": "Close-up portrait of the same 20s Korean woman, left profile view, neutral expression, simple white background, photorealistic, 8k"
+  },
+  {
+    "type": "face_angle",
+    "name": "지원_오른쪽측면",
+    "prompt": "Close-up portrait of the same 20s Korean woman, right profile view, neutral expression, simple white background, photorealistic, 8k"
+  },
+  {
+    "type": "face_angle",
+    "name": "지원_위",
+    "prompt": "Close-up portrait of the same 20s Korean woman, looking slightly up, neutral expression, simple white background, photorealistic, 8k"
+  },
+  {
+    "type": "background",
+    "name": "객주_천궁",
+    "prompt": "Interior of a high-end traditional Korean inn called 'Cheongung', silk decorations, plum blossom atmosphere, cinematic lighting, no people, detailed surrounding environment"
+  },
+  {
+    "type": "background",
+    "name": "운종가_거리",
+    "prompt": "Street scene of Unjong-ga in Hanyang, bustling with people and shops, traditional Korean architecture, cinematic lighting, detailed surrounding environment, no people"
+  }
+]

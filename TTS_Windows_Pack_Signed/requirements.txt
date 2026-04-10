@@ -1,0 +1,7 @@
+google-genai==0.3.0
+azure-cognitiveservices-speech==1.42.0
+pydub==0.25.1
+requests==2.32.3
+pillow==10.4.0
+numpy==1.26.4
+moviepy==1.0.3

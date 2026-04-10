@@ -1,0 +1,53 @@
+# [다시, 봄] 초정밀 대본 36개 (Surgical Strike Full Version)
+# -------------------------------------------------------------
+# 1단계: 고정 에셋(레퍼런스 시트) 생성 (기존과 동일)
+# -------------------------------------------------------------
+
+001 | 하은_기본_고정 | Create a clean character reference sheet in cinematic realistic photography style on a plain light gray background. The character is a Korean female in her late 20s, slim build, natural beauty with a pale face. 8 views (Full body and Head).
+002 | 재혁_남편_고정 | Create a clean character reference sheet in cinematic realistic photography style on a plain light gray background. Korean male in his early 30s, sharp chin, thin lips, untrustworthy expression. 8 views.
+003 | 소희_친구_고정 | Create a clean character reference sheet in cinematic realistic photography style on a plain light gray background. Korean female in her early 30s, glamorous, long wavy hair, seductive look. 8 views.
+004 | 강우_소방관_고정 | Create a clean character reference sheet in cinematic realistic photography style on a plain light gray background. Strong Korean male in his mid 30s, athletic build, gentle eyes, short hair. 8 views.
+005 | 꽃집_내부_고정 | Create an environment reference sheet. Warm, cozy flower shop "Dasi, Bom" filled with various flowers. 4 views.
+006 | 거실_배경_고정 | Create an environment reference sheet. Cold, modern Korean apartment living room. 4 views.
+007 | 화재_현장_고정 | Create an environment reference sheet. Brick building on fire at night. 4 views.
+
+# -------------------------------------------------------------
+# 2단계: 36개 초정밀 장면 프롬프트 (에셋 고정 호출)
+# -------------------------------------------------------------
+
+101 | 시어머니의 꾸짖음 | An elderly Korean woman pointing an angry finger at @[하은_기본_고정] in the @[거실_배경_고정]. Ha-eun looks down with a pale, sad face.
+102 | 재혁의 차가운 눈빛 | @[재혁_남편_고정] is looking at @[하은_기본_고정] coldly in the dim @[거실_배경_고정]. High contrast lighting, lonely atmosphere.
+103 | 병원 대기실 | @[하은_기본_고정] and @[재혁_남편_고정] sitting nervously in a white, cold hospital waiting room hallway. 
+104 | 재혁의 조작된 검사지 | A close-up of @[재혁_남편_고정] holding a medical report in the darkness, his eyes flickering with a lie.
+105 | 하은의 자책 | @[하은_기본_고정] sitting alone on the floor in @[거실_배경_고정], crying silently while looking at her hands. 
+106 | 소희와 재혁의 밀회 | @[소희_친구_고정] and @[재혁_남편_고정] sitting together in a luxury lounge, whispering intimately with cunning smiles.
+107 | 소희의 독설 | @[소희_친구_고정] looking at @[재혁_남편_고정] with a seductive look, pointing at her phone. Glitzy urban night background.
+108 | 빙판길 위 하은 | @[하은_기본_고정] walking alone on a dark, slippery icy road in winter. Snow falling, cold atmosphere.
+109 | 교통사고 순간 | A dramatic cinematic shot of a car crashing into @[하은_기본_고정] on a dark winter street. Shattering glass, shock.
+110 | 병원 침대의 하은 | @[하은_기본_고정] lying on a hospital bed with a bandage on her head, looking out the window with empty eyes.
+111 | 소희의 이간질 | @[소희_친구_고정] whispering into @[재혁_남편_고정]'s ear in the hospital hallway, showing a fake document.
+112 | 재혁의 이별 통보 | @[재혁_남편_고정] standing by the hospital bed, looking at @[하은_기본_고정] with a cold, disgusted face.
+113 | 홀로 남겨진 퇴원 | @[하은_기본_고정] limping out of the hospital entrance alone, carrying a small bag in the rain. 
+114 | 이혼 동의서 날인 | Close-up of @[하은_기본_고정]'s hand trembling as she stamps her fingerprint on a divorce document. 
+115 | 재혁과 소희의 결혼 | @[재혁_남편_고정] and @[소희_친구_고정] smiling brightly in a luxurious wedding hall, toast to each other.
+116 | 반지하 꽃집 오픈 | @[하은_기본_고정] (pale but determined) hanging a small wooden sign that says "Dasi, Bom" in a quiet alley. 
+117 | 꽃 시장의 새벽 | @[하은_기본_고정] carrying a large bundle of fresh flowers in a busy, early morning market. 
+118 | 무릎 통증의 하은 | @[하은_기본_고정] massaging her painful knee in her @[꽃집_내부_고정], surrounded by beautiful flowers. Soft morning light.
+119 | 건물 화재 발생 | A huge fire burning in the building next to @[꽃집_내부_고정], thick black smoke filling the sky at night. 
+120 | 영웅 소방관 강우 | @[강우_소방관_고정] in full fire gear carrying an elderly person out of the burning building. Heroic, dramatic shot.
+121 | 땀 흘리는 강우 | @[강우_소방관_고정] sitting on a fire truck bumper, face covered in soot, taking a deep breath after the fire. 
+122 | 물을 건네는 하은 | @[하은_기본_고정] handing a cold water bottle to the exhausted @[강우_소방관_고정] in front of her shop. 
+123 | 강우의 소리 없는 배려 | @[강우_소방관_고정] (in casual clothes) secretly sticking anti-slip stickers on the stairs of @[꽃집_내부_고정] at sunset.
+124 | 고마운 하은 | @[하은_기본_고정] looking at the stairs, touched by @[강우_소방관_고정]'s kindness. Warm, soft glowing evening.
+125 | 구청 앞의 두 사람 | @[하은_기본_고정] and @[강우_소방관_고정] standing in front of a district office (Gu-cheong), both looking shy but happy. 
+126 | 소박한 결혼 사진 | @[하은_기본_고정] in a simple dress and @[강우_소방관_고정] in a suit, holding a small bouquet of wildflowers. 
+127 | 충격적인 진실 | @[하은_기본_고정] in a hospital office, looking at an old medical record with a face of pure shock and tears. 
+128 | 병원 복도에서의 오열 | @[하은_기본_고정] sitting alone in a hospital hallway chair, crying and covering her mouth in relief. 
+129 | 위로하는 강우 | @[강우_소방관_고정] holding @[하은_기본_고정] tightly in his arms in a warm park, protecting her. 
+130 | 기적의 임신 | @[하은_기본_고정] showing a positive pregnancy test to @[강우_소방관_고정], both crying with joy. 
+131 | 15년 뒤의 하은 | @[하은_기본_고정] (in her 40s, looking elegant and happy) picking a flower in a large, sunny garden shop. 
+132 | 다섯 아이와 강우 | @[강우_소방관_고정] playing with five happy Korean children of different ages in a sunny park at sunset.
+133 | 마트 앞의 재회 | @[하은_기본_고정] and her family passing by a miserable, ragged man (@[재혁_남편_고정]) at a supermarket entrance. 
+134 | 비참한 재혁 | @[재혁_남편_고정] (looking old, lonely) staring at the happy family with a face of deep shock and regret. 
+135 | 시어머니의 사죄 | The elderly mother-in-law kneeling in front of @[하은_기본_고정] at the flower shop entrance, crying. 
+136 | 진정한 봄의 완성 | @[하은_기본_고정] and @[강우_소방관_고정] walking towards their home holding hands, five kids running ahead into the sunlight. 

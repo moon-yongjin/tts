@@ -1,0 +1,9 @@
+### [실사 에셋 정의 (Realistic Assets)]
+
+001 | @Creator_R | 8k raw photo, hyper-realistic, high-quality portrait of an authentic 20-year-old Korean woman creator, distinctive East Asian facial features, tired but expressive eyes, natural skin texture, soft messy hair from working late, wearing a oversized hoodie, sitting in front of a computer, cinematic lighting, 9:16, [Negative: western, caucasian, blonde hair, blue eyes].
+
+002 | @Viewer_R | 8k raw photo, hyper-realistic, high-quality portrait of an authentic 20-year-old Korean male or female (viewer), casual and stylish street wear, holding a smartphone, expressive facial features showing annoyance or boredom, natural skin texture, East Asian features, 9:16, [Negative: western, caucasian, blonde hair, blue eyes].
+
+003 | @Studio_R | 8k raw photo, [Background] A dark private creator studio at night, dual monitors glowing blue, professional microphone, ring light, cinematic shadows, masterpiece quality, 9:16.
+
+004 | @Cafe_R | 8k raw photo, [Background] A bright and modern high-end cafe or minimal living room, sunlit through large windows, urban aesthetic, clean and sophisticated atmosphere, 9:16.

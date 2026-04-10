@@ -1,0 +1,32 @@
+[제목]: 굴비 한 마리와 돌쇠의 반격
+
+(Hook)
+[상황 설명]: 호화로운 기와집 대청마루. 상 위에는 보리밥 한 그릇과 천장에 매달린 마른 굴비 한 마리가 전부다. 자린고비 황대감이 굴비를 한 번 쳐다보고 밥 한 숟갈을 입에 넣는다. 옆에서 부채질을 하던 돌쇠가 침을 꼴깍 삼킨다.
+
+대감 : (눈을 부릅뜨며) 에잉, 고얀 놈! 네놈이 방금 굴비를 두 번이나 쳐다보지 않았느냐! 굴비가 닳아빠지는 소리가 예까지 들리는구먼!
+돌쇠 : (억울한 표정으로) 아이고 대감마님! 억울허당께요. 소녀... 아니, 소인은 그저 대감마님 밥 자시는 모습이 하도 성스러워 쳐다본 것뿐이어라!
+
+(Escalation)
+[상황 설명]: 황대감, 밥풀 하나가 바닥에 떨어지자 기겁을 하며 주워 입에 털어 넣는다.
+
+대감 : 시끄럽다! 네놈 눈깔에서 나오는 탐욕의 광선 때문에 굴비의 염분이 다 날아갔어! 내 오늘 네놈의 그 괘씸한 죄를 물어, 당장 저녁을 굶길 것이야!
+돌쇠 : (속으로 썩소를 지으며) '아따, 저 놈의 영감탱이가 또 수작이구먼. 어디 한번 당해보랑께.'
+돌쇠 : (무릎을 꿇으며 엉엉 우는 척) 대감마님! 그리하시면 소인은 배가 고파 내일 밭농사는 다 지었슈! 정 그러시다면 쇤네가 굴비 대신 대감마님 밥상에 '특제 짠맛'을 더해드리겠구먼유!
+
+대감 : (솔깃하며) 오호? 돈 드는 것이냐?
+돌쇠 : 아따, 돈 한 푼 안 드는 천연 조미료랑께요!
+
+(Twist/Punchline)
+[상황 설명]: 돌쇠가 벌떡 일어나더니 품에서 무언가를 꺼내 황대감의 밥그릇 위로 냅다 짠다. 그것은 돌쇠가 온종일 밭일하며 땀을 쫙 빼서 적셔온 무명 수건이다. 누런 땀방울이 보리밥 위로 '뚝, 뚝' 떨어진다.
+
+돌쇠 : (해맑게) 자, 드시지유! 소인의 브론즈 땀방울을 농축시킨 천연 육수랑께요! 염분은 기가 막히쥬!
+대감 : (눈이 뒤집히며 헛구역질) 우웨엑! 이, 이 고얀 놈이!! 내 밥!!!
+
+[상황 설명]: 황대감이 뒷목을 잡고 쓰러지고, 돌쇠는 잽싸게 천장에 매달린 굴비를 낚아채어 도망간다.
+
+돌쇠 : (도망치며) 대감마님! 땀내 나는 밥 많이 자시고 만수무강 하쇼잉! 굴비는 쇤네가 처리하겠어라~!!
+
+[비주얼 연출 프롬프트]
+1. (Masterpiece, best quality, 8k), a stingy old Korean nobleman in Joseon era looking angrily at his servant, hanging dried yellow corvina from the ceiling, simple wooden table with barley rice, traditional hanok background, cinematic lighting
+2. (Masterpiece, best quality, 8k), a sly Joseon servant squeezing a dirty sweat-soaked towel over a brass rice bowl, the nobleman looking horrified and disgusted, dynamic angle, comedic expression, highly detailed
+3. (Masterpiece, best quality, 8k), the servant happily running away with the dried fish in his hand, the old nobleman fainting in the background grabbing his neck, traditional Korean village, sunny day, humorous atmosphere

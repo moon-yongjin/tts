@@ -1,0 +1,13 @@
+{
+  "approved": false,
+  "character_ko": "갑수 is a man in his 50s. He appears anxious and disheveled, likely wearing simple, everyday clothing suitable for staying at home. His face shows worry and desperation, evident in his trembling voice. He probably has a weary face with short, possibly thinning hair. His attire is not explicitly mentioned, but we can infer it's ordinary home wear, and he is in a hurry.",
+  "character_en": "Middle-aged Korean man, worried expression, simple home wear, short hair.",
+  "background_ko": "낡고 허름한 단칸방. 낡은 장판과 빛바랜 벽지가 세월의 흔적을 보여준다. 작은 창문으로는 희미한 햇빛만이 들어온다. 방 안은 어둡고 습하며, 퀴퀴한 냄새가 나는 듯하다. 문은 낡고 불안정해 보인다. 탁자 위에는 식은 짜장면 그릇 두 개가 놓여 있다.",
+  "background_en": "A dilapidated one-room apartment. The worn-out linoleum floor and faded wallpaper show the passage of time. Only faint sunlight enters through the small window. The room is dark, damp, and smells musty. The door looks old and unstable. Two bowls of cold jjajangmyeon are on the table.",
+  "art_style_override_ko": "극사실적인 묘사를 지향하며, 인물의 감정과 고독을 강조하는 어둡고 강렬한 누아르 스타일.",
+  "art_style_override_en": "Aim for hyper-realistic rendering with a dark and intense noir style that emphasizes the characters' emotions and solitude. Use high contrast and dramatic lighting.",
+  "visual_variety_ko": "[대립과 긴장] 캐릭터 간의 감정 선과 갈등을 강조하는 연출: 표정의 대비, 그림자 활용, 긴박한 구도 위주.",
+  "visual_variety_en": "Conflict and Tension: Emphasize emotional tension between characters. Use dramatic lighting, sharp contrasts, and tight framing on facial expressions.",
+  "target_interval": 6.0,
+  "clip_duration": 6.0
+}

@@ -1,0 +1,28 @@
+001 | Scene_001 | Retro 90s living room, annoyed young Korean man sitting on couch scrolling smartphone with frustrated angry face, old CRT TV showing video with big "톡톡 두 번 눌러주세요" text popping up, bright colorful 90s lighting, MC Hammer era vibe, [Negative: western, caucasian, blonde, blue eyes].
+002 | Scene_002 | Close-up of annoyed young Korean man's hand holding smartphone, finger hovering, annoying "톡톡" text floating on screen, angry expression, retro 90s filter, funky colors, [Negative: caucasian skin].
+003 | Scene_003 | Frustrated young Korean man throwing his phone onto the couch, exaggerated angry face, background with old boombox and colorful 90s posters, raw 90s energy, [Negative: western, caucasian].
+004 | Scene_004 | Annoyed young Korean man scrolling phone very fast with irritated face, repeating "화면 톡톡" text on screen, bright neon pink and yellow 90s colors, [Negative: western face].
+005 | Scene_005 | 90s style bedroom, young Korean guy covering his ears in frustration while phone shows "좋아요 눌러주세요" popup, funny angry expression, retro vibe, [Negative: western].
+006 | Scene_006 | Energetic 90s dance floor with people dancing, but one young Korean guy in foreground looking annoyed at his phone, funky disco lighting, [Negative: western, caucasian].
+007 | Scene_007 | Close-up young Korean person smartphone screen with huge "톡톡 두 번만 눌러주세요~" text, bright yellow pink 90s graphic style, [Negative: caucasian skin].
+008 | Scene_008 | Annoyed young Korean man pointing angrily at phone screen, wearing 90s fashion, blurred background dancers in Hammer pants, retro style, [Negative: western face].
+009 | Scene_009 | Smartphone screen cracking slightly from too many "톡톡" requests, funny exaggerated effect, 90s hip hop vibe, [Negative: western face].
+010 | Scene_010 | Young Korean man in baggy 90s MC Hammer pants sitting in front of old computer editing video at night, tired but hopeful face, retro room, [Negative: western, caucasian].
+011 | Scene_011 | Young Korean Creator excitedly uploading video, old CRT monitor showing "영상 올렸어", 90s computer setup with colorful posters, [Negative: western].
+012 | Scene_012 | Young Korean Creator checking low analytics on computer, sad and disappointed face, dim 90s room with neon lights, [Negative: western].
+013 | Scene_013 | Young Korean Creator begging desperately to camera, hands together in prayer pose, wearing shiny 90s outfit, pleading eyes, [Negative: western, caucasian].
+014 | Scene_014 | Young Korean Creator dancing awkwardly in front of camera to promote video, baggy Hammer pants and gold chain, desperate but energetic, [Negative: western, caucasian].
+015 | Scene_015 | Close-up of young Korean creator's desperate pleading face, "제발 좋아요 좀" text floating, dramatic colorful 90s lighting, [Negative: western, caucasian].
+016 | Scene_016 | Young Korean Creator working all night editing, dark circles under eyes, energy drink cans, old computer, tired expression, 90s style, [Negative: western, caucasian].
+017 | Scene_017 | Young Korean Creator looking at phone with zero likes, dramatic sad face turning desperate, stage lights starting to shine, [Negative: western, caucasian].
+018 | Scene_018 | Young Korean Creator performing on small stage with microphone, doing simple Hammer dance, empty audience, retro disco lights, [Negative: western].
+019 | Scene_019 | Young Korean Creator pointing desperately at camera, "제발 한 번만 눌러줘" expression, colorful 90s background with brass instruments, [Negative: western].
+020 | Scene_020 | Young Korean Creator with backup dancers in 90s outfits behind him, but he looks worried, funky dance pose, [Negative: western].
+021 | Scene_021 | Young Korean Creator doing energetic running man dance, baggy pants flying, bright yellow and pink stage lights, 90s MC Hammer style, [Negative: western].
+022 | Scene_022 | Young Korean Creator on knees playfully begging to camera, hands in prayer, funny desperate smile, retro disco ball spinning above, [Negative: western].
+023 | Scene_023 | Young Korean Creator suddenly happy face as one like notification pops up on phone, dramatic lighting change, 90s vibe, [Negative: western].
+024 | Scene_024 | Young Korean Creator dancing wildly with full energy, "톡톡 눌러봐" text appearing positively, bright 90s party atmosphere, [Negative: western].
+025 | Scene_025 | Big group dance scene, young Korean creator in center doing Hammer dance, backup dancers cheering, full colorful 90s disco club, [Negative: western].
+026 | Scene_026 | Young Korean creator smiling confidently at camera giving thumbs up, "고마워" text, final energetic pose with bright lights, [Negative: western].
+027 | Scene_027 | Wide shot of full 90s style dance party, everyone dancing including young Korean creator, retro neon signs and spinning disco ball, [Negative: western].
+028 | Scene_028 | Final freeze pose, young Korean creator and dancers in cool MC Hammer style pose, big smiles, bright colorful explosion, classic 90s ending vibe, [Negative: western].

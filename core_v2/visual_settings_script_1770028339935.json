@@ -1,0 +1,13 @@
+{
+  "approved": false,
+  "character_ko": "갑수 is a middle-aged man in his 50s. He appears anxious and somewhat disheveled. He is wearing everyday clothes, possibly a simple shirt and pants suitable for home. His face shows worry and a hint of desperation, suggesting he hasn't been sleeping well. He probably has greying hair.",
+  "character_en": "Worried Korean man in his 50s with greying hair, wearing simple home clothes.",
+  "background_ko": "낡은 서민 아파트의 좁은 거실. 어두운 조명 아래 먼지가 쌓인 가구들이 낡았음을 드러낸다. 벽에는 오래된 가족사진이 걸려 있고, 바닥에는 아무렇게나 놓인 물건들이 어수선한 분위기를 더한다. 전체적으로 어둡고 침울한 느낌.",
+  "background_en": "A cramped living room in a dilapidated apartment. Dim lighting reveals dusty and worn-out furniture. An old family photograph hangs on the wall, and scattered objects on the floor add to the chaotic atmosphere. The overall feeling is dark and gloomy.",
+  "art_style_override_ko": "전체적으로 어둡고 절제된 색감을 사용하여 누아르 영화 같은 분위기를 연출한다. 인물과 배경의 디테일을 살리되, 과도한 채색은 피한다. 고독과 불안감을 강조하는 연출.",
+  "art_style_override_en": "Use a dark and restrained color palette to create a noir film-like atmosphere. Emphasize the details of the characters and backgrounds, but avoid excessive coloring. Direct to enhance the feeling of loneliness and anxiety.",
+  "visual_variety_ko": "[대립과 긴장] 캐릭터 간의 감정 선과 갈등을 강조하는 연출: 표정의 대비, 그림자 활용, 긴박한 구도 위주.",
+  "visual_variety_en": "Conflict and Tension: Emphasize emotional tension between characters. Use dramatic lighting, sharp contrasts, and tight framing on facial expressions.",
+  "target_interval": 6.0,
+  "clip_duration": 6.0
+}

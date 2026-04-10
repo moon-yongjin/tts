@@ -1,0 +1,83 @@
+/**
+ * Grok Bulk Premium V6 - Fast Version Side Panel
+ */
+
+const $ = id => document.getElementById(id);
+const logArea = $('log');
+
+function log(msg) {
+    const time = new Date().toLocaleTimeString('ko-KR', { hour12: false });
+    logArea.textContent += `[${time}] ${msg}\n`;
+    logArea.scrollTop = logArea.scrollHeight;
+}
+
+$('btnStart').addEventListener('click', async () => {
+    const text = $('prompts').value.trim();
+    const prompts = text ? text.split('\n').map(p => p.trim()).filter(p => p) : [""];  // 프롬프트 없어도 빈 문자열로
+
+    const folderInput = $('image-folder');
+    if (!folderInput || folderInput.files.length === 0) {
+        log('❌ 에러: 이미지 폴더를 선택하세요.');
+        return;
+    }
+
+    // 개선된 파일 필터링 (확장자 + MIME 타입)
+    let imageFiles = Array.from(folderInput.files).filter(f => {
+        const ext = f.name.toLowerCase().match(/\.(jpg|jpeg|png|webp|gif)$/);
+        return ext || f.type.startsWith('image/');
+    }).sort((a, b) => a.name.localeCompare(b.name, undefined, {numeric: true}));
+
+    if (imageFiles.length === 0) {
+        log('❌ 에러: 유효한 이미지 파일이 없습니다. (jpg, jpeg, png, webp 지원)');
+        return;
+    }
+
+    log(`⏳ ${imageFiles.length}개 이미지 읽는 중...`);
+
+    const readAsDataURL = (file) => new Promise(resolve => {
+        const reader = new FileReader();
+        reader.onload = e => resolve({
+            name: file.name,
+            type: file.type || 'image/jpeg',
+            dataUrl: e.target.result
+        });
+        reader.readAsDataURL(file);
+    });
+
+    const imagesData = await Promise.all(imageFiles.map(readAsDataURL));
+
+    chrome.tabs.query({ active: true, currentWindow: true }, (tabs) => {
+        if (!tabs || tabs.length === 0) {
+            log('❌ 활성 탭을 찾을 수 없습니다.');
+            return;
+        }
+
+        log(`🚀 배치 시작: ${imagesData.length}개 이미지 (프롬프트 없이 Video 모드)`);
+
+        chrome.tabs.sendMessage(tabs[0].id, {
+            action: 'START_BATCH',
+            prompts: prompts,        // 빈 배열이어도 ok
+            images: imagesData
+        });
+
+        $('status').textContent = '● 가동 중 (빠른 모드)';
+        $('status').style.color = '#0f0';
+    });
+});
+
+$('btnStop').addEventListener('click', () => {
+    chrome.tabs.query({ active: true, currentWindow: true }, (tabs) => {
+        if (tabs[0]) chrome.tabs.sendMessage(tabs[0].id, { action: 'STOP_BATCH' });
+    });
+    log('⏹ 중지 요청됨');
+    $('status').textContent = '● 중지됨';
+    $('status').style.color = '#f00';
+});
+
+chrome.runtime.onMessage.addListener((msg) => {
+    if (msg.action === 'UI_LOG') {
+        log(msg.text);
+    }
+});
+
+log('✅ 사이드패널 로드 완료 - 빠른 Image-to-Video 모드');

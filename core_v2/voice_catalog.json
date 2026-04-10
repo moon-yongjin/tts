@@ -1,0 +1,22 @@
+{
+    "sister_fixed": {
+        "ref_audio": "/Users/a12/projects/tts/references/Sister_Fixed_Ref.wav",
+        "ref_text": "에구구... 소리가 절로 납니다. 굽은 허리를 펴기도 전에 무릎에서 우드득 소리가 납니다."
+    },
+    "mil_real": {
+        "ref_audio": "/Users/a12/projects/tts/references/MIL_Real_Ref.wav",
+        "ref_text": "와, 근데 진짜 요즘 경기가 너무 안 좋다. 가게 장사 진짜 안 되네."
+    },
+    "tarot_fixed": {
+        "ref_audio": "/Users/a12/projects/tts/references/Tarot_Fixed_Ref.wav",
+        "ref_text": "에구구... 소리가 절로 납니다. 굽은 허리를 펴기도 전에 무릎에서 우드득 소리가 납니다."
+    },
+    "angry_girl": {
+        "ref_audio": "/Users/a12/projects/tts/references/Reference_015348.wav",
+        "ref_text": "아저씨 뭐 하시는 거예요 지금? 미쳤어요? 촬영 나 괜찮아?"
+    },
+    "youtube_ref": {
+        "ref_audio": "/Users/a12/projects/tts/YouTube_Ref.wav",
+        "ref_text": "안녕하세요, 오늘 전해드릴 소식은 유튜브 화면 녹화 영상을 기반으로 한 인공지능 음성 복제 기술입니다."
+    }
+}

@@ -1,0 +1,13 @@
+{
+  "approved": false,
+  "character_ko": "A middle-aged Korean man with a worried expression. He is wearing simple, perhaps slightly worn, everyday clothes. His hair is likely thinning or graying. He appears anxious and hopeful.",
+  "character_en": "Middle-aged Korean man, anxious expression, simple clothing",
+  "background_ko": "낡은 다세대 주택의 좁은 복도와 어두운 거실. 빛바랜 벽지와 오래된 가구들이 가난과 고독을 암시한다. 문틈으로 희미하게 들어오는 햇빛만이 희망의 부재를 더욱 강조한다. 배달원의 오토바이 소리가 희미하게 들린다.",
+  "background_en": "The narrow hallway and dark living room of a dilapidated multi-family house. Faded wallpaper and old furniture suggest poverty and loneliness. Dim sunlight filtering through the doorway only emphasizes the absence of hope. The faint sound of the delivery driver's motorcycle can be heard. Architectural style indicative of 1970s Korea. A feeling of confinement.",
+  "art_style_override_ko": "1970년대 한국 영화 스타일. 어둡고 거친 질감, 낮은 채도, 빛과 그림자의 대비를 강조하여 인물의 감정을 극대화한다. 리얼리즘 기반.",
+  "art_style_override_en": "1970s Korean film style. Emphasize dark, gritty textures, low saturation, and stark contrasts between light and shadow to maximize the character's emotional state. Grounded in realism. Use film grain and subtle imperfections to mimic the look of vintage film stock.",
+  "visual_variety_ko": "[대립과 긴장] 캐릭터 간의 감정 선과 갈등을 강조하는 연출: 표정의 대비, 그림자 활용, 긴박한 구도 위주.",
+  "visual_variety_en": "Conflict and Tension: Emphasize emotional tension between characters. Use dramatic lighting, sharp contrasts, and tight framing on facial expressions.",
+  "target_interval": 6.0,
+  "clip_duration": 6.0
+}

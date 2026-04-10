@@ -1,0 +1,12 @@
+{
+  "approved": false,
+  "character_ko": "이정숙: 68세 여성, 은발의 단정한 쪽머리, 주름이 있는 얼굴, 따뜻한 눈매. 수수한 간호사 앞치마를 입고 있으며, 가끔 얇은 카디건을 걸치기도 한다. 봉사활동으로 지친 듯 약간 수척해 보이지만, 강인함이 느껴지는 인상이다. 30년의 세월이 느껴지는 잔주름과 슬픔이 어려있는 눈이 특징.",
+  "character_en": "Lee Jung-sook: A 68-year-old woman with neatly styled silver hair, a wrinkled face, and warm eyes. She wears a simple nurse's apron, sometimes with a thin cardigan. She looks slightly gaunt from her volunteer work but has a strong presence. Fine wrinkles and a melancholic gaze reflecting 30 years of hardship are key features.",
+  "background_ko": "경기도 가평의 한적한 숲속 요양원. 늦가을의 흐린 날씨, 가느다란 빗줄기가 소나무 숲을 적시고 있다. 병실 내부는 창백한 햇살이 먼지처럼 부유하며, 소독약 냄새와 노인들의 숨소리가 무겁게 느껴진다. 전체적으로 차분하고 어두운 분위기이며, 창밖의 숲은 안개에 잠겨 있다.",
+  "background_en": "A quiet nursing home in a forest in Gapyeong, Gyeonggi Province. A cloudy late autumn day with a light drizzle soaking the pine forest. Inside the ward, pale sunlight illuminates floating dust particles, and the air is heavy with the smell of disinfectant and the breaths of elderly patients. The overall atmosphere is calm and dark, with the forest outside shrouded in mist.",
+  "art_style_override_ko": "사실적인 묘사, 인물과 배경 모두 세밀하게 묘사하되, 약간의 노이즈와 거친 질감을 추가하여 다큐멘터리 같은 느낌을 강조한다. 색감은 차분하고 어둡게 유지하며, 빛과 그림자의 대비를 활용하여 분위기를 살린다.",
+  "art_style_override_en": "Realistic depiction; portray both characters and background in great detail, adding slight noise and rough textures to emphasize a documentary-like feel. Keep the color palette subdued and dark, utilizing contrast between light and shadow to enhance the atmosphere. Avoid excessive stylization.",
+  "visual_variety_ko": "[미장센] 사물과 배경을 통한 상징적 연출: 인물보다는 주변의 사물, 환경, 분위기를 통해 상황을 암시하는 예술적 연출.",
+  "visual_variety_en": "Mise-en-scène: Use surrounding objects, environment, and atmosphere to symbolically represent the scene. Focus on artistic compositions and meaningful background details to create depth and mood.",
+  "target_interval": 6.0
+}

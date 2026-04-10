@@ -1,0 +1,13 @@
+{
+  "approved": false,
+  "character_ko": "갑수 (Gap-soo) appears disheveled and anxious. He is likely in his late 50s. His clothes are simple and worn, perhaps an old, faded shirt and pants. His face shows worry and desperation, with tired eyes and maybe some stubble. His hair is thinning and unkempt.",
+  "character_en": "Middle-aged Korean man with worried expression, wearing simple, worn clothes.",
+  "background_ko": "낡고 허름한 판자촌의 좁은 방. 빛바랜 벽지와 낡은 장판이 세월의 흔적을 보여준다. 희미한 형광등 불빛 아래, 짜장면 그릇이 놓인 낡은 밥상이 놓여 있다. 방 안은 어둡고 습하며, 가난과 절망이 느껴지는 분위기이다.",
+  "background_en": "A small, dilapidated room in a shantytown. Faded wallpaper and worn-out linoleum flooring show the passage of time. Under the dim fluorescent light, there's an old dining table with two bowls of jajangmyeon (black bean noodles). The room is dark, damp, and filled with an atmosphere of poverty and despair.",
+  "art_style_override_ko": "수묵화 스타일을 유지하며, 어둡고 거친 톤을 사용하여 인물과 배경의 분위기를 강조한다. 먹 번짐 효과와 붓터치를 살려 그림의 깊이를 더한다.",
+  "art_style_override_en": "Maintain a Sumi-e (ink wash painting) style, using dark and rough tones to emphasize the atmosphere of the characters and background. Enhance the depth of the artwork with ink bleeding effects and brushstrokes.",
+  "visual_variety_ko": "[대립과 긴장] 캐릭터 간의 감정 선과 갈등을 강조하는 연출: 표정의 대비, 그림자 활용, 긴박한 구도 위주.",
+  "visual_variety_en": "Conflict and Tension: Emphasize emotional tension between characters. Use dramatic lighting, sharp contrasts, and tight framing on facial expressions.",
+  "target_interval": 6.0,
+  "clip_duration": 6.0
+}

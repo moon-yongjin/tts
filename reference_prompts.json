@@ -1,0 +1,22 @@
+[
+  {
+    "prompt": "Full body portrait of a Korean Magistrate (Won-nim), old age, arrogant expression sitting on a silk cushion, wearing modern office look, photorealistic, simple white background, 8k.",
+    "label": "Magistrate_Sitting"
+  },
+  {
+    "prompt": "Full body portrait of a Korean clever boy, adolescent age, looking troubled then deeply bowing, wearing trendy clothes, photorealistic, simple white background, 8k.",
+    "label": "Clever_Boy_Bowing"
+  },
+  {
+    "prompt": "Group portrait of all main Korean characters from the script, including an old arrogant Magistrate and a clever adolescent boy, set in a modern courtyard, expressing their tense relationship and unique vibes, modern clothing, photorealistic, cinematic lighting.",
+    "label": "Main_Group"
+  },
+  {
+    "prompt": "Interior of a Magistrate's office, modern interior, no people, detailed textures, cinematic lighting.",
+    "label": "Magistrate_Office_Interior"
+  },
+  {
+    "prompt": "Courtyard of a traditional Korean house, modern cinematic exterior, no people, detailed textures, cinematic lighting.",
+    "label": "Korean_House_Courtyard"
+  }
+]

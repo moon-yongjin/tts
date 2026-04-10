@@ -1,0 +1,102 @@
+[
+    {
+        "scene": 1,
+        "description": "멀리서 주막의 전경을 보여주며, 입구에서 손님을 기다리는 주모",
+        "visual_prompt": "A wide shot of a traditional Korean Joseon tavern, thatched roof, a beautiful Korean female tavern keeper standing at the entrance, waving a wooden ladle, warm sunlight filtering through trees, 1980s film camera quality, vintage film grain."
+    },
+    {
+        "scene": 2,
+        "description": "나무 테이블 위에 탁주 사발을 내려놓는 주모의 손 (클로즈업)",
+        "visual_prompt": "Close-up of a Korean woman's hand placing a rough ceramic bowl of milky Takju (rice wine) on a weathered wooden table, droplets on the bowl, sunlight reflecting on the liquid, 1980s film grain, soft focus."
+    },
+    {
+        "scene": 3,
+        "description": "웃으며 손님에게 인사를 건네는 주모의 얼굴",
+        "visual_prompt": "Medium close-up of a beautiful Korean woman with a sly smile, wearing a simple hemp hanbok, speaking with lip movement, feminine and curvy, beads of sweat on her forehead, traditional tavern background, warm cinematic lighting, photorealistic."
+    },
+    {
+        "scene": 4,
+        "description": "더운 여름날, 부채질을 하며 땀찌를 닦는 모습",
+        "visual_prompt": "A Korean tavern woman in short-sleeve hemp hanbok, fanning herself with a traditional round fan, wiping sweat from her neck, curvy figure, vintage 1980s film aesthetic, soft color palette."
+    },
+    {
+        "scene": 5,
+        "description": "탁주 항아리에서 사발로 술을 자작하게 따르는 장면",
+        "visual_prompt": "Medium shot of a Joseon tavern woman pouring milky white rice wine from a large clay jar into a bowl, the liquid splashing slightly, simple and worn clothing, traditional kitchen background, warm sunlight."
+    },
+    {
+        "scene": 6,
+        "description": "주막 구석에서 안주용 전을 부치며 뒤돌아보는 모습",
+        "visual_prompt": "A Joseon woman in short-sleeve working hanbok, pan-frying Jeon (Korean pancakes) over an open fire, looking back over her shoulder with a playful gaze, feminine and curvy, light smoke, cinematic lighting."
+    },
+    {
+        "scene": 7,
+        "description": "손님에게 술상을 들고 걸어오는 전신 모습",
+        "visual_prompt": "Full body shot of a beautiful Joseon tavern woman carrying a small wooden table with food and wine, wearing short-sleeved hemp top and short hemp trousers, curvy feminine figure, walking across the dirt floor of the tavern, 1980s film quality."
+    },
+    {
+        "scene": 8,
+        "description": "손님의 빈 사발을 확인하고 익살스런 표정을 짓는 클로즈업",
+        "visual_prompt": "Extreme close-up of a beautiful Korean woman's face, winking and smiling, traditional tavern interior, vintage film grain, warm highlights on her skin, soft focus background."
+    },
+    {
+        "scene": 9,
+        "description": "주막 처마 밑에서 햇빛을 피하며 잠시 쉬는 모습",
+        "visual_prompt": "A Joseon woman sitting on a wooden bench under the thatched roof, leaning against a post, curvy figure, rough hemp fabric texture, soft sunlight, 1980s film aesthetic."
+    },
+    {
+        "scene": 10,
+        "description": "커다란 주걱으로 국밥 솥을 젓고 있는 뒷모습",
+        "visual_prompt": "Back view of a curvy Korean woman in simple hemp hanbok top, stirring a large steaming iron pot with a wooden ladle, focus on her waist and hips, steam rising, traditional kitchen setting, photorealistic."
+    },
+    {
+        "scene": 11,
+        "description": "손님과 웃으며 대화를 나누는 즐거운 표정",
+        "visual_prompt": "Medium shot of a Joseon woman laughing heartily, hand over her mouth, expressive eyes, short-sleeve summer hanbok, feminine silhouette, warm tavern lighting, vintage 1980s film grain."
+    },
+    {
+        "scene": 12,
+        "description": "바닥에 떨어진 젓가락을 줍기 위해 몸을 숙이는 장면",
+        "visual_prompt": "A Joseon tavern woman bending over to pick up a wooden chopstick from the dirt floor, emphasis on her curvy feminine figure, wearing simple hemp working clothes, warm afternoon sun, cinematic composition."
+    },
+    {
+        "scene": 13,
+        "description": "나무 기둥에 기대어 멀리 서 있는 손님을 쳐다보는 모습",
+        "visual_prompt": "A beautiful Korean woman leaning against a thick wooden pillar, looking into the distance with a longing expression, shabby but clean hemp hanbok, vintage film wash, soft focus."
+    },
+    {
+        "scene": 14,
+        "description": "주방에서 칼질을 하며 집중하고 있는 옆모습",
+        "visual_prompt": "Side profile of a Joseon woman chopping vegetables on a wooden block, focused gaze, short-sleeved top showing her arms, curves evident, 1980s film stock look, warm light."
+    },
+    {
+        "scene": 15,
+        "description": "술 취한 손님에게 술 그만 마시라고 손짓하는 모습",
+        "visual_prompt": "Medium shot of a tavern woman wagging her finger with a stern but friendly face, curvy figure in hemp outfit, traditional interior with straw mats, vintage film grain, soft lighting."
+    },
+    {
+        "scene": 16,
+        "description": "주막 마당에 널린 빨래 사이로 걸어 나오는 장면",
+        "visual_prompt": "A Joseon woman walking through rows of white laundry hanging to dry, flickering sunlight and shadows, curvy figure, summer hanbok, cinematic 1980s movie aesthetic."
+    },
+    {
+        "scene": 17,
+        "description": "사발에 남은 탁주 찌꺼기를 흔들어 버리는 동작",
+        "visual_prompt": "Close-up shot of a woman's hands swirling a ceramic bowl and tossing out dregs, liquid flying in the air, sunset light hitting the spray, 1980s film quality."
+    },
+    {
+        "scene": 18,
+        "description": "머리를 다시 가다듬으며 비녀를 꽂는 주모",
+        "visual_prompt": "Medium shot of a beautiful Joseon woman fixing her hair bun, arms raised showing her profile, feminine and curvy, simple hemp hanbok, traditional background, warm cinematic glow."
+    },
+    {
+        "scene": 19,
+        "description": "주막 문을 닫으며 마지막 손님을 배웅하는 뒷모습",
+        "visual_prompt": "Full body back view of a curvy tavern woman waving goodbye to someone in the twilight, glowing tavern lamps, hemp fabric texture, soft focus, vintage 1980s film look."
+    },
+    {
+        "scene": 20,
+        "description": "주막 안에서 촛불을 끄기 전 미소 짓는 얼굴",
+        "visual_prompt": "Close-up of a beautiful Joseon woman's face illuminated by a single candle, soft smile, expressive eyes, warm shadows, vintage film grain, photorealistic, cinematic finale."
+    }
+]

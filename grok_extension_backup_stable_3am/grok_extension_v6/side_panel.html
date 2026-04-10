@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    body { font-family: 'Inter', sans-serif; background: #000; color: #0f0; margin: 0; padding: 15px; }
+    h2 { font-size: 1.1rem; border-left: 4px solid #0f0; padding-left: 10px; margin-top: 0; }
+    .card { background: #111; border: 1px solid #222; border-radius: 12px; padding: 12px; margin-bottom: 12px; }
+    label { display: block; margin-bottom: 5px; font-size: 0.8rem; color: #888; }
+    input, textarea { width: 100%; background: #050505; border: 1px solid #222; border-radius: 8px; color: #0f0; padding: 8px; font-size: 0.8rem; }
+    .btn { width: 100%; padding: 12px; border: none; border-radius: 8px; font-weight: bold; cursor: pointer; margin-top: 8px; }
+    .btn-primary { background: #0f0; color: #000; }
+    .btn-secondary { background: #222; color: #fff; border: 1px solid #444; }
+    #status { margin-bottom: 10px; font-weight: bold; color: #ff0; text-align: center; font-size: 0.9rem; }
+    #log { height: 160px; background: #050505; border: 1px solid #111; border-radius: 8px; padding: 8px; font-size: 0.7rem; overflow-y: auto; white-space: pre-wrap; margin-top: 10px; color: #0b0; }
+  </style>
+</head>
+<body>
+  <h2>Grok Bulk Premium V6 - 에셋 지원</h2>
+  
+  <!-- 에셋 등록 섹션 -->
+  <div class="card">
+    <h3>📦 에셋 등록 (한 번만 하면 됨)</h3>
+    <label>1. 이미지 파일 선택</label>
+    <input type="file" id="assetFile" accept="image/*">
+    
+    <label>2. 에셋 이름 (예: Mother_Face)</label>
+    <input type="text" id="assetName" placeholder="Mother_Face">
+    
+    <button id="btnRegister" class="btn btn-primary">✅ 에셋 등록하기</button>
+  </div>
+
+  <!-- 배치 섹션 -->
+  <div class="card">
+    <div id="status">● 대기 중</div>
+    
+    <label>프롬프트 입력 (한 줄에 하나씩, @[Mother_Face] 사용 가능)</label>
+    <textarea id="prompts" rows="8" placeholder="Using the uploaded references: @[Mother_Face] and @[Min_gyeong_Face] ..."></textarea>
+
+    <button id="btnStart" class="btn btn-primary">🎬 연속 Video 생성 가동</button>
+    <button id="btnStop" class="btn btn-secondary">⏹ 중지</button>
+  </div>
+
+  <div id="log"></div>
+
+  <script src="assets.js"></script>
+  <script src="side_panel.js"></script>
+</body>
+</html>

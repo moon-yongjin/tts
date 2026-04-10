@@ -1,0 +1,11 @@
+Prompt/Action: 현북면 설화 1
+Dialogue: 이 지방은 산골이였기 때문에 호랑이가 많이 있었을 터이니 호랑이 얘기가 있으면 들려 달라.
+Dialogue: 범 사냥을 가자.
+Dialogue: 덕오, 빨리 와서 사람 살려라.
+Dialogue: 덕오, 서낭님, 서낭님 사람 살리우.
+Dialogue: 덕오, 서낭님 와 사람 살려라.
+Dialogue: 중아, 나팔 불어라.
+Dialogue: 덕오야, 빨리 와 사람 살려라.
+Dialogue: 덕오 서낭님 사람 살려라.
+Dialogue: 중아, 나팔 불어라.
+Dialogue: 위험한 짓 했다.

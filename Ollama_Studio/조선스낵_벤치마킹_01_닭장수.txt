@@ -1,0 +1,34 @@
+[제목]: 닭장수와 꾀돌이 선비 (조선스낵 정통 벤치마킹 각색본)
+
+[상황 설명(나레이션)]: 장날이 다 저물도록 닭 한 마리 못 판 닭장수가 담배만 뻑뻑 피워대고 있었더랬다. 그때, 땟물 흐르는 도포에 염소수염을 한 선비 하나가 나타나 닭을 뚫어지게 쳐다보는 게 아니겠는가.
+
+(기-Hook)
+[비주얼]: 저잣거리 구석, 쭈그려 앉아 곰방대를 피우는 닭장수(심술궂은 인상). 그 앞에 꾀죄죄한 차림의 선비가 나타나 망태기 속 장닭을 본다. 
+닭장수 : (귀찮은 듯) 아따, 안 살 거면 저리 가쇼! 
+선비 : (눈을 반짝이며) 이보시오 대장... 이게 혹시 말로만 듣던 '봉황' 아니오?
+
+(승-Escalation)
+[비주얼]: 닭장수가 눈을 가늘게 뜨더니, 냅다 소리를 지른다.
+닭장수 : (능청을 떨며) 오매! 눈썰미가 보통이 아니시구먼! 맞구유, 이게 바로 천 년에 한 번 나타난다는 봉황이랑께요!
+선비 : (감탄하며) 오라! 역시 내 눈이 틀리지 않았군. 이 봉황은 얼마요?
+닭장수 : (침을 꿀꺽 삼키며) 이거 귀한 놈이라 원래는 오백 냥인디... 선비님 관상이 좋으니 특별히 '백 냥'만 내쇼!
+
+(전-Twist)
+[비주얼]: 선비가 백 냥을 흔쾌히 내고 닭을 안고 사라진다. 닭장수는 횡재했다며 주막으로 달려가 술판을 벌인다. 
+[비주얼]: 다음 날, 동원(관가). 선비가 사또 앞에서 닭을 '봉황'이라고 바치다 곤장 맞을 위기에 처한다. 선비가 울며불며 자초지종을 고하자, 닭장수가 끌려온다.
+
+닭장수 : (억울해하며) 사또 나으리! 전 닭이라고 했당께요! 저 선비가 미쳐서 봉황이라고 우긴 거지유!
+선비 : (눈물을 닦으며) 사또! 이 자가 백 냥이 아니라 '오백 냥'을 받아 처먹고 봉황이라 속였나이다! 증인도 있사옵니다!
+
+(결-Punchline)
+[비주얼]: 닭장수가 당황해 펄쩍 뛴다.
+닭장수 : (악을 쓰며) 오백 냥이라니! 나는 딱 '백 냥'만 받았단 말이오!
+사또 : (책상을 쾅 치며) 이놈! 백 냥 받았다면 결국 닭을 사기 쳐서 판 건 인정하는구나! 오백 냥 대납하고 곤장 서른 대를 쳐라!
+
+[비주얼]: 선비는 오백 냥을 챙겨 유유히 사라지고, 닭장수는 엉덩이가 터지도록 곤장을 맞는 소리가 저잣거리에 울려 퍼진다.
+나레이션 : (능청) 아따, 남 속이려다 제 엉덩이만 박살 난 닭장수 꼴 좀 보소!
+
+[비주얼 연출 프롬프트]
+1. (Masterpiece, best quality, 8k), a grumpy Joseon chicken seller smoking a pipe in a busy market, a shabby scholar with a goat beard pointing at a rooster in a cage, humorous atmosphere.
+2. (Masterpiece, best quality, 8k), the scholar handing over a bag of coins to the smiling chicken seller, the rooster looking confused, vibrant traditional street background.
+3. (Masterpiece, best quality, 8k), the chicken seller being whipped with a wooden paddle (Gonjang) in a traditional court, the scholar looking at a large pile of gold coins with a sly smile in the foreground.

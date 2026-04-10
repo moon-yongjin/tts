@@ -1,0 +1,32 @@
+{
+  "manifest_version": 3,
+  "name": "Nano Banana 2 Auto",
+  "version": "4.4.0",
+  "description": "Google Flow Nano Banana 2 이미지 자동 생성기",
+  "permissions": [
+    "activeTab",
+    "storage",
+    "downloads",
+    "scripting",
+    "sidePanel"
+  ],
+  "host_permissions": [
+    "https://labs.google/*"
+  ],
+  "side_panel": {
+    "default_path": "sidepanel.html"
+  },
+  "action": {
+    "default_title": "NB2 Auto 사이드 패널 열기"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://labs.google/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}

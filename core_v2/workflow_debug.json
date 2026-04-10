@@ -1,0 +1,114 @@
+{
+  "prompt": {
+    "1": {
+      "inputs": {
+        "unet_name": "flux1-dev-fp8.safetensors",
+        "weight_dtype": "bf16"
+      },
+      "class_type": "UNETLoader"
+    },
+    "2": {
+      "inputs": {
+        "clip_name1": "t5xxl_fp8_e4m3fn.safetensors",
+        "clip_name2": "clip_l.safetensors",
+        "type": "flux"
+      },
+      "class_type": "DualCLIPLoader"
+    },
+    "3": {
+      "inputs": {
+        "vae_name": "ae.safetensors"
+      },
+      "class_type": "VAELoader"
+    },
+    "4": {
+      "inputs": {
+        "text": "(Full body shot:1.2), (Standing portrait:1.2), A tall and slender Korean woman on an athletic track, fair skin, lean physique, professional running gear, sneakers, (neutral white balance:1.2), cinematic cold lighting, realistic skin texture, f/8, 8k raw photo, film grain",
+        "clip": [
+          "2",
+          0
+        ]
+      },
+      "class_type": "CLIPTextEncode"
+    },
+    "5": {
+      "inputs": {
+        "text": "blurry, low quality, game graphic, 3d render, plastic, jaundice, yellow skin",
+        "clip": [
+          "2",
+          0
+        ]
+      },
+      "class_type": "CLIPTextEncode"
+    },
+    "6": {
+      "inputs": {
+        "guidance": 3.5,
+        "conditioning": [
+          "4",
+          0
+        ]
+      },
+      "class_type": "FluxGuidance"
+    },
+    "7": {
+      "inputs": {
+        "width": 832,
+        "height": 1216,
+        "batch_size": 1
+      },
+      "class_type": "EmptyLatentImage"
+    },
+    "8": {
+      "inputs": {
+        "seed": 9621432427,
+        "steps": 20,
+        "cfg": 1.0,
+        "sampler_name": "euler",
+        "scheduler": "simple",
+        "denoise": 1.0,
+        "model": [
+          "1",
+          0
+        ],
+        "positive": [
+          "6",
+          0
+        ],
+        "negative": [
+          "5",
+          0
+        ],
+        "latent_image": [
+          "7",
+          0
+        ]
+      },
+      "class_type": "KSampler"
+    },
+    "9": {
+      "inputs": {
+        "samples": [
+          "8",
+          0
+        ],
+        "vae": [
+          "3",
+          0
+        ]
+      },
+      "class_type": "VAEDecode"
+    },
+    "10": {
+      "inputs": {
+        "filename_prefix": "Flux_Final",
+        "images": [
+          "9",
+          0
+        ]
+      },
+      "class_type": "SaveImage"
+    }
+  },
+  "client_id": "d36229e0-6252-468c-9533-7c2b8d27d8d0"
+}

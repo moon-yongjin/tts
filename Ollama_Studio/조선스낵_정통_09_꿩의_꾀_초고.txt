@@ -1,0 +1,51 @@
+**[제목]: 조선스낵 - 꿩의 꾀: 내 고기 먹으려거든 내 똥부터 먹어라 (Episode 9)**
+
+[상황 설명(나레이션)]: 아따, 옛날 어느 산골에 입만 열면 '자연의 섭리' 운운하며 남의 목숨 탐내는 능구렁이 한 마리가 살았더랬다.
+
+---
+
+### (기-Hook)
+**[비주얼]**: (Masterpiece, best quality, 8k), 안개가 자욱한 새벽 숲속. 거대한 구렁이(Python-like massive snake)가 화려한 깃털을 가진 꿩(Colorful Pheasant)을 똬리를 틀어 압박하고 있다. 구렁이는 탐욕스러운 눈빛으로 꿩을 내려다보고, 꿩은 겁에 질린 듯하지만 눈빛만은 살아있다.
+**[Dialogue]**:
+구렁이: (능글맞은 목소리) 아따, 꿩 선생. 네가 내 입으로 쏙 들어와야 내가 배가 안 고플 것 아니냐? 이게 다 하늘이 정한 '자연의 섭리'란 말이지!
+
+---
+
+### (승-Escalation)
+**[비주얼]**: (Masterpiece, best quality, 8k), 꿩이 고개를 빳빳이 들고 구렁이의 눈을 똑바로 쳐다본다. 구렁이는 당장이라도 집어삼킬 듯 입을 크게 벌리고 있다.
+**[Dialogue]**:
+꿩: (침착하게) 아유, 구렁이님 말씀이 백번 옳네유. 자연의 섭리인데 제가 어찌 거역하겠시랴? 근데 문제가 하나 있어유.
+구렁이: (의아한 듯) 먼 문제여? 군말 말고 얼른 들어와!
+
+---
+
+### (전-Twist)
+**[비주얼]**: (Masterpiece, best quality, 8k), 초밀착 샷(Close-up). 꿩이 은밀하게 귓속말이라도 하듯 구렁이에게 다가간다. 구렁이는 멈칫하며 귀를 기울인다.
+**[Dialogue]**:
+꿩: 제가 방금 저 밑에서 '독초'를 한 사발 뜯어 먹었거든유. 지금 온몸에 독이 퍼졌슈. 저를 그냥 드시면 구렁이님도 바로 요단강 건너시는 거여.
+구렁이: (당황하며) 뭐... 뭐라고? 그럼 어쩌라는 거야!
+꿩: 방법이 딱 하나 있슈. 저를 깨끗하게 비우려면, 구렁이님 '똥'을 한 사발 드셔야 제 몸속 독이 싹 해독되거든유. 자, 어서 한 사발 시원하게 지려 주시랴!
+
+---
+
+### (결-Punchline)
+**[비주얼]**: (Masterpiece, best quality, 8k), 구렁이가 멍청한 표정으로 제 꼬리 쪽을 쳐다보며 당황하고, 그 틈을 타 꿩이 날개를 활짝 펴고 하늘로 솟구친다.
+**[Dialogue]**:
+꿩: (하늘 위에서 비웃으며) 아따~ 남의 목숨 탐내면서 제 똥 한 사발도 못 먹는 놈은 대체 누구랴! 퉤!
+
+---
+
+### [등장인물 고정 프롬프트 (Character Consistency)]
+
+1. **The Snake (능구렁이)**:
+   - (Masterpiece, best quality, 8k), a massive scaly python with dark patterns, expressive mean golden eyes, thick scaly skin with realistic texture, looking greedy and arrogant.
+
+2. **The Pheasant (영리한 꿩)**:
+   - (Masterpiece, best quality, 8k), a colorful Korean pheasant (K-pheasant), vibrant green and red feathers around the neck, sharp intelligent eyes, realistic feather textures, looking small but brave.
+
+### [비주얼 연출 프롬프트 (AI Image Generation)]
+***Resolution Goal: 1216x832 (Cinema Wide)*
+
+1. **Scene 1 (The Threat)**: (Masterpiece, best quality, 8k), extreme detail, cinematic lighting, misty dawn forest, a massive scaly snake coiled around a colorful pheasant, the snake looking down with a greedy smile, high contrast, photorealistic.
+2. **Scene 2 (The Negotiation)**: (Masterpiece, best quality, 8k), close-up shot, the pheasant looking directly into the snake's eye, the snake looking confused and hesitant, foggy background, high detail skin and feather texture.
+3. **Scene 3 (The Escape)**: (Masterpiece, best quality, 8k), cinematic action shot, the pheasant flying into the sky reflecting the sunlight, the massive snake below looking at its own tail with a dumb expression, vibrant colors, sunset lighting.

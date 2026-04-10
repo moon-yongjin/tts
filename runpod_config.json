@@ -1,0 +1,6 @@
+{
+    "model_path": "/workspace/Qwen3-TTS",
+    "device": "cuda",
+    "dtype": "bfloat16",
+    "sample_rate": 24000
+}

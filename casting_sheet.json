@@ -1,0 +1,17 @@
+{
+  "Auntie Lee": {
+    "engine": "Azure",
+    "voice_id": "ko-KR-InJoonNeural",
+    "reason": "중후한 성우 톤으로, 가족이 명예를 지키기 위해 이야기하는 감정을 효과적으로 전달할 수 있습니다."
+  },
+  "Uncle Kim": {
+    "engine": "Azure",
+    "voice_id": "ko-KR-JiMinNeural",
+    "reason": "뉴스/다큐나레이션 최적화된 목소리로, 신뢰감 있고 중립적인 분위기를 유지하는데 적합합니다."
+  },
+  "Everyone": {
+    "engine": "Qwen",
+    "voice_id": "qwen_local",
+    "reason": "개성 있는 개성파/악역 캐릭터로, 야자를 받아들이고 명예를 지키는 과정을 독특하고 재미있게 표현할 수 있습니다."
+  }
+}

@@ -1,0 +1,9 @@
+Prompt/Action: 일련번호 및 파일명
+Prompt/Action: 제목
+Prompt/Action: 구연정보
+Prompt/Action: 구연상황
+Prompt/Action: 줄거리
+Prompt/Action: 본문
+@1: 그니까 호랑이도 효자를 알아보는고만요?
+@1: 아, 어머니가?
+@1: 호랑이 덕분에 그래도 홍시도 구하고요잉.

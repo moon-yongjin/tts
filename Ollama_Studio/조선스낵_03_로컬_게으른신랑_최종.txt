@@ -1,0 +1,21 @@
+[제목]: 베짱이 신랑의 수난 (Ollama 초안 기반 Gemini 최종 보정)
+
+(기-Hook)
+[비주얼]: 따사로운 오후, 대청마루에서 배를 긁으며 낮잠을 자는 새신랑. 마당에는 낙엽이 수북하다. 장모가 빗자루를 들고 나타나 신랑의 옆구리를 툭툭 친다. 마당 좀 쓸라는 무언의 압박.
+
+(승-Escalation)
+[비주얼]: 신랑이 귀찮은 듯 일어나 빗자루를 잡는가 싶더니, 장모가 안 보는 사이 집에서 키우는 누렁이의 등에 빗자루를 끈으로 묶어버린다.
+[비주얼]: 누렁이가 마당을 뛰어다닐 때마다 빗자루가 땅을 훑으며 낙엽이 사방으로 날린다. 신랑은 다시 누워 흐뭇하게 쳐다본다.
+
+(전-Twist)
+[비주얼]: 이를 지켜보던 장모가 눈을 가늘게 뜨더니, 조용히 다가가 누렁이 등에 묶인 빗자루를 푼다. 그리고는 자는 신랑의 상투 양 갈래에 빗자루 손잡이를 꽉 묶어버린다.
+
+(결-Punchline)
+[비주얼]: 신랑이 잠결에 머리가 무거워 일어난다. 고개를 돌릴 때마다 빗자루가 마당을 쓸어버리는 기괴한 모습. 장모가 그 옆에서 유유히 식혜를 마시며 한마디 한다.
+
+장모 : (무심하게) 아따, 개보다는 우리 사위가 마당질 하나는 기가 막히게 잘 하는구먼!
+
+[비주얼 연출 프롬프트]
+1. (Masterpiece, best quality, 8k), a lazy groom sleeping on a wooden porch of a traditional Korean house, autumn leaves scattered in the yard, a stern mother-in-law holding a broom.
+2. (Masterpiece, best quality, 8k), a dog running in the yard with a broom tied to its back, the groom laughing from the porch, humorous situational comedy.
+3. (Masterpiece, best quality, 8k), the groom waking up with a broom tied to his topknot (Sangtu), looking confused, the mother-in-law drinking traditional juice in the background, cinematic comedy.

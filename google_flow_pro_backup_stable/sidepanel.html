@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title>NB2 Auto</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    width: 100%; font-family: 'Segoe UI', sans-serif;
+    background: #1a1a2e; color: #eee; padding: 16px;
+  }
+  h1 { font-size: 16px; text-align: center; margin-bottom: 12px; color: #00d2ff; }
+  .section { background: #16213e; border-radius: 8px; padding: 12px; margin-bottom: 10px; }
+  .section label { display: block; font-size: 12px; color: #aaa; margin-bottom: 4px; }
+  textarea {
+    width: 100%; height: 140px; background: #0f3460; border: 1px solid #333;
+    border-radius: 6px; color: #eee; padding: 8px; font-size: 12px;
+    resize: vertical; font-family: monospace;
+  }
+  .row { display: flex; gap: 8px; margin-bottom: 8px; }
+  .row input, .row select {
+    flex: 1; background: #0f3460; border: 1px solid #333;
+    border-radius: 6px; color: #eee; padding: 6px 8px; font-size: 13px;
+  }
+  button {
+    width: 100%; padding: 10px; border: none; border-radius: 6px;
+    font-size: 14px; font-weight: bold; cursor: pointer; margin-bottom: 6px;
+  }
+  #btnStart { background: linear-gradient(135deg, #00d2ff, #3a7bd5); color: #fff; }
+  #btnPause { background: #e2b93b; color: #1a1a2e; }
+  #btnStop { background: #e94560; color: #fff; }
+  #btnReset { background: #6c5ce7; color: #fff; }
+  .btn-row { display: flex; gap: 6px; }
+  .btn-row button { flex: 1; }
+  #log {
+    width: 100%; height: 200px; background: #0a0a1a; border: 1px solid #333;
+    border-radius: 6px; color: #0f0; padding: 8px; font-size: 11px;
+    font-family: monospace; overflow-y: auto; resize: vertical;
+  }
+  #status {
+    text-align: center; font-size: 13px; padding: 6px;
+    border-radius: 6px; margin-bottom: 10px; background: #16213e;
+  }
+  .file-btn {
+    background: #0f3460; border: 1px dashed #3a7bd5; color: #00d2ff;
+    padding: 8px; text-align: center; cursor: pointer; border-radius: 6px;
+    font-size: 12px; margin-bottom: 8px;
+  }
+  .file-btn:hover { background: #1a3a6e; }
+</style>
+</head>
+<body>
+<h1>🍌 Nano Banana 2 Auto</h1>
+<div id="status">⏸ 대기 중</div>
+<div class="section">
+  <label>프롬프트 파일 (prompts.txt)</label>
+  <div class="file-btn" id="fileBtn">📂 파일 선택 또는 아래에 직접 붙여넣기</div>
+  <input type="file" id="fileInput" accept=".txt" style="display:none;">
+  <textarea id="promptsArea" placeholder="001 | 메모 | @[스키타는 사진] 과 @[하늘을 날고 있는 새]를 한 화면에 넣어줘"></textarea>
+</div>
+<div class="section">
+  <div class="row">
+    <div><label>시작 번호</label><input type="text" id="startNum" value="001" placeholder="001"></div>
+    <div><label>저장 폴더명</label><input type="text" id="folderName" value="NB2_output" placeholder="NB2_output"></div>
+  </div>
+  <div class="row">
+    <div><label>파일명 방식</label>
+      <select id="nameMode">
+        <option value="id" selected>번호 (001_1.png)</option>
+        <option value="memo">메모=파일명 (파일명.png)</option>
+      </select>
+    </div>
+  </div>
+  <div class="row">
+    <div><label>배치 수</label>
+      <select id="batchCount">
+        <option value="1">x1</option>
+        <option value="2" selected>x2</option>
+        <option value="4">x4</option>
+      </select>
+    </div>
+    <div><label>생성 대기 제한(초)</label><input type="number" id="genTimeout" value="120" min="30" step="10"></div>
+  </div>
+</div>
+<div class="section">
+  <button id="btnDebug" style="background:#0f3460; color:#00d2ff; border:1px solid #3a7bd5; margin-bottom:6px;">🔍 DOM 상태 확인</button>
+  <button id="btnStart">▶ 시작</button>
+  <div class="btn-row">
+    <button id="btnPause">⏸ 일시정지</button>
+    <button id="btnStop">⏹ 중지</button>
+  </div>
+  <button id="btnReset">🔄 초기화 (상태 리셋)</button>
+</div>
+<div class="section">
+  <label>로그</label>
+  <div id="log"></div>
+</div>
+<script src="sidepanel.js"></script>
+</body>
+</html>

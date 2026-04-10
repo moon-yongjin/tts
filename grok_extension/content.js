@@ -1,0 +1,332 @@
+/**
+ * Grok Bulk - v13 (SPA 방식 복원 + 프롬프트 + 버튼 강화)
+ * 2026.04.06 - window.location.href 제거, SPA 내부 이동 방식 복원
+ */
+
+if (window.__GROK_BULK_LOADED === true) {
+    console.log('🚫 중복 로드 방지');
+} else {
+    window.__GROK_BULK_LOADED = true;
+    console.log('✅ Grok Bulk Premium v13 (SPA 복원) 로드됨');
+
+    let isRunning = false;
+    let currentIndex = 0;
+    let batchQueue = [];
+    let currentPrompt = "Animate this image with smooth natural motion";
+    let imageNameQueue = [];
+    let capturedVideoUrls = []; // 가로채기한 URL 저장소
+
+    // inject.js 주입 (fetch 후킹용)
+    const script = document.createElement('script');
+    script.src = chrome.runtime.getURL('inject.js');
+    script.onload = () => script.remove();
+    (document.head || document.documentElement).appendChild(script);
+
+    // 가로채기 메시지 수신
+    window.addEventListener('message', (event) => {
+        if (event.data && event.data.source === 'grok-hook') {
+            if (event.data.action === 'VIDEO_CAPTURED') {
+                capturedVideoUrls.push(event.data.url);
+                sendLog(`📡 영상 URL 낚아채기 성공! (${capturedVideoUrls.length}개 확보)`);
+            }
+        }
+    });
+
+    const sendLog = (text) => {
+        chrome.runtime.sendMessage({ action: 'UI_LOG', text })
+            .catch(() => console.log(`[FALLBACK] ${text}`));
+    };
+
+    async function waitForElement(fn, timeout = 16000) {
+        const start = Date.now();
+        while (Date.now() - start < timeout) {
+            const el = fn();
+            if (el) return el;
+            await new Promise(r => setTimeout(r, 400));
+        }
+        return null;
+    }
+
+    // Imagine 페이지로 SPA 방식 리셋 (content.js가 죽지 않음)
+    async function resetToImagine() {
+        sendLog('🔄 Imagine 위치로 리셋...');
+        const imagineLink = Array.from(document.querySelectorAll('a, button'))
+            .find(el =>
+                (el.href && el.href.includes('/imagine')) ||
+                (el.textContent || '').includes('Imagine') ||
+                (el.getAttribute('aria-label') || '').toLowerCase().includes('imagine')
+            );
+
+        if (imagineLink) {
+            imagineLink.click();
+            sendLog('✅ Imagine 링크 클릭 (SPA 이동)');
+        } else {
+            // 링크를 못 찾으면 history API로 이동 (SPA 방식)
+            window.history.pushState({}, '', '/imagine');
+            window.dispatchEvent(new PopStateEvent('popstate'));
+            sendLog('✅ history.pushState로 이동');
+        }
+        await new Promise(r => setTimeout(r, 4000)); // 페이지 전환 대기
+    }
+
+    // 화살표(↑) 생성 버튼 찾기
+    function findSendButton() {
+        const allBtns = Array.from(document.querySelectorAll('button, [role="button"]'));
+
+        // 1순위: aria-label에 send / message / generate / video 포함
+        const byLabel = allBtns.find(b => {
+            const label = (b.getAttribute('aria-label') || '').toLowerCase();
+            return label.includes('send') || label.includes('generate') ||
+                   label.includes('make video') || label.includes('message');
+        });
+        if (byLabel) return byLabel;
+
+        // 2순위: form 안의 type="submit" 활성 버튼
+        const bySubmit = document.querySelector('form button[type="submit"]:not([disabled])');
+        if (bySubmit) return bySubmit;
+
+        // 3순위: SVG 있는 활성 버튼 중 마지막 (입력창 오른쪽 끝)
+        const withSvg = allBtns.filter(b => b.querySelector('svg') && !b.disabled && !b.hasAttribute('disabled'));
+        if (withSvg.length > 0) return withSvg[withSvg.length - 1];
+
+        return null;
+    }
+
+    // 버튼 목록 디버깅 출력
+    function logAllButtons() {
+        const btns = Array.from(document.querySelectorAll('button, [role="button"]'));
+        btns.forEach((b, i) => {
+            const label = b.getAttribute('aria-label') || '';
+            const type = b.getAttribute('type') || '';
+            const dis = b.disabled ? '🔒' : '✅';
+            sendLog(`  [${i}] label="${label}" type="${type}" ${dis}`);
+        });
+    }
+
+    // ===== 메인 처리 함수 (재귀 방식) =====
+    async function processNext() {
+        if (!isRunning || currentIndex >= batchQueue.length) {
+            isRunning = false;
+            if (currentIndex >= batchQueue.length && batchQueue.length > 0) {
+                sendLog('🎉 모든 이미지 처리 완료!');
+            }
+            return;
+        }
+
+        const img = batchQueue[currentIndex];
+        sendLog(`\n[${currentIndex + 1}/${batchQueue.length}] ▶ ${img.name} 처리 시작`);
+
+        try {
+            // 1. 파일 input 찾기 (drag & drop 또는 input[file])
+            sendLog('📁 이미지 업로드 준비 중...');
+            let input = document.querySelector('input[type="file"]');
+            const dropZone = document.querySelector('div[role="textbox"]') ||
+                             document.querySelector('div.ProseMirror') ||
+                             document.body;
+
+            const res = await fetch(img.dataUrl);
+            const blob = await res.blob();
+            const file = new File([blob], img.name, { type: img.type || 'image/jpeg' });
+
+            if (input) {
+                // input[file] 직접 주입
+                const dt = new DataTransfer();
+                dt.items.add(file);
+                input.files = dt.files;
+                input.dispatchEvent(new Event('change', { bubbles: true }));
+                sendLog('✅ 파일 주입 완료');
+            } else {
+                // Drag & Drop 방식
+                const dt = new DataTransfer();
+                dt.items.add(file);
+                dropZone.dispatchEvent(new DragEvent('drop', {
+                    bubbles: true,
+                    cancelable: true,
+                    dataTransfer: dt
+                }));
+                sendLog('✅ Drag & Drop 업로드 완료');
+            }
+
+            await new Promise(r => setTimeout(r, 5000)); 
+
+            // 2. 프롬프트 입력
+            sendLog('✍️ 프롬프트 입력 중...');
+            const promptArea = document.querySelector('div[role="textbox"], div.ProseMirror, [contenteditable="true"], textarea');
+            if (promptArea) {
+                promptArea.focus();
+                const promptText = currentPrompt;
+                if (promptArea.tagName === 'TEXTAREA') {
+                    promptArea.value = promptText;
+                } else {
+                    promptArea.innerText = promptText;
+                }
+                promptArea.dispatchEvent(new InputEvent('input', { bubbles: true, data: promptText }));
+                sendLog('✅ 프롬프트 입력 완료');
+                await new Promise(r => setTimeout(r, 1500));
+            }
+
+            // 3. 생성 버튼 클릭
+            sendLog('🔍 ↑ 버튼 탐색 중...');
+            const sendBtn = await waitForElement(() => findSendButton(), 10000);
+
+            if (sendBtn) {
+                const label = sendBtn.getAttribute('aria-label') || '(label 없음)';
+                sendLog(`🎯 버튼 클릭: "${label}"`);
+                sendBtn.click();
+                sendLog('🚀 생성 요청 성공!');
+
+                // 마지막 이미지여도 자동 다운로드 하지 않음 - 수동 버튼으로 처리
+            } else {
+                sendLog('❌ 버튼을 찾지 못했습니다.');
+                logAllButtons();
+            }
+
+            // 4. 생성 대기
+            sendLog('⏳ 10초 생성 대기 중...');
+            await new Promise(r => setTimeout(r, 10000));
+
+            // 5. SPA 리셋
+            currentIndex++;
+            sendLog('🔄 다음 작업을 위해 페이지 리셋 중...');
+            await resetToImagine();
+
+            // 6. 다음 이미지 처리
+            processNext();
+
+        } catch (e) {
+            sendLog(`❌ 오류: ${e.message}`);
+            currentIndex++;
+            await resetToImagine();
+            processNext();
+        }
+    }
+
+    async function scheduleAutoDownload() {
+        sendLog('');
+        sendLog('🏁 모든 프롬프트 전송 완료!');
+        sendLog('⏳ 마지막 영상 렌더링을 위해 20초 대기...');
+        
+        for (let i = 20; i > 0; i--) {
+            if (i % 5 === 0 || i <= 5) sendLog(`⏱ ${i}초 남음...`);
+            await new Promise(r => setTimeout(r, 1000));
+        }
+
+        sendLog('📡 가로채기한 URL 검토 중...');
+        
+        try {
+            // imageNameQueue와 capturedVideoUrls 매핑
+            const videos = capturedVideoUrls.map((url, i) => {
+                const origName = imageNameQueue[i] || `video_${i+1}.jpg`;
+                const idx = String(i + 1).padStart(3, '0');
+                const filename = `${idx}_${origName.replace(/\.[^.]+$/, '.mp4')}`;
+                return { url, filename };
+            });
+
+            if (videos.length === 0) {
+                sendLog('❌ 채집된 영상 URL이 없습니다. API 폴백 시도...');
+                const apiVideos = await fetchMyLatestVideos(imageNameQueue.length);
+                if (apiVideos.length > 0) {
+                    chrome.runtime.sendMessage({ action: 'DOWNLOAD_VIDEOS', videos: apiVideos });
+                } else {
+                    sendLog('❌ 영상을 찾을 수 없습니다. 수동으로 확인해주세요.');
+                }
+                return;
+            }
+
+            sendLog(`✅ ${videos.length}개 영상 확인 → 다운로드 시작`);
+            chrome.runtime.sendMessage({ action: 'DOWNLOAD_VIDEOS', videos });
+        } catch (e) {
+            sendLog(`❌ 자동 다운로드 오류: ${e.message}`);
+        }
+    }
+
+    async function fetchMyLatestVideos(count) {
+        const SOURCES = [
+            'MEDIA_POST_SOURCE_OWNED',
+            'MEDIA_POST_SOURCE_CREATED',
+            'MEDIA_POST_SOURCE_USER'
+        ];
+
+        for (const source of SOURCES) {
+            const res = await fetch('/rest/media/post/list', {
+                method: 'POST',
+                headers: { 'content-type': 'application/json' },
+                credentials: 'include',
+                body: JSON.stringify({ limit: count + 10, filter: { source } })
+            });
+            if (!res.ok) continue;
+
+            const data = await res.json();
+            const videos = [];
+
+            for (const post of (data.posts || [])) {
+                for (const video of (post.videos || [])) {
+                    if (video.mediaType !== 'MEDIA_POST_TYPE_VIDEO') continue;
+                    const rawUrl = video.mediaUrl || '';
+                    if (!rawUrl.endsWith('.mp4') && video.mimeType !== 'video/mp4') continue;
+                    const url = rawUrl.startsWith('users/')
+                        ? `https://assets.grok.com/${rawUrl}` : rawUrl;
+                    videos.push({ url, ts: video.createTime || video.createdAt || 0 });
+                }
+            }
+
+            if (videos.length > 0) {
+                // 오름차순 정렬 (생성 순서 = 업로드 순서와 매핑)
+                videos.sort((a, b) => a.ts - b.ts);
+                const latest = !!count && count > 0 ? videos.slice(-count) : videos; 
+                
+                // 원본 이미지 파일명으로 매핑 + 순번 추가
+                return latest.map((v, i) => {
+                    const origName = imageNameQueue[imageNameQueue.length - latest.length + i] || `video_${i+1}.jpg`;
+                    const idx = String(i + 1).padStart(3, '0');
+                    const filename = `${idx}_${origName.replace(/\.[^.]+$/, '.mp4')}`;
+                    return { url: v.url, filename };
+                });
+            }
+        }
+        return [];
+    }
+
+    // ===== 메시지 리스너 =====
+    chrome.runtime.onMessage.addListener((msg) => {
+        if (msg.action === 'PING') return true;
+
+        if (msg.action === 'ADD_IMAGES_BATCH') {
+            batchQueue = batchQueue.concat(msg.images);
+            imageNameQueue = imageNameQueue.concat(msg.images.map(i => i.name));
+            if (msg.prompt) currentPrompt = msg.prompt;
+            sendLog(`📥 배치 수신 (${msg.images.length}장)`);
+
+            if (msg.isLastBatch && !isRunning) {
+                isRunning = true;
+                currentIndex = 0;
+                sendLog(`🔥 총 ${batchQueue.length}장 처리 시작!`);
+                processNext();
+            }
+        }
+
+        if (msg.action === 'STOP_BATCH') {
+            isRunning = false;
+            batchQueue = [];
+            imageNameQueue = [];
+            capturedVideoUrls = [];
+            currentIndex = 0;
+            sendLog('⏹ 중지됨');
+        }
+
+        if (msg.action === 'DOWNLOAD_ALL') {
+            if (capturedVideoUrls.length === 0) {
+                sendLog('❌ 채집된 영상이 없습니다. 영상 생성 후 다시 시도하세요.');
+                return;
+            }
+            const videos = capturedVideoUrls.map((url, i) => {
+                const origName = imageNameQueue[i] || `video_${i+1}.jpg`;
+                const idx = String(i + 1).padStart(3, '0');
+                const filename = `${idx}_${origName.replace(/\.[^.]+$/, '.mp4')}`;
+                return { url, filename };
+            });
+            sendLog(`⬇️ 다운로드 시작: ${videos.length}개 영상`);
+            chrome.runtime.sendMessage({ action: 'DOWNLOAD_VIDEOS', videos });
+        }
+    });
+}

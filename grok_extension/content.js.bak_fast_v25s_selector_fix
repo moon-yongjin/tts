@@ -1,0 +1,105 @@
+/**
+ * Grok Bulk - 기본 단순 버전 (A)
+ * Imagine 버튼 → 이미지 업로드 → 프롬프트 입력 → 엔터 → 5초 대기 → 반복
+ */
+
+let isRunning = false;
+let currentIndex = 0;
+let batchQueue = [];
+
+const sendLog = (text) => chrome.runtime.sendMessage({ action: 'UI_LOG', text });
+
+chrome.runtime.onMessage.addListener((msg) => {
+    if (msg.action === 'START_BATCH') {
+        if (isRunning) {
+            sendLog('⚠️ 이미 실행 중입니다');
+            return;
+        }
+
+        isRunning = true;
+        currentIndex = 0;
+        batchQueue = msg.images.map((image, i) => ({
+            image: image,
+            prompt: msg.prompts && msg.prompts[i] ? msg.prompts[i] : ""
+        }));
+
+        sendLog(`🚀 단순 모드 시작 - 총 ${batchQueue.length}개`);
+        runSimpleProcess();
+    }
+
+    if (msg.action === 'STOP_BATCH') {
+        isRunning = false;
+        sendLog('⏹ 중지되었습니다');
+    }
+});
+
+async function runSimpleProcess() {
+    while (isRunning && currentIndex < batchQueue.length) {
+        const task = batchQueue[currentIndex];
+        sendLog(`[${currentIndex + 1}/${batchQueue.length}] 처리 시작: ${task.image.name}`);
+
+        try {
+            // 1. Imagine 버튼 클릭 (일반 모드로 전환)
+            const imagineBtn = Array.from(document.querySelectorAll('a, button'))
+                .find(el => el.textContent.includes('Imagine') || el.textContent.includes('이미지') || 
+                           el.href && el.href.includes('/imagine'));
+
+            if (imagineBtn) {
+                imagineBtn.click();
+                sendLog('📍 Imagine 버튼 클릭');
+                await new Promise(r => setTimeout(r, 3000)); // 전환 대기
+            }
+
+            // 2. 이미지 업로드 (Drag & Drop)
+            const res = await fetch(task.image.dataUrl);
+            const blob = await res.blob();
+            const file = new File([blob], task.image.name, { type: task.image.type });
+
+            const dropZone = document.querySelector('div[role="textbox"]') || document.body;
+            const dt = new DataTransfer();
+            dt.items.add(file);
+            dropZone.dispatchEvent(new DragEvent('drop', { bubbles: true, dataTransfer: dt }));
+
+            sendLog('🖼️ 이미지 업로드 시도');
+            await new Promise(r => setTimeout(r, 4000));
+
+            // 3. 프롬프트 입력
+            const editor = document.querySelector('div[role="textbox"]') || 
+                           document.querySelector('div.ProseMirror') ||
+                           document.querySelector('textarea');
+
+            if (editor && task.prompt) {
+                editor.focus();
+                editor.textContent = task.prompt;
+                editor.dispatchEvent(new Event('input', { bubbles: true }));
+                sendLog(`📝 프롬프트 입력: ${task.prompt.substring(0, 30)}...`);
+                await new Promise(r => setTimeout(r, 1000));
+            }
+
+            // 4. 엔터 또는 Submit 클릭
+            const submitBtn = Array.from(document.querySelectorAll('button'))
+                .find(b => b.textContent.includes('Submit') || b.textContent.includes('제출') || 
+                           b.textContent.includes('Generate'));
+
+            if (submitBtn) {
+                submitBtn.click();
+                sendLog('⏎ Submit 클릭');
+            } else {
+                // 엔터키 시뮬레이션
+                editor.dispatchEvent(new KeyboardEvent('keydown', { key: 'Enter', bubbles: true }));
+                sendLog('⏎ Enter 키 입력');
+            }
+
+            await new Promise(r => setTimeout(r, 5000)); // 5초 대기
+
+            currentIndex++;
+
+        } catch (err) {
+            sendLog(`❌ 오류: ${err.message}`);
+            currentIndex++;
+        }
+    }
+
+    isRunning = false;
+    sendLog('✅ 모든 작업 완료');
+}

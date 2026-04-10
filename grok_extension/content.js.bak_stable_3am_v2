@@ -1,0 +1,135 @@
+/**
+ * Grok Bulk Fast Image-to-Video (25초 버전)
+ * 프롬프트 없이 이미지 → 6초 Video 연속 생성
+ */
+
+let isBatchRunning = false;
+let batchQueue = [];
+let currentIndex = 0;
+
+const sendLog = (text) => {
+    chrome.runtime.sendMessage({ action: 'UI_LOG', text });
+};
+
+async function processNextTask() {
+    if (!isBatchRunning || currentIndex >= batchQueue.length) {
+        if (isBatchRunning) sendLog('✅ 모든 배치가 완료되었습니다.');
+        isBatchRunning = false;
+        return;
+    }
+
+    const task = batchQueue[currentIndex];
+    sendLog(`🎬 [${currentIndex + 1}/${batchQueue.length}] ${task.image.name}`);
+
+    try {
+        // ================== 1. 이미지 업로드 ==================
+        const res = await fetch(task.image.dataUrl);
+        const blob = await res.blob();
+        const file = new File([blob], task.image.name, { type: task.image.type || 'image/jpeg' });
+
+        sendLog(`📎 업로드: ${task.image.name}`);
+
+        // Paperclip 버튼 찾기 & 클릭
+        const uploadBtn = Array.from(document.querySelectorAll('button, [role="button"]'))
+            .find(el => {
+                const txt = (el.textContent || el.getAttribute('aria-label') || '').toLowerCase();
+                const html = el.innerHTML.toLowerCase();
+                return txt.includes('attach') || txt.includes('paperclip') || html.includes('paperclip');
+            });
+
+        if (uploadBtn) {
+            uploadBtn.click();
+            await new Promise(r => setTimeout(r, 1000));
+        }
+
+        // Drag & Drop 방식
+        const dropZone = document.querySelector('div[role="textbox"]') || 
+                         document.querySelector('div.ProseMirror') || 
+                         document.body;
+
+        const dt = new DataTransfer();
+        dt.items.add(file);
+
+        dropZone.dispatchEvent(new DragEvent('drop', {
+            bubbles: true,
+            cancelable: true,
+            dataTransfer: dt
+        }));
+
+        await new Promise(r => setTimeout(r, 3500));   // 업로드 처리 시간
+
+        // ================== 2. Video 모드 ==================
+        await new Promise(r => setTimeout(r, 800));
+        const videoBtn = Array.from(document.querySelectorAll('button'))
+            .find(b => (b.textContent || '').toLowerCase().includes('video') ||
+                       (b.getAttribute('aria-label') || '').toLowerCase().includes('video'));
+
+        if (videoBtn) {
+            videoBtn.click();
+            sendLog('🎥 Video 모드 활성화');
+            await new Promise(r => setTimeout(r, 800));
+        }
+
+        // ================== 3. 6초 모드 강제 ==================
+        const sixBtn = Array.from(document.querySelectorAll('button'))
+            .find(b => b.textContent.includes('6s') || b.textContent.includes('6초'));
+        if (sixBtn) {
+            sixBtn.click();
+            sendLog('✅ 6초 모드 적용');
+        }
+
+        // ================== 4. 생성 버튼 클릭 (프롬프트 없이) ==================
+        const submitBtn = Array.from(document.querySelectorAll('button'))
+            .find(b => ["제출", "Submit", "Generate", "생성"].some(t => b.textContent.includes(t)));
+
+        if (submitBtn) {
+            submitBtn.click();
+            sendLog(`🚀 생성 시작`);
+        }
+
+        // ================== 5. 빠른 대기 (25초) ==================
+        sendLog('⏳ 25초 대기 중...');
+        await new Promise(r => setTimeout(r, 25000));
+
+        // ================== 6. 페이지 리셋 ==================
+        const resetBtn = Array.from(document.querySelectorAll('a, button'))
+            .find(el => el.href?.includes('/imagine') || el.textContent.includes('Imagine') || el.textContent.includes('이미지'));
+
+        if (resetBtn) {
+            resetBtn.click();
+            await new Promise(r => setTimeout(r, 3000));
+        }
+
+        currentIndex++;
+        processNextTask();
+
+    } catch (err) {
+        sendLog(`❌ 오류: ${err.message}`);
+        currentIndex++;
+        processNextTask();
+    }
+}
+
+// ================== 메시지 리스너 ==================
+chrome.runtime.onMessage.addListener((msg) => {
+    if (msg.action === 'START_BATCH') {
+        isBatchRunning = true;
+        currentIndex = 0;
+
+        // 프롬프트는 무시하고 이미지 중심으로 동작
+        batchQueue = msg.images.map((image, i) => ({
+            prompt: "", 
+            image: image
+        }));
+
+        sendLog(`🔥 빠른 Image-to-Video 모드 시작 (${batchQueue.length}개)`);
+        processNextTask();
+    }
+
+    if (msg.action === 'STOP_BATCH') {
+        isBatchRunning = false;
+        sendLog('⏹ 중지되었습니다.');
+    }
+});
+
+console.log('✅ Grok Fast Image-to-Video (25초 버전) 로드 완료');

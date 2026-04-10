@@ -1,0 +1,25 @@
+## 조선스낵 5편: 허당 선비, 꿀 먹은 벙어리 되다 (Episode 5)
+
+[상황 설명(나레이션)]: 옜날 옛적, 지가 꿀을 옴팡지게 좋아하는 너스레 선비가 있었더랬다.
+
+(기-Hook)
+[비주얼]: 꾀죄죄한 흰 광목 옷을 입은 풍채 좋은 주모가 땀을 뻘뻘 흘리며 엿기름 단지를 나르고 있다. 잘난 척하는 선비가 부채질을 하며 그 모습을 지켜본다. 선비 옆에는 '천상의 꿀'이라고 쓰인 작은 단지가 놓여 있다.
+
+(승-Escalation)
+[비주얼]: 선비가 짐짓 근엄한 표정으로 꿀단지를 열어 엿기름을 조금 떠서 주모에게 건넨다. 주모는 감사하다는 표정으로 엿기름을 받아 맛본다. 순간, 주모의 얼굴이 묘하게 일그러진다.
+
+(전-Twist)
+[비주얼]: 주모가 선비에게 엿기름 단지를 들이밀며 코를 킁킁거린다. 그러더니 손가락으로 엿기름을 찍어 맛보더니, 갑자기 냅다 선비의 얼굴에 엿기름을 냅다 던져버린다. 선비는 눈을 질끈 감고 얼굴을 감싼다.
+
+(결-Punchline)
+[비주얼]: 주모가 선비의 '천상의 꿀'이라고 적힌 엉성한 단지를 발로 툭툭 찬다.
+
+[Dialogue]:
+주모: (분노) 아니 이 양반이! 꿀은 꿀인데, 엿기름 꿀이잖여! 아따, 사람 놀려 묵는 것도 유분수지! 엿기름 냄새가 예까지 진동허구먼!
+
+[비주얼]: 엿기름 범벅이 된 채 벙어리가 된 선비의 당황한 표정.
+
+[비주얼 연출 프롬프트]
+1. (Masterpiece, best quality, 8k), a Joseon scholar with a confident smirk, a plump innkeeper in dirty and worn-out off-white coarse hemp carrying a large jar, a small jar labeled 'Heavenly Honey' next to the scholar, sunny day.
+2. (Masterpiece, best quality, 8k), the scholar offering a spoonful of malt syrup from the 'Heavenly Honey' jar to the innkeeper, the innkeeper tasting it with a suspicious look, close-up on her face.
+3. (Masterpiece, best quality, 8k), the innkeeper throwing malt syrup at the scholar's face with disgust, the scholar shielding his face in shock, dramatic lighting, high-speed capture.

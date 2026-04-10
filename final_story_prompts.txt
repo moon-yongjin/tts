@@ -1,0 +1,300 @@
+001 | 시작_언덕길 | Cinematic wide shot of a steep, winding uphill road in Seongbuk-dong, Seoul. Early evening, blue hour, street lights starting to flicker. Photorealistic.
+002 | 집_외관_멀리서 | Cinematic shot at @[집_외관_성북동], the imposing house seen from the bottom of the steep hill. Cold atmosphere.
+003 | 담장_사철나무 | Closeup of a stone wall topped with dense evergreen trees (sacheolnamu), blocking the view inside. Sharp focus, cold texture.
+004 | 철제대문_클로즈업 | Closeup of the heavy, cold iron gate of @[집_외관_성북동]. No gaps, imposing and secretive.
+005 | 민석_소개_작업 | Cinematic shot of @[강민석_본인] working on a wooden frame. Sawdust in the air, focused expression, interior director's office.
+006 | 민석_손_굳은살 | Extreme closeup of @[강민석_본인]'s rough, calloused hands holding a wooden tool. Honest labor, photorealistic texture.
+007 | 거실_샹들리에 | Cinematic shot at @[거실_내부_양옥집], looking up at a magnificent crystal chandelier. Cold, sharp reflections.
+008 | 혜란_소개_자산관리 | Cinematic shot of @[조혜란_아내] in a sleek office, looking at financial charts on a screen. Elegant but cold.
+009 | 혜란_구두_소리 | Closeup of @[조혜란_아내]'s expensive high heels clicking on the marble floor of @[거실_내부_양옥집]. Sharp focus.
+010 | 혜란_와인_밤 | Cinematic shot of @[조혜란_아내] sitting on a designer sofa at @[거실_내부_양옥집], swirling a glass of red wine. Cold gaze.
+011 | 민석_나무조각 | @[강민석_본인] sitting in a corner of the living room, carving a small piece of wood. Contrast with the luxury around him.
+012 | 혜란_냉소 | Closeup of @[조혜란_아내] speaking with a subtle, cold smirk. "Min-seok, look at those basement people..."
+013 | 지하방_계단_어둠 | Cinematic shot looking down the dark and steep stairs leading to @[지하방_내부]. Dim, flickering light.
+014 | 비오는_목요일 | Cinematic shot of heavy rain hitting the window of the Seongbuk-dong house. Thundering sound implied.
+015 | 아기_울음소리_시작 | Cinematic shot of the living room at @[거실_내부_양옥집], @[강민석_본인] looking towards the floor, hearing a faint baby's cry.
+016 | 혜란_불쾌감 | Closeup of @[조혜란_아내]'s face, irritated by the baby's crying sound. Sharp, angry eyes.
+017 | 혜란_지하방_진입 | @[조혜란_아내] walking down the narrow stairs to the basement, holding her expensive silk gown. Disgusted expression.
+018 | 지하방_문_발차기 | Closeup of @[조혜란_아내]'s foot kicking the worn-out door of @[지하방_내부].
+019 | 지영_등장_초췌 | Cinematic shot at @[지하방_내부], @[지영_세입자] holding a crying baby, looking terrified and exhausted.
+020 | 박노인_병상 | @[박노인_지하방] lying on a thin mattress in the corner of @[지하방_내부], coughing weakly. Damp and dark setting.
+021 | 혜란_일갈 | @[조혜란_아내] standing in the middle of @[지하방_내부], shouting at @[지영_세입자]. "Do you have a conscience? The rent is two months late!"
+022 | 지영_애원 | @[지영_세입자] kneeling on the damp basement floor, holding the sick baby, pleading with @[조혜란_아내].
+023 | 혜란_바퀴벌레_독설 | Extreme closeup of @[조혜란_아내]'s lips saying "Cockroaches" (바퀴벌레). Cold and cruel.
+024 | 민석_어둠속_관찰 | @[강민석_본인] standing at the top of the basement stairs, listening to the cruelty, face half-hidden in shadows.
+025 | 지영_절망_눈물 | Closeup of @[지영_세입자]'s face, tears streaming, holding her baby tight in the dark basement.
+026 | 혜란_복귀_거실 | @[조혜란_아내] back in @[거실_내부_양옥집], washing her hands as if she touched something dirty.
+027 | 민석_결심_비속으로 | @[강민석_본인] putting on a jacket and walking out into the heavy rain. Determined expression.
+028 | ATM_기기_빗속 | Cinematic shot of @[강민석_본인] standing in front of an ATM booth in a dark alley. Rain pouring down.
+029 | ATM_화면_잔액 | Closeup of the ATM screen showing "980,000 KRW" (or 983,400). @[강민석_본인]'s hand trembling.
+030 | 출금되는_돈 | Closeup of 50,000 KRW bills coming out of the ATM. The sound of the machine in the rain.
+031 | 흰봉투_준비 | @[강민석_본인]'s hands putting the cash into a plain white envelope. Raindrops on the envelope.
+032 | 민석_지하방_재진입 | @[강민석_본인] quietly walking down the basement stairs again, holding the envelope.
+033 | 문틈_봉투_삽입 | Closeup of @[강민석_본인]'s hand sliding the white envelope under the door of @[지하방_내부].
+034 | 쪽지_작성 | Closeup of a hand-written note: "Jiyoung-ssi, don't lose heart. Take Jihun to the hospital."
+035 | 지영_오열_내부 | Inside @[지하방_내부], @[지영_세입자] discovering the envelope and note, sobbing silently to avoid waking the child.
+036 | 민석_집으로_복귀 | @[강민석_본인] entering his luxury house, soaked with rain. Contrast with the warm, cold interior.
+037 | 혜란_머리빗기 | @[조혜란_아내] sitting at her vanity at @[거실_내부_양옥집], calmly brushing her hair. Empty, cold gaze in the mirror.
+038 | 민석_샤워_고뇌 | @[강민석_본인] under the shower, water hitting his face. Thinking about the "cockroach" comment.
+039 | 다음날_혜란_출근 | @[조혜란_아내] putting on bright red lipstick and a diamond necklace. Getting ready for her "meeting."
+040 | 혜란_외출_화려함 | @[조혜란_아내] leaving the house in a stylish expensive car. Looking at her face in the rearview mirror.
+041 | 민석_포터_추적 | @[강민석_본인] sitting in his old blue Porter truck, watching his wife's car move.
+042 | 강남_오피스텔_진입 | Wide shot of @[조혜란_아내]'s car entering a high-end officetel garage in Gangnam.
+043 | 지영_트럭_창문_노크 | @[지영_세입자] knocking on the window of @[강민석_본인]'s truck. She is carrying her baby on her back.
+044 | 지영_휴대폰_제시 | @[지영_세입자] handing a smartphone to @[강민석_본인]. "Director, I know you helped me... I followed her."
+045 | 녹음_파일_재생 | Closeup of the smartphone screen playing an audio file. Sound waves moving.
+046 | 혜란_비밀_통화 | Cinematic shot of @[조혜란_아내] in the luxury apartment, talking secretly on the phone with @[도철_상간남].
+047 | 민석_분노_핸들 | @[강민석_본인] gripping the steering wheel so hard his knuckles go white. Realizing the betrayal.
+048 | 지영_민석_손잡기 | @[지영_세입자]'s rough but warm hand holding @[강민석_본인]'s hand. "Go inside, you need to see it yourself."
+049 | 오피스텔_복도_침묵 | Cinematic shot of @[강민석_본인] walking down the clinical, silent corridor of the luxury officetel.
+050 | 1204호_문앞 | Closeup of @[강민석_본인]'s hand reaching for the digital door lock of Room 1204.
+051 | 도어락_번호입력 | Closeup of fingers pressing @[조혜란_아내]'s birthday on the keypad. Beep sound.
+052 | 문이_열리는_찰나 | Cinematic shot of the heavy door opening slowly. Golden light from inside hitting @[강민석_본인]'s face.
+053 | 오피스텔_내부_야경 | Cinematic shot at @[고급오피스텔_명동], high ceiling, luxurious furniture, city lights outside.
+054 | 혜란_도철_와인 | @[조혜란_아내] in @[고급오피스텔_명동], wearing silk pajamas, toasting with @[도철_상간남].
+055 | 도철_등장_비릿함 | Closeup of @[도철_상간남]'s face, handsome but slick, with a greasy, arrogant smile.
+056 | 민석_등장_충격 | @[강민석_본인] standing in the doorway, staring at the couple. Cold, intense fury in his eyes.
+057 | 와인잔_파손 | Closeup of a wine glass falling and shattering on the white carpet. Red wine spreading like blood.
+058 | 혜란_경악 | Closeup of @[조혜란_아내]'s face turning pale, eyes wide in terror. "You... how did you...!"
+059 | 도철_비겁한_회피 | @[도철_상간남] trying to cover himself, looking for a way to escape. Pathetic and cowardly.
+060 | 녹음기_재생_현장 | @[강민석_본인] holding up the smartphone, playing @[조혜란_아내]'s voice plotting to steal his money.
+061 | 혜란_주저앉음 | @[조혜란_아내] falling to the floor, her luxury pajamas messy. Begging, "It's a misunderstanding!"
+062 | 민석_촬영_증거 | @[강민석_본인] taking photos of the infidelity scene with his phone. Cold, clinical execution.
+063 | 민석_퇴장_뒷모습 | @[강민석_본인] walking out of the officetel. He doesn't look back at the screaming wife.
+064 | 법원_이혼_작업 | Cinematic shot of @[강민석_본인] meeting with a lawyer. Sharp, cold legal documents on the table.
+065 | 혜란_압류_딱지 | Closeup of a red seizure tag (압류 딱지) being placed on @[조혜란_아내]'s Hermes bag.
+066 | 도철_배신_조사 | @[도철_상간남] in a police interrogation room, blaming everything on @[조혜란_아내].
+067 | 혜란_몰락_짐가방 | @[조혜란_아내] leaving the Seongbuk-dong house with only one cheap suitcase. Exhausted and old.
+068 | 지하방_공사_시작 | @[강민석_본인] personally working on @[지하방_내부]. Tearing down old wallpaper, installing insulation.
+069 | 지하방_센서등_교체 | @[강민석_본인] installing a bright, warm LED sensor light in the dark basement entrance.
+070 | 박노인_환희 | @[박노인_지하방] sitting on the new warm floor, touching the radiator with a happy smile.
+071 | 지영_민석_작업 | @[지영_세입자] helping @[강민석_본인] with paints. They are laughing together. Human warmth.
+072 | 고시원_복도_혜란 | @[조혜란_아내] walking down a narrow, windowless hallway of a cheap gosiwon (tiny dorm).
+073 | 혜란_컵라면_저녁 | @[조혜란_아내] alone in a 1-pyeong room, eating a cup ramen. Her face is hollow and grey.
+074 | 민석_지영_식탁 | Cinematic shot at @[거실_내부_양옥집], @[강민석_본인], @[지영_세입자], the baby, and @[박노인_지하방] eating together.
+075 | 집_외관_꽃집_변신 | Wide shot of @[집_외관_성북동], now with a welcoming sign and a flower shop on the first floor.
+076 | 꽃집_내부_몽타주 | Cinematic shot at @[쾌적한_꽃집], @[지영_세입자] arranging flowers under soft sunlight.
+077 | 민석_은퇴_평화 | @[강민석_본인] sitting on a bench in the garden, looking at the family. Truly content.
+078 | 영수증_클로즈업 | Extreme closeup of the old, faded 980,000 KRW receipt in @[강민석_본인]'s wallet.
+079 | 마지막_성북동_노을 | Cinematic wide shot of Seongbuk-dong covered in warm evening sunset. Peaceful ending.
+080 | 민석_미소_마무리 | Closeup of @[강민석_본인]'s face, looking towards the camera with a gentle, wise smile.
+081 | 집_외관_성북동_야경 | Wide shot of the Seongbuk-dong hill at night. Warm lights in the windows.
+082 | 거실_샹들리에_꺼짐 | Closeup of the chandelier at @[거실_내부_양옥집] fading to black.
+083 | 98만원_텍스트 | Black screen with white text: "98만원의 기적" (The Miracle of 980,000 Won).
+084 | 지훈이_웃음 | Closeup of the baby (Jihun) laughing brightly.
+085 | 혜란_눈물_고시원 | Closeup of @[조혜란_아내]'s eyes, tears of regret in her dark gosiwon room.
+086 | 민석_망치질_활기 | @[강민석_본인] hammering a nail, full of energy and purpose.
+087 | 지영_꽃_전달 | @[지영_세입자] handing a flower bouquet to a customer with a bright smile.
+088 | 박노인_햇살 | @[박노인_지하방] sitting in the garden under the warm sun, reading a book.
+089 | 조혜란_버려진_목걸이 | Closeup of the fake-looking diamond necklace lying in a trash bin.
+090 | 강민석_작업복_세탁 | @[강민석_본인]'s clean work clothes hanging on a line, blowing in the wind.
+091 | 집_내부_황토벽 | Closeup of the warm, yellow clay (hwangto) wall in the new flower shop area.
+092 | 명동_오피스텔_임대문의 | Wide shot of the officetel room 1204 with a "For Rent" sign on the window.
+093 | 민석_지영_눈맞춤 | @[강민석_본인] and @[지영_세입자] sharing a quiet, respectful moment in the garden.
+094 | 빗물_씻겨가는_오해 | Cinematic shot of rain washing away dirt on a windowpane. Symbolism.
+095 | 따뜻한_밥상_연기 | Closeup of steaming hot rice and stew on the family dinner table.
+096 | 지훈이_걸음마 | The baby (Jihun) taking his first steps towards @[강민석_본인].
+097 | 혜란_검은비닐봉지 | @[조혜란_아내] holding a black plastic bag from a convenience store, head bowed low.
+098 | 성북동_전경_파노라마 | Wide panoramic shot of Seoul city from the Seongbuk-dong hill.
+099 | 민석_뒷모습_전망 | @[강민석_본인] standing at the edge of the hill, looking at the city. Solid and free.
+100 | 에필로그_가족사진 | A framed photo on the wall: @[강민석_본인], @[지영_세입자], the baby, and @[박노인_지하방] all smiling together.
+101 | 혜란_냉소_거울 | Cinematic shot at @[거실_내부_양옥집], @[조혜란_아내] looking at herself in the grand mirror with a self-satisfied expression. 
+102 | 민석_작업대_고뇌 | @[강민석_본인] staring blankly at a blueprint, his world starting to crack.
+103 | 성북동_아침_안개 | Wide shot of the Seongbuk-dong hill covered in morning mist. Cold and mysterious.
+104 | 혜란_구두_광택 | Closeup of @[조혜란_아내] polishing her sharp, red high heels. Precise and clinical.
+105 | 민석_현장_소외 | Cinematic shot of @[강민석_본인] at a construction site, surrounded by dust and noise, looking lonely.
+106 | 지영_아기_간호 | @[지영_세입자] placing a cold wet towel on the baby's forehead in @[지하방_내부].
+107 | 혜란_자산관리_회의 | @[조혜란_아내] leading a meeting with wealthy clients. Arrogant and powerful demeanor.
+108 | 민석_나무조각_완성 | @[강민석_본인] holding a small wooden carving of a flower. Subtle beauty in his rough hands.
+109 | 지영_쪽지_발견 | Closeup of @[지영_세입자]'s trembling hand holding the anonymous note. 
+110 | 혜란_립스틱_거울 | Extreme closeup of @[조혜란_아내] applying dark blood-red lipstick. Predatory and sharp.
+111 | 민석_ATM_고민 | @[강민석_본인] walking towards the ATM in the rain, head down, shoulders slumped.
+112 | 돈뭉치_봉투매듭 | Closeup of the 50,000 won bills being organized into an envelope.
+113 | 지하방_문_그림자 | Cinematic shot of @[강민석_본인]'s long shadow on the basement wall. 
+114 | 지영_울음참기 | Closeup of @[지영_세입자] biting her lip to stop crying while holding the child.
+115 | 혜란_웃음_비웃음 | @[조혜란_아내] laughing at a social event, her laughter sounding hollow and sharp.
+116 | 민석_빗속_포터 | Cinematic shot of the old blue Porter truck driving through the rain at night. 
+117 | 지영_아이_눈맞춤 | @[지영_세입자] looking at her sleeping child with hope for the first time.
+118 | 혜란_다이아_반짝임 | Extreme closeup of the diamond necklace on @[조혜란_아내]'s neck, reflecting cold house lights. 
+119 | 박노인_지팡이_방치 | Closeup of a wooden cane leaning against a damp basement wall.
+120 | 민석_결의_눈빛 | @[강민석_본인] looking out the window at the rain, his eyes turning from sad to determined.
+121 | 혜란_비밀번호_입력 | @[조혜란_아내] entering a security code at a luxury entrance. 
+122 | 민석_도어락_관찰 | @[강민석_본인] watching from his truck as the screen of his wife's car glows in the dark.
+123 | 지영_등_아이_업기 | Cinematic shot of @[지영_세입자] securing her baby with a cloth carrier, ready for the mission.
+124 | 혜란_도유_비밀통화 | @[조혜란_아내] whispering into her phone, "Everything is ready, 도철-ssi."
+125 | 도철_가운_모습 | @[도철_상간남] in @[고급오피스텔_명동], looking at a gold watch on his wrist.
+126 | 민석_트럭_핸들 | Closeup of @[강민석_본인]'s rough hands on the steering wheel, knuckles turning white.
+127 | 지영_작은_등불 | @[지영_세입자] walking in the dark alley, her presence like a small light.
+128 | 오피스텔_입구_가드 | Cinematic shot of the strict security guards at the luxury officetel entrance. 
+129 | 민석_건물진입_그림자 | @[강민석_본인] entering the lobby, his shadow long on the marble floor.
+130 | 엘리베이터_숫자_12 | Closeup of the elevator floor indicator stopping at 12.
+131 | 복도_카페트_발소리 | Low angle shot of @[강민석_본인]'s work boots on the thick, plush carpet of the 12th floor.
+132 | 혜란_와인_음미 | @[조혜란_아내] closing her eyes while taking a sip of wine at @[고급오피스텔_명동].
+133 | 도철_비릿한_미소 | Extreme closeup of @[도철_상간남]'s slick, greasy smile.
+134 | 민석_문앞_침묵 | @[강민석_본인] standing in front of room 1204, his ear close to the door.
+135 | 혜란_사랑놀음_실루엣 | Silhouette of @[조혜란_아내] and @[도철_상간남] laughing together through a frosted glass door.
+136 | 민석_도어락_손 | Closeup of @[강민석_본인]'s trembling index finger hovering over the keypad.
+137 | 번호기_비프_레드 | The door lock keypad glowing red as the numbers are entered.
+138 | 문_열림_서늘함 | Cinematic shot of the door opening to reveal the luxury interior of @[고급오피스텔_명동].
+139 | 혜란_기겁_순간 | @[조혜란_아내] dropping her wine glass, frozen in shock as @[강민석_본인] appears.
+140 | 핏빛_와인_카페트 | Extreme closeup of the red wine soaking into the white designer rug.
+141 | 도철_반은신_당황 | @[도철_상간남] trying to hide his face behind a cushion, looking pathetic.
+142 | 민석_카메라_셔터 | @[강민석_본인] holding a high-end camera, taking photos of the betrayal.
+143 | 혜란_변명_오열 | @[조혜란_아내] on her knees, crying while grabbing @[강민석_본인]'s clothes. 
+144 | 민석_냉정한_뿌리침 | @[강민석_본인] pushing his wife's hand away with a look of absolute disgust.
+145 | 스마트폰_녹음_폭로 | Cinematic shot of the smartphone on the table, blasting @[조혜란_아내]'s plotting voice.
+146 | 도철_비겁한_도망 | @[도철_상간남] running out of the room, leaving @[조혜란_아내] behind.
+147 | 혜란_허망한_눈빛 | Closeup of @[조혜란_아내] staring at the open door, realizing she's lost everything.
+148 | 민석_퇴장_오피스텔 | @[강민석_본인] walking out of the building into the cold night air.
+149 | 밤하늘_명동_빌딩 | Wide shot of the Myeongdong skyline at night, cold and indifferent.
+150 | 민석_트럭_안_눈물 | @[강민석_본인] sitting alone in his truck, 20 years of marriage crumbling in his mind.
+151 | 법원_벽면_공정 | Cinematic shot of the "Justice" (정의) symbol on a courtroom wall.
+152 | 혜란_변호사_고뇌 | @[조혜란_아내] meeting with a tired-looking public defender, her designer clothes looking out of place.
+153 | 민석_변호사_상담 | @[강민석_본인] sitting calmly with a professional female lawyer in a bright office.
+154 | 혜란_회사_해고통보 | @[조혜란_아내] walking out of her bank building with a cardboard box, disgraced.
+155 | 도철_검찰_출석 | @[도철_상간남] being surrounded by cameras and reporters, hiding his face.
+156 | 혜란_명품백_압류 | Closeup of the red 'Seizure' sticker on @[조혜란_아내]'s Birkin bag.
+157 | 민석_지하방_벽지제거 | @[강민석_본인] tearing down old, dirty wallpaper in @[지하방_내부] with a scraper.
+158 | 지영_민석_간식 | @[지영_세입자] bringing a cup of coffee to @[강민석_본인] while he works. 
+159 | 박노인_방바닥_온기 | @[박노인_지하방] touching the newly installed warm floor with his palm.
+160 | 지훈이_웃음_지하방 | The baby (Jihun) playing on a clean, bright floor in the renovated basement.
+161 | 혜란_고시원_이사 | @[조혜란_아내] carrying a single plastic box into a dark, tiny gosiwon room.
+162 | 고시원_벽_얼룩 | Closeup of a stained wall in the gosiwon, contrast with @[조혜란_아내]'s former luxury.
+163 | 혜란_식은_도시락 | @[조혜란_아내] staring at a convenience store lunch box on a tiny wooden desk.
+164 | 민석_꽃집_간판_설치 | @[강민석_본인] on a ladder, hanging a wooden sign: "Miracle Flower Shop" (기적의 꽃집).
+165 | 지영_꽃꽂이_미소 | @[지영_세입자] arranging colorful tulips at @[쾌적한_꽃집] under the morning sun.
+166 | 박노인_마당_산책 | @[박노인_지하방] walking in the garden with a small smile, enjoying the fresh air.
+167 | 성북동_아침_노을 | Wide shot of the Seongbuk-dong hill bathed in golden morning light.
+168 | 민석_지영_대화 | @[강민석_본인] and @[지영_세입자] talking in the garden, looking like a real family.
+169 | 혜란_시장_뒷모습 | @[조혜란_아내] walking through a crowded market in an old padded jacket, unrecognized.
+170 | 민석_영수증_만지기 | Closeup of @[강민석_본인]'s thumb brushing against the old 980,000 won receipt.
+171 | 지훈이_첫걸음마_가족 | Cinematic shot of the baby walking from @[지영_세입자] to @[강민석_본인] in the sunlit garden.
+172 | 혜란_오열_고시원 | @[조혜란_아내] sobbing in her tiny room, holding an old photo of their happy wedding day.
+173 | 민석_꽃집_성황 | Wide shot of many customers at @[쾌적한_꽃집], a vibrant and happy atmosphere.
+174 | 지영_전화상담_프로 | @[지영_세입자] talking professionally on the phone, now a confident office manager.
+175 | 박노인_지훈이_놀이 | @[박노인_지하방] and the baby playing with blocks on the floor.
+176 | 혜란_컵라면_김 | Closeup of steam rising from a cheap cup ramen in @[조혜란_아내]'s lonely room.
+177 | 민석_망치질_즐거움 | @[강민석_본인] fixing a birdhouse in the garden, looking truly at peace.
+178 | 지영_민석_식탁_미소 | Cinematic shot of the dinner table at @[거실_내부_양옥집], full of laughter and good food.
+179 | 성북동_밤_풍경 | Wide panoramic shot of the hill at night, with warm lights from the "Miracle House."
+180 | 민석_미소_마무리_샷 | Closeup of @[강민석_본인]'s face, eyes shining with wisdom and happiness.
+181 | 98만원_봉투_재조명 | Cinematic shot of the white envelope being opened by @[지영_세입자] with tears.
+182 | 혜란_입술_핏기없음 | Closeup of @[조혜란_아내]'s lips, now chapped and pale, no red lipstick.
+183 | 도철_비겁한_재판 | @[도철_상간남] hiding behind his lawyer in the courtroom, looking small.
+184 | 민석_작업복_세탁_햇살 | Cinematic shot of high-quality work clothes drying in the sun, fresh and clean.
+185 | 지영_꽃바구니_포장 | Closeup of @[지영_세입자]'s elegant hands wrapping a beautiful flower basket.
+186 | 박노인_지팡이_졸업 | @[박노인_지하방] standing straight without a cane, looking at the sky.
+187 | 혜란_고시원_창문_없음 | Cinematic shot of @[조혜란_아내] staring at a wall where a window should be. 
+188 | 민석_낡은_포터_세차 | @[강민석_본인] washing his old blue truck with pride.
+189 | 지훈이_장난감_기차 | Closeup of a wooden toy train moving on the floor of the renovated basement.
+190 | 혜란_편의점_알바 | @[조혜란_아내] working at a convenience store, tired and exhausted.
+191 | 민석_지영_산책 | @[강민석_본인] and @[지영_세입자] walking along the Seongbuk-dong wall as the sun sets. 
+192 | 혜란_버려진_다이아 | The diamond necklace lying in a bargain bin at a pawn shop.
+193 | 지영_민석_가족사진 | Closeup of a new photo: @[강민석_본인], @[지영_세입자], the baby, and the old man.
+194 | 성북동_양옥집_정원 | Cinematic shot of flowers blooming everywhere in the garden of @[집_외관_성북동].
+195 | 민석_망치_공구함 | Closeup of @[강민석_본인]'s well-used tool box, organized and cared for.
+196 | 혜란_빗물_고인_길 | @[조혜란_아내] walking through a puddle, her worn-out shoes getting wet.
+197 | 지영_밝은_미소_마중 | @[지영_세입자] waving at @[강민석_본인] as he returns home in his truck.
+198 | 명동_빌딩숲_노을 | Wide shot of the Myeongdong business district as the sun goes down, cold and distant.
+199 | 민석_눈동자_희망 | Extreme closeup of @[강민석_본인]'s eyes, reflecting the warm lights of his home.
+200 | 영화_엔딩_검정화면 | A soft fading to black with the words: "진짜 집은 사랑으로 지어집니다." (A real home is built with love).
+201 | 98만원_봉투_오프닝 | Closeup of @[지영_세입자]'s hand pulling out the bills from the white envelope, sunlight caught in the background.
+202 | 성북동_아침_풍경2 | Wide shot of the Seongbuk-dong hill. Birds flying over @[집_외관_성북동] in the clear blue sky.
+203 | 민석_먼지_털기 | @[강민석_본인] dusting off his old toolkit, his face showing a new sense of hope.
+204 | 혜란_고시원_침대_눕기 | @[조혜란_아내] lying on a thin mattress in her tiny gosiwon room, staring at the ceiling.
+205 | 도철_변호사_귓속말 | @[도철_상간남] whispering to his lawyer in the courtroom. Looking desperate.
+206 | 지훈이_웃음_클로즈업 | Extreme closeup of the baby's (Jihun) eyes, sparkling with joy.
+207 | 민석_망치질_소리 | @[강민석_본인] hammering a piece of wood for the new flower shop counter.
+208 | 꽃집_입구_인테리어 | Cinematic shot of the beautiful entrance of @[쾌적한_꽃집], full of blooming seasonal flowers. 
+209 | 박노인_화초_물주기 | @[박노인_지하방] carefully watering a small plant with a gentle hand.
+210 | 혜란_냉장고_빈공간 | @[조혜란_아내] opening a small, old refrigerator in the gosiwon. Only a bottle of water inside.
+211 | 민석_지영_함께_식사 | @[강민석_본인] and @[지영_세입자] sharing a meal in the bright, renovated living room.
+212 | 성북동_길_풍경 | Wide shot of the steep hill where old people and children are walking together. 
+213 | 지훈이_색연필_낙서 | Closeup of the baby's hand drawing a colorful sun on a piece of paper.
+214 | 혜란_창밖_바라보기 | @[조혜란_아내] looking out a tiny window, seeing only a brick wall.
+215 | 민석_영수증_지갑_넣기 | @[강민석_본인] carefully placing the old 980,000 won receipt back into his wallet.
+216 | 꽃집_손님_웅성거림 | Wide shot of @[쾌적한_꽃집] bustling with customers buying flowers.
+217 | 지영_꽃다발_리본 | Closeup of @[지영_세입자] tying a beautiful satin ribbon on a bouquet.
+218 | 박노인_안경_독서 | @[박노인_지하방] sitting in a sunlit corner, reading a book through thick glasses.
+219 | 혜란_시장통_걷기 | @[조혜란_아내] lost in the crowd of a busy traditional market, looking lonely.
+220 | 민석_지영_눈맞춤_미소 | @[강민석_본인] and @[지영_세입자] exchanging a quiet, understanding smile across the garden.
+221 | 98만원의_기적_붓글씨 | Closeup of a hand-written calligraphy: "98만원의 기적."
+222 | 성북동_노을_파노라마 | Wide panoramic shot of Seongbuk-dong as the sun sets in orange and purple hues.
+223 | 민석_트럭_시동 | @[강민석_본인] starting his old truck, the engine sounding strong and reliable.
+224 | 지훈이_장난감_블록 | Closeup of colorful building blocks stacked into a tall tower on the floor.
+225 | 혜란_고시원_어둠 | @[조혜란_아내] sitting in the dark, her silhouette reflected against the gosiwon wall.
+226 | 민석_지영_차마시기 | @[강민석_본인] and @[지영_세입자] drinking tea together on the porch of the house.
+227 | 명동_야경_거리 | Cinematic shot of the busy Myeongdong street lights at night. 
+228 | 혜란_지나가던_외제차 | @[조혜란_아내] staring at a luxury car passing by, a memory of her past life.
+229 | 민석_작업복_세탁_향기 | Closeup of @[강민석_본인] smelling the fresh scent of sun-dried work clothes.
+230 | 꽃집_은은한_향기 | Cinematic shot of flower petals falling softly inside @[쾌적한_꽃집].
+231 | 지영_지훈이_안기 | @[지영_세입자] holding her son (Jihun) tight, looking at the sunset with hope.
+232 | 박노인_마당_벤치 | @[박노인_지하방] sitting on the wooden bench @[강민석_본인] built, looking peaceful.
+233 | 성북동_주택가_불빛 | Wide shot of the Seongbuk-dong neighborhood at night, warm and safe.
+234 | 민석_미소_눈동자_반작임 | Extreme closeup of @[강민석_본인]'s eyes, full of life and compassion.
+235 | 98만원_인출전표_오래된 | Cinematic shot of the faded bank slip, a symbol of a life-changing decision.
+236 | 혜란_거울_눈물자국 | @[조혜란_아내] looking at her face in the gosiwon mirror, realizing her mistakes.
+237 | 민석_공사도구_정리 | @[강민석_본인] carefully cleaning and organizing his saws and hammers.
+238 | 꽃집_개업_축하분 | Closeup of a "Grand Opening" orchid pot at @[쾌적한_꽃집].
+239 | 지영_손님_응대 | @[지영_세입자] explaining flower meanings to a young couple. 
+240 | 박노인_따뜻한_차 | @[박노인_지하방] holding a steaming cup of tea with both hands.
+241 | 혜란_편의점_조끼 | @[조혜란_아내] wearing a work vest at a convenience store, scanning items with a tired face.
+242 | 민석_아이들_놀이_관찰 | @[강민석_본인] watching the neighborhood kids playing in front of his house.
+243 | 집_외관_꽃집_성황2 | Wide shot of @[쾌적한_꽃집] decorated with seasonal wreaths. 
+244 | 지영_민석_행복_미소 | @[지영_세입자] and @[강민석_본인] laughing while carrying flower boxes.
+245 | 명동_빌딩의_차가움 | Cinematic shot of the cold glass buildings in Myeongdong, reflecting the grey sky.
+246 | 민석_성북동_성채_아님 | Wide shot of @[집_외관_성북동], now looking like a welcoming home, not a fortress.
+247 | 지훈이_웃음소리_에코 | Cinematic shot of the baby's mouth as he laughs out loud.
+248 | 혜란_낡은_지갑_동전 | @[조혜란_아내] counting coins in her worn-out wallet. 
+249 | 민석_평온한_잠자리 | @[강민석_본인] lying in bed, looking at the moonlight on the wall before sleeping.
+250 | 성북동_성채의_종말 | Faded image of the cold house with the iron gate closed, dissolving into the new warm house.
+251 | 고시원_문의_낡음 | Closeup of the thin, cheap door of the gosiwon room.
+252 | 민석_지영_지훈_가족사진2 | A beautiful new framed photo of the three of them in the flower shop.
+253 | 박노인_지팡이_선물 | @[박노인_지하방] receiving a new, hand-carved walking stick from @[강민석_본인].
+254 | 혜란_지하철_인파 | @[조혜란_아내] standing in a crowded subway train, looking empty.
+255 | 민석_꽃집_내부_몽타주2 | Fast-cut sequence of beautiful flowers blooming in @[쾌적한_꽃집].
+256 | 지영_회계장부_작성 | @[지영_세입자] working at a desk, looking professional and capable.
+257 | 성북동_봄_꽃망울 | Closeup of flower buds blooming on the walls of the house.
+258 | 혜란_회상_결혼반지 | @[조혜란_아내] touching her bare ring finger in the dark.
+259 | 민석_트럭_뒷자리_꽃 | Wide shot of @[강민석_본인]'s blue truck filled with colorful flowers.
+260 | 지훈이_첫눈_관찰 | The baby (Jihun) looking at falling snow through a warm window.
+261 | 혜란_식은_컵라면_김2 | Cinematic shot of the steam from the ramen fading away.
+262 | 민석_지영_마당_눈싸움 | @[강민석_본인] and @[지영_세입자] playing in the snow with the baby.
+263 | 박노인_목도리_두르기 | @[박노인_지하방] wearing a warm red scarf, a gift from @[지영_세입자].
+264 | 성북동_겨울_전경 | Wide shot of the Seongbuk-dong hill covered in white snow, with warm lights.
+265 | 혜란_창문에_비친_눈 | @[조혜란_아내] looking at the snow from her tiny gosiwon window.
+266 | 기적의_꽃집_겨울판 | Wide shot of @[쾌적한_꽃집] decorated with Christmas lights and trees. 
+267 | 민석_따뜻한_코트 | @[강민석_본인] standing outside, breath visible in the cold air, but looking warm.
+268 | 지영_민석_벽난로_불빛 | CINEMATIC shot of @[강민석_본인] and @[지영_세입자] sitting by a small fireplace.
+269 | 명동_도철_마지막 | @[도철_상간남] walking in the snow with a tired, old coat, looking lonely.
+270 | 민석_인생의_정답 | Extreme closeup of @[강민석_본인]'s eyes, showing profound peace.
+271 | 98만원_영수증_스캔 | Artistic scan effect of the old receipt, showing the date and amount clearly.
+272 | 성북동_새벽_공기 | Wide shot of the hill just before sunrise, fresh and full of promise.
+273 | 민석_망치질_마지막 | Cinematic shot of @[강민석_본인] finishing a new project, looking satisfied.
+274 | 지영_꽃바구니_배달 | @[지영_세입자] delivering a beautiful basket of flowers to a happy customer.
+275 | 박노인_지훈이_첫책 | @[박노인_지하방] reading a picture book to the baby (Jihun).
+276 | 혜란_편의점_폐기도시락 | @[조혜란_아내] eating a leftover sandwich at the convenience store counter.
+277 | 민석_지영_가족의_탄생 | Cinematic shot of the whole family group hug in the garden.
+278 | 집_외관_성북동_최종 | High-angle shot of @[집_외관_성북동] with a bustling flower shop and warm home lights.
+279 | 인생은_인과응보_텍스트 | Black screen with white text: "인생은 인과응보(因果應報)."
+280 | 민석_지하방_공동체 | Wide shot of all characters eating around a large wooden table in the garden.
+281 | 지훈이_웃음_엔딩 | Full-screen shot of the baby's (Jihun) radiant laugh.
+282 | 혜란_고시원_뒷모습 | Wide shot of @[조혜란_아내]'s small, lonely silhouette in the dark corridor.
+283 | 성북동_성채_무너짐_꽃 | Artistic shot of an iron gate being replaced by a bouquet of flowers.
+284 | 민석_작업복_명찰_교체 | Closeup of @[강민석_본인]'s name tag: "Miracle Interior & Flowers."
+285 | 지영_민석_손끝_닿음 | Subtle and warm shot of @[지영_세입자] and @[강민석_본인]'s hands touching while holding a plant.
+286 | 박노인_먼길_바라봄 | @[박노인_지하방] looking at the horizon with a grateful smile.
+287 | 혜란_빗속_혼자_걷기 | Cinematic shot of @[조혜란_아내] walking alone in the rain with no umbrella.
+288 | 민석_지영_행복_웨딩 | Cinematic shot of a small, warm garden wedding in Seongbuk-dong.
+289 | 성북동_달동네_야경 | Panoramic wide shot of the glittering lights of Seoul from the hill.
+290 | 98만원_봉투_등불 | Artistic shot of the white envelope glowing like a lantern in the dark.
+291 | 지훈이_어린이_모습 | Fast-forward shot of the baby now a young boy, playing in the flower shop.
+292 | 민석_나이든_모습_미소 | @[강민석_본인] with slightly more grey hair, looking even more peaceful.
+293 | 지영_나이든_모습_미소 | @[지영_세입자] looking like a matured, successful woman.
+294 | 혜란_회한의_눈물 | Extreme closeup of @[조혜란_아내]'s eye, a single tear falling.
+295 | 명동_빌딩_유리창_반사 | The city glass buildings reflecting the passing of time.
+296 | 민석_망치_걸어두기 | @[강민석_본인] hanging his old hammer on the wall of the shop. Finished.
+297 | 꽃집_입구_벤치_평화 | Final peaceful shot of the empty bench outside the flower shop at sunset. 
+298 | 성북동_언덕_하늘 | Wide shot of the sky over Seongbuk-dong, clear and infinite. 
+299 | 민석_나레이션_마지막 | Closeup of @[강민석_본인] looking directly into the camera: "당신의 인생에도 기적이 함께하기를."
+300 | 엔딩_블랙 | Solid black screen. THE END.

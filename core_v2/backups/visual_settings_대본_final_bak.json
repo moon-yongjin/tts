@@ -1,0 +1,12 @@
+{
+  "approved": true,
+  "character_ko": "이갑수: 72세 남성, 전직 우체국 집배원. 단정하게 빗어 넘긴 흰머리와 여전히 꼿꼿한 허리가 특징이다. 낡은 러닝셔츠 위에 정성스럽게 다려진 낡은 집배원 조끼를 걸쳐 입고 있다. 눈동자는 초점이 없으며 과거의 어느 시점에 머물러 있는 듯한 서글픈 인상이다.",
+  "character_en": "Lee Gap-soo: A 72-year-old man, a former postman. He features neatly combed white hair and a still-upright posture. He wears a well-pressed but old postman's vest over a worn undershirt. His eyes are unfocused, with a melancholic expression as if he is stuck in a past memory.",
+  "background_ko": "경기도 가평의 한적한 숲속 요양원. 늦가을의 흐린 날씨, 가느다란 빗줄기가 소나무 숲을 적시고 있다. 병실 내부는 창백한 햇살이 먼지처럼 부유하며, 소독약 냄새와 노인들의 숨소리가 무겁게 느껴진다. 전체적으로 차분하고 어두운 분위기이며, 창밖의 숲은 안개에 잠겨 있다.",
+  "background_en": "A quiet nursing home in a forest in Gapyeong, Gyeonggi Province. A cloudy late autumn day with a light drizzle soaking the pine forest. Inside the ward, pale sunlight illuminates floating dust particles, and the air is heavy with the smell of disinfectant and the breaths of elderly patients. The overall atmosphere is calm and dark, with the forest outside shrouded in mist.",
+  "art_style_override_ko": "사실적인 묘사, 인물과 배경 모두 세밀하게 묘사하되, 약간의 노이즈와 거친 질감을 추가하여 다큐멘터리 같은 느낌을 강조한다. 색감은 차분하고 어둡게 유지하며, 빛과 그림자의 대비를 활용하여 분위기를 살린다.",
+  "art_style_override_en": "Realistic depiction; portray both characters and background in great detail, adding slight noise and rough textures to emphasize a documentary-like feel. Keep the color palette subdued and dark, utilizing contrast between light and shadow to enhance the atmosphere. Avoid excessive stylization.",
+  "visual_variety_ko": "[미장센] 사물과 배경을 통한 상징적 연출: 인물보다는 주변의 사물, 환경, 분위기를 통해 상황을 암시하는 예술적 연출.",
+  "visual_variety_en": "Mise-en-scène: Use surrounding objects, environment, and atmosphere to symbolically represent the scene. Focus on artistic compositions and meaningful background details.",
+  "target_interval": 6.0
+}

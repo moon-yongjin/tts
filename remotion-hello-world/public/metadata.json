@@ -1,0 +1,67 @@
+{
+  "title": "1978년 8월 강릉 청자다방",
+  "audio_file": "latest_drama.wav",
+  "images": [
+    "Scene_01.png",
+    "Scene_02.png",
+    "Scene_03.png",
+    "Scene_04.png",
+    "Scene_05.png",
+    "Scene_06.png",
+    "Scene_07.png",
+    "Scene_08.png",
+    "Scene_09.png",
+    "Scene_10.png",
+    "Scene_11.png",
+    "Scene_12.png",
+    "Scene_13.png",
+    "Scene_14.png",
+    "Scene_15.png",
+    "Scene_16.png",
+    "Scene_17.png",
+    "Scene_18.png",
+    "Scene_19.png",
+    "Scene_20.png",
+    "Scene_21.png",
+    "Scene_22.png",
+    "Scene_23.png",
+    "Scene_24.png",
+    "Scene_25.png",
+    "Scene_26.png",
+    "Scene_27.png",
+    "Scene_28.png",
+    "Scene_29.png",
+    "Scene_30.png",
+    "Scene_31.png",
+    "Scene_32.png",
+    "Scene_33.png",
+    "Scene_34.png",
+    "Scene_35.png",
+    "Scene_36.png",
+    "Scene_37.png",
+    "Scene_38.png",
+    "Scene_39.png",
+    "Scene_40.png",
+    "Scene_41.png",
+    "Scene_42.png",
+    "Scene_43.png"
+  ],
+  "style": {
+    "title": {
+      "topPart": {
+        "fontSize": "48px",
+        "color": "black",
+        "backgroundColor": "white"
+      },
+      "bottomPart": {
+        "fontSize": "110px",
+        "color": "#FF00FF"
+      }
+    },
+    "subtitle": {
+      "fontSize": "46px",
+      "color": "white",
+      "bottom": "350px"
+    }
+  }
+}

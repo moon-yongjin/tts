@@ -1,0 +1,13 @@
+{
+  "approved": false,
+  "character_ko": "An elderly Korean man in his 60s. He wears a faded, old undershirt covered by a neatly ironed but worn mailman vest. His face is etched with worry and a deep longing. He has trembling hands. His hair is likely thinning and graying.",
+  "character_en": "Elderly Korean man, mailman vest, worried expression, trembling hands, sitting at a table with chopsticks and danmuji.",
+  "background_ko": "낡은 연립주택의 좁고 어두운 거실. 빛바랜 벽지와 삐걱거리는 마룻바닥이 세월의 흔적을 보여준다. 거실 중앙에는 오래된 나무 식탁이 놓여 있고, 그 위에는 젓가락 두 벌과 작은 단무지 접시가 놓여 있다. 밖에서 들어오는 희미한 빛은 먼지가 낀 창문을 통해 희미하게 스며들어, 공간 전체에 어둡고 음울한 분위기를 드리운다.",
+  "background_en": "The cramped, dimly lit living room of an old multi-dwelling house. Faded wallpaper and creaky floorboards bear the marks of time. An old wooden dining table sits in the center of the room, set with two pairs of chopsticks and a small dish for danmuji (pickled radish). Dim light filters in through dusty windows, casting a gloomy and melancholic atmosphere throughout the space.",
+  "art_style_override_ko": "전체적인 분위기는 어둡고 현실적인 묘사를 유지하며, 인물과 배경의 질감을 최대한 살릴 것. 과장된 표현이나 화려한 색감은 지양한다. 한국적인 정서가 느껴지는 회화 스타일을 참고하되, 현대적인 누아르 영화의 분위기를 가미한다.",
+  "art_style_override_en": "Maintain a dark and realistic depiction throughout, emphasizing the textures of the characters and backgrounds. Avoid exaggerated expressions or vibrant colors. Reference Korean painting styles with a touch of modern film noir aesthetics.",
+  "visual_variety_ko": "[대립과 긴장] 캐릭터 간의 감정 선과 갈등을 강조하는 연출: 표정의 대비, 그림자 활용, 긴박한 구도 위주.",
+  "visual_variety_en": "Conflict and Tension: Emphasize emotional tension between characters. Use dramatic lighting, sharp contrasts, and tight framing on facial expressions.",
+  "target_interval": 6.0,
+  "clip_duration": 6.0
+}
